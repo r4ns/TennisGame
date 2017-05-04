@@ -71,3 +71,12 @@ UnitTestCaseAction 1493923646604 NumericScores.java FAIL
 UnitTestSessionAction 1493923646606 NumericScores.java FAIL
 RefactoringAction 1493923672881 NumericScores.java RENAME test_advantagePlayer2()=>void test_advantagePlayer1() METHOD
 EditAction 1493923680410 NumericScores.java 6898 18 114 18
+UnitTestCaseAction 1493923685145 NumericScores.java OK
+UnitTestSessionAction 1493923685150 NumericScores.test_p1Wins1Point_p2Wins2Points_Score15_30 OK
+UnitTestCaseAction 1493923695333 NumericScores.java FAIL
+UnitTestSessionAction 1493923695338 NumericScores.java FAIL
+UnitTestCaseAction 1493923722310 NumericScores.java FAIL
+UnitTestSessionAction 1493923722311 NumericScores.java FAIL
+UnitTestCaseAction 1493923739045 NumericScores.java OK
+UnitTestSessionAction 1493923739046 NumericScores.test_resultIsDeuce OK
+EditAction 1493923797630 TennisGame.java 2219 13 19 0

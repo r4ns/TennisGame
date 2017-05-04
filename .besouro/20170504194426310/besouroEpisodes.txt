@@ -256,3 +256,13 @@
 1493923329331 test-addition 1 60 true
 1493923329332 test-addition 2 60 true
 1493923329333 test-addition 1 60 true
+1493923685150 test-addition 2 311 true
+1493923685151 test-addition 2 311 true
+1493923685152 test-addition 2 311 true
+1493923685153 test-addition 2 311 true
+1493923685154 test-addition 1 311 true
+1493923685155 test-addition 2 311 true
+1493923685156 test-addition 1 311 true
+1493923685157 test-addition 2 311 true
+1493923685158 test-addition 1 311 true
+1493923739046 regression 2 43 true
