@@ -1,0 +1,34 @@
+FileOpenedAction 1493919866912 TennisGame.java 877 6 2 0
+RefactoringAction 1493920854868 TennisGame.java ADD int getPlayer1Points() METHOD
+RefactoringAction 1493920854872 TennisGame.java ADD void setPlayer1Points(int) METHOD
+RefactoringAction 1493920854874 TennisGame.java ADD int getPlayer2Points() METHOD
+RefactoringAction 1493920854885 TennisGame.java ADD void setPlayer2Points(int) METHOD
+RefactoringAction 1493920872924 TennisGame.java REMOVE getPlayer2Points() METHOD
+RefactoringAction 1493920872950 TennisGame.java REMOVE setPlayer2Points(int) METHOD
+RefactoringAction 1493920872951 TennisGame.java REMOVE setPlayer1Points(int) METHOD
+RefactoringAction 1493920872952 TennisGame.java REMOVE getPlayer1Points() METHOD
+RefactoringAction 1493920888002 TennisGame.java ADD int getPlayer1Points() METHOD
+RefactoringAction 1493920888004 TennisGame.java ADD int getPlayer2Points() METHOD
+RefactoringAction 1493920888005 TennisGame.java ADD void setPlayer1Points(int) METHOD
+RefactoringAction 1493920888008 TennisGame.java ADD void setPlayer2Points(int) METHOD
+FileOpenedAction 1493921271948 ClassicDrone.java 328 7 0 0
+FileOpenedAction 1493921274415 Cube.java 3968 21 30 0
+FileOpenedAction 1493921287735 CubeDrone.java 2767 9 21 0
+RefactoringAction 1493922526208 TennisGame.java ADD boolean isGameEnded() METHOD
+RefactoringAction 1493922526211 TennisGame.java ADD void setGameEnded(boolean) METHOD
+RefactoringAction 1493922620700 TennisGameException.java ADD nemam pojma FIELD
+RefactoringAction 1493922628220 TennisGameException.java REMOVE pojma FIELD
+FileOpenedAction 1493922918221 NumericScores.java 5980 16 95 16
+RefactoringAction 1493922937940 TennisGame.java ADD TennisGame() METHOD
+FileOpenedAction 1493922959668 AllTests.java 198 0 0 0
+RefactoringAction 1493922992841 NumericScores.java ADD void test FIELD
+RefactoringAction 1493922999408 NumericScores.java RENAME test=>void test_ FIELD
+RefactoringAction 1493923000961 NumericScores.java RENAME test_=>void test_res FIELD
+RefactoringAction 1493923003518 NumericScores.java RENAME test_res=>void tes FIELD
+RefactoringAction 1493923004575 NumericScores.java RENAME tes=>void test_ FIELD
+RefactoringAction 1493923008131 NumericScores.java RENAME test_=>void test_resultI FIELD
+RefactoringAction 1493923010717 NumericScores.java RENAME test_resultI=>void test_resultIsDeuce FIELD
+RefactoringAction 1493923021271 NumericScores.java RENAME test_resultIsDeuce=>void test_resultIsDeuce() METHOD
+RefactoringAction 1493923125888 NumericScores.java REMOVE test_resultIsDeuce() METHOD
+EditAction 1493923135908 NumericScores.java 6283 16 95 16
+EditAction 1493923138496 TennisGameException.java 58 0 0 0
