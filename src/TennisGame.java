@@ -52,9 +52,9 @@ public class TennisGame
 		if(player1Points == 3 && player2Points == 3)
 			rezultat = "Rezultat: deuce";
 		
-			if(player1Points==4 && player2Points<4)
+			if(player1Points==4 && player2Points==3)
 				rezultat = "Rezultat: advantage igrac1";
-			else if(player2Points==4 && player1Points<4)
+			else if(player2Points==4 && player1Points==3)
 				rezultat = "Rezultat: advantage igrac2";
 		
 		if(gameEnded==true)
