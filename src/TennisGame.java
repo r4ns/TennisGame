@@ -23,10 +23,8 @@ public class TennisGame
 		} else if (player1Points == 40 && player1Points > player2Points) {
 			gameEnded = true;
 		} else if (player1Points == 40 && player2Points == 40) {
-			result = "deuce";
-		} else if (result == "deuce") {
 			result = "advantage player1";
-		}
+		} 
 	}
 
 	public void player2Scored() throws TennisGameException 
@@ -40,10 +38,8 @@ public class TennisGame
 		} else if (player2Points == 40 && player2Points > player1Points) {
 			gameEnded = true;
 		} else if (player2Points == 40 && player1Points == 40) {
-			result = "deuce";
-		} else if (result == "deuce") {
 			result = "advantage player2";
-		}
+		} 
 	}
 	
 	private void checkGameEnded()
@@ -87,6 +83,8 @@ public class TennisGame
 			return "deuce";
 		} else if (result == "advantage player1") {
 			return "advantage player1";
+		} else if (result == "advantage player2") {
+			return "advantage player2";
 		}
 		
 		return getScore(player1Points) + " - " + getScore(player2Points);
