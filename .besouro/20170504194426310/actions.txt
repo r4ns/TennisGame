@@ -80,3 +80,9 @@ UnitTestSessionAction 1493923722311 NumericScores.java FAIL
 UnitTestCaseAction 1493923739045 NumericScores.java OK
 UnitTestSessionAction 1493923739046 NumericScores.test_resultIsDeuce OK
 EditAction 1493923797630 TennisGame.java 2219 13 19 0
+UnitTestCaseAction 1493923807546 NumericScores.java OK
+UnitTestSessionAction 1493923807549 NumericScores.test_advantagePlayer1 OK
+RefactoringAction 1493923829315 NumericScores.java ADD void test_advantagePlayer1()/2 METHOD
+RefactoringAction 1493923831376 NumericScores.java RENAME test_advantagePlayer1()/2=>void test_advantagePlayer() METHOD
+RefactoringAction 1493923832944 NumericScores.java RENAME test_advantagePlayer()=>void test_advantagePlayer2() METHOD
+EditAction 1493923836722 NumericScores.java 7375 19 124 19
