@@ -1,0 +1,17 @@
+FileOpenedAction 1493921510108 TennisGame.java 877 6 7 0
+RefactoringAction 1493922204078 TennisGame.java ADD int getPlayer1Points() METHOD
+RefactoringAction 1493922204080 TennisGame.java ADD void setPlayer1Points(int) METHOD
+RefactoringAction 1493922204082 TennisGame.java ADD int getPlayer2Points() METHOD
+RefactoringAction 1493922204083 TennisGame.java ADD void setPlayer2Points(int) METHOD
+RefactoringAction 1493922551982 TennisGame.java ADD boolean isGameEnded() METHOD
+RefactoringAction 1493922551984 TennisGame.java ADD void setGameEnded(boolean) METHOD
+FileOpenedAction 1493923304592 AllTests.java 198 0 0 0
+FileOpenedAction 1493923307217 NumericScores.java 5980 16 95 16
+RefactoringAction 1493923403263 TennisGame.java ADD void getScore()/2 METHOD
+RefactoringAction 1493923840725 TennisGame.java REMOVE getScore()/2 METHOD
+CompilationAction 1493923850860 NumericScores.java
+RefactoringAction 1493923902346 TennisGame.java RENAME TennisGame(int, int)=>TennisGame() METHOD
+EditAction 1493924001390 NumericScores.java 5983 16 95 16
+UnitTestCaseAction 1493924007896 NumericScores.java FAIL
+UnitTestSessionAction 1493924007900 NumericScores.java FAIL
+EditAction 1493924081283 TennisGame.java 2280 12 14 0

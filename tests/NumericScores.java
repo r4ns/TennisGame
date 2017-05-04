@@ -11,6 +11,7 @@ public class NumericScores {
 		TennisGame game = new TennisGame();
 		//Act
 		String score = game.getScore() ;
+		
 		// Assert
 		assertEquals("Initial score incorrect", "0 - 0", score);	
 	}
