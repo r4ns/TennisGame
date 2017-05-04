@@ -52,3 +52,6 @@ EditAction 1493923574993 NumericScores.java 6373 17 99 17
 UnitTestCaseAction 1493923578308 NumericScores.java OK
 UnitTestSessionAction 1493923578310 NumericScores.java OK
 EditAction 1493923608414 NumericScores.java 6388 17 99 17
+UnitTestCaseAction 1493923613025 NumericScores.java OK
+UnitTestSessionAction 1493923613026 NumericScores.java OK
+EditAction 1493923621648 NumericScores.java 6387 17 99 17
