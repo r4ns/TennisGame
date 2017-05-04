@@ -3,7 +3,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 // Testing of midgame scores before both players score three times
-public class NumericScores {
+public class NumericScores{
 
 	@Test
 	public void test_StartScore() {
