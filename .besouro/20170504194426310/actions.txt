@@ -45,3 +45,13 @@ EditAction 1493923295124 NumericScores.java 6413 17 104 17
 UnitTestCaseAction 1493923298948 NumericScores.java FAIL
 UnitTestSessionAction 1493923298956 NumericScores.java FAIL
 EditAction 1493923324760 NumericScores.java 6421 17 104 17
+UnitTestCaseAction 1493923329327 NumericScores.java OK
+UnitTestSessionAction 1493923329330 NumericScores.java OK
+RefactoringAction 1493923373393 NumericScores.java ADD void test FIELD
+RefactoringAction 1493923374448 NumericScores.java RENAME test=>void test_ FIELD
+RefactoringAction 1493923378510 NumericScores.java RENAME test_=>void test_one FIELD
+RefactoringAction 1493923383066 NumericScores.java RENAME test_one=>void test_player1 FIELD
+RefactoringAction 1493923395619 NumericScores.java RENAME test_player1=>void test_player1hasAdvantage FIELD
+RefactoringAction 1493923406666 NumericScores.java RENAME test_player1hasAdvantage=>void test_advantagePlayer2 FIELD
+RefactoringAction 1493923408215 NumericScores.java RENAME test_advantagePlayer2=>void test_advantagePlayer2() METHOD
+EditAction 1493923487100 NumericScores.java 6888 18 114 18
