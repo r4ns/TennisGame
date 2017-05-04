@@ -1,7 +1,7 @@
 public class TennisGame 
 {	
-	private int player1Points;
-	private int player2Points;
+	private int player1Points=0;
+	private int player2Points=0;
 	private boolean gameEnded;
 	private String rez;
 	
