@@ -70,6 +70,7 @@ public class TennisGame
 				score = "Rezultat: pobedjuje igrac2";
 		}
 		
+		
 		// Scores format: "player1Score - player2Score"
 		// "0 - 0"
 		// "15 - 15"
