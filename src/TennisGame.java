@@ -57,13 +57,17 @@ public class TennisGame
 			else if(player2Points==4 && player1Points==3)
 				rezultat = "Rezultat: advantage igrac2";
 		
-		if(gameEnded==true)
+			if(player1Points>=4 && player1Points - 2 >= player2Points)
+				rezultat= "Pobedjuje igrac1";
+			if(player2Points>=4 && player2Points - 2 >= player1Points)
+				rezultat = "Pobedjuje igrac2";
+		/*if(gameEnded==true)
 		{
 			if(player1Points>=4)
 				rezultat= "Pobedjuje igrac1";
 			else if(player2Points>=4)
 				rezultat = "Pobedjuje igrac2";
-		}
+		}*/
 		// Scores format: "player1Score - player2Score"
 		// "0 - 0"
 		// "15 - 15"

@@ -100,3 +100,18 @@ EditAction 1493923999105 NumericScores.java 7789 20 132 20
 UnitTestCaseAction 1493924003227 NumericScores.java FAIL
 UnitTestSessionAction 1493924003229 NumericScores.java FAIL
 EditAction 1493924033224 TennisGame.java 2221 13 19 0
+UnitTestCaseAction 1493924039483 NumericScores.java FAIL
+UnitTestSessionAction 1493924039485 NumericScores.java FAIL
+RefactoringAction 1493924067555 TennisGame.java REMOVE getPlayer2Points() METHOD
+RefactoringAction 1493924067556 TennisGame.java REMOVE isGameEnded() METHOD
+RefactoringAction 1493924067558 TennisGame.java REMOVE setGameEnded(boolean) METHOD
+RefactoringAction 1493924067561 TennisGame.java REMOVE setPlayer2Points(int) METHOD
+RefactoringAction 1493924067563 TennisGame.java REMOVE setPlayer1Points(int) METHOD
+RefactoringAction 1493924067564 TennisGame.java REMOVE getPlayer1Points() METHOD
+RefactoringAction 1493924069609 TennisGame.java ADD int getPlayer1Points() METHOD
+RefactoringAction 1493924069610 TennisGame.java ADD int getPlayer2Points() METHOD
+RefactoringAction 1493924069612 TennisGame.java ADD void setPlayer1Points(int) METHOD
+RefactoringAction 1493924069614 TennisGame.java ADD void setPlayer2Points(int) METHOD
+RefactoringAction 1493924069615 TennisGame.java ADD boolean isGameEnded() METHOD
+RefactoringAction 1493924069616 TennisGame.java ADD void setGameEnded(boolean) METHOD
+EditAction 1493924114362 TennisGame.java 2418 13 20 0
