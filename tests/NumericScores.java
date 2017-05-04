@@ -263,6 +263,6 @@ public class NumericScores {
 		game.player1Scored();
 		game.player2Scored();
 		String score = game.getScore();
-		assertEquals("Incorrect score when player1 scored three times and player2 scored twice. Players win points alternating.","Rezultat: advantage igrac1" , score);
+		assertEquals("Incorrect score when player1 scored three times and player2 scored twice. Players win points alternating.","Rezultat: advantage igrac2" , score);
 	}
 }
