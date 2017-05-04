@@ -243,7 +243,6 @@ public class NumericScores {
 		TennisGame game = new TennisGame(40, 40, false);
 		game.player1Scored();
 		String score = game.getScore();
-		assertEquals("Incorrect score", "advantage player1", score);
-		
+		assertEquals("Incorrect score", "advantage player1", score);		
 	}
 }
