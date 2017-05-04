@@ -1,0 +1,28 @@
+FileOpenedAction 1493920042722 NumericScores.java 5980 16 95 16
+RefactoringAction 1493920688688 TennisGame.java RENAME TennisGame()=>TennisGame(int) METHOD
+RefactoringAction 1493920692709 TennisGame.java RENAME TennisGame(int)=>TennisGame() METHOD
+RefactoringAction 1493920694725 TennisGame.java RENAME TennisGame()=><initializer /1> null
+RefactoringAction 1493920697238 TennisGame.java RENAME <initializer /1>=>TennisGame() METHOD
+RefactoringAction 1493920698747 TennisGame.java RENAME TennisGame()=><initializer /1> null
+RefactoringAction 1493920701261 TennisGame.java RENAME <initializer /1>=>TennisGame() METHOD
+RefactoringAction 1493920708282 TennisGame.java RENAME TennisGame()=>TennisGame(int) METHOD
+RefactoringAction 1493920720330 TennisGame.java RENAME TennisGame(int)=>TennisGame(int, int) METHOD
+RefactoringAction 1493921224643 TennisGame.java ADD String rez FIELD
+RefactoringAction 1493921325747 TennisGame.java RENAME TennisGame(int, int)=>TennisGame(int, int, boolean) METHOD
+CompilationAction 1493921384766 TennisGame.java
+CompilationAction 1493921384768 NumericScores.java
+RefactoringAction 1493921397447 TennisGame.java ADD TennisGame() METHOD
+CompilationAction 1493921401218 TennisGame.java
+CompilationAction 1493921401677 TennisGame.java
+RefactoringAction 1493923012359 TennisGameException.java ADD void syso() METHOD
+RefactoringAction 1493923018371 TennisGameException.java REMOVE syso() METHOD
+RefactoringAction 1493923562365 NumericScores.java ADD void du FIELD
+RefactoringAction 1493923567388 NumericScores.java RENAME du=>void deuceTest FIELD
+RefactoringAction 1493923569409 NumericScores.java RENAME deuceTest=>void deuceTest() METHOD
+EditAction 1493923633260 NumericScores.java 6064 17 96 16
+UnitTestCaseAction 1493923644725 NumericScores.java FAIL
+UnitTestSessionAction 1493923644730 NumericScores.java FAIL
+UnitTestCaseAction 1493923844766 NumericScores.java FAIL
+UnitTestSessionAction 1493923844768 NumericScores.java FAIL
+UnitTestCaseAction 1493923965380 NumericScores.java FAIL
+UnitTestSessionAction 1493923965382 NumericScores.java FAIL
