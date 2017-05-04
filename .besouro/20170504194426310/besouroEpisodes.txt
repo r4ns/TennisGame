@@ -271,3 +271,7 @@
 1493923859686 test-addition 1 30 true
 1493923859687 test-addition 2 30 true
 1493923859688 test-addition 1 30 true
+1493924119901 test-first 3 243 true
+1493924119902 test-first 3 243 true
+1493924119903 test-first 3 243 true
+1493924135242 regression 1 0 true

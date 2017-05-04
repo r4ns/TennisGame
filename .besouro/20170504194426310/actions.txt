@@ -115,3 +115,10 @@ RefactoringAction 1493924069614 TennisGame.java ADD void setPlayer2Points(int) M
 RefactoringAction 1493924069615 TennisGame.java ADD boolean isGameEnded() METHOD
 RefactoringAction 1493924069616 TennisGame.java ADD void setGameEnded(boolean) METHOD
 EditAction 1493924114362 TennisGame.java 2418 13 20 0
+UnitTestCaseAction 1493924119900 NumericScores.java OK
+UnitTestSessionAction 1493924119901 NumericScores.java OK
+UnitTestCaseAction 1493924135239 NumericScores.java OK
+UnitTestSessionAction 1493924135242 NumericScores.test_gamePlayer1 OK
+RefactoringAction 1493924161154 NumericScores.java ADD void test_gamePlayer1()/2 METHOD
+RefactoringAction 1493924163733 NumericScores.java RENAME test_gamePlayer1()/2=>void test_gamePlayer2() METHOD
+EditAction 1493924207644 NumericScores.java 8203 21 140 21
