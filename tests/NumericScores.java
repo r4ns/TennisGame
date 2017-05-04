@@ -227,4 +227,105 @@ public class NumericScores {
 		// Assert
 		assertEquals("Incorrect score when player1 scored three times and player2 scored twice. Players win points alternating.", "40 - 30", score);	
 	}
+	
+	@Test
+	public void test_deuce() throws TennisGameException {
+		//Arrange
+		TennisGame game = new TennisGame();
+		//Act
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		String score = game.getScore() ;
+		// Assert
+		assertEquals("Ocekujem deuce Rezultat: ", "40 - 40", score);	
+	}
+	
+	@Test
+	public void test_player1Advantage() throws TennisGameException {
+		//Arrange
+		TennisGame game = new TennisGame();
+		//Act
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		game.player1Scored();
+		String score = game.getScore() ;
+		// Assert
+		assertEquals("Ocekujem da prvi ima prednost Rezultat: ", "advantage player1", score);	
+	}
+	
+	@Test
+	public void test_player2Advantage() throws TennisGameException {
+		//Arrange
+		TennisGame game = new TennisGame();
+		//Act
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		game.player2Scored();
+		
+		String score = game.getScore() ;
+		// Assert
+		assertEquals("Ocekujem da drugi ima prednost Rezultat: ", "advantage player2", score);	
+	}
+	
+	@Test
+	public void test_player2Win() throws TennisGameException {
+		//Arrange
+		TennisGame game = new TennisGame();
+		//Act
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		game.player2Scored();
+		game.player2Scored();
+		
+		String score = game.getScore() ;
+		// Assert
+		assertEquals("Ocekujem da drugi pobedjuje Rezultat: ", "game player2", score);	
+	}
+	
+	@Test
+	public void test_player1Win() throws TennisGameException {
+		//Arrange
+		TennisGame game = new TennisGame();
+		//Act
+		game.player2Scored();
+		game.player2Scored();
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		
+		String score = game.getScore() ;
+		// Assert
+		assertEquals("Ocekujem da prvi pobedjuje Rezultat: ", "game player1", score);	
+	}
+	
+	
+	@Test(expected=TennisGameException.class)
+	public void test_player1scoreWhenGameEnd() throws TennisGameException{
+		TennisGame game = new TennisGame();
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		String score = game.getScore() ;
+		assertEquals("Exception", "", score);	
+	}
 }
