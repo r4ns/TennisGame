@@ -24,6 +24,8 @@ public class TennisGame
 			gameEnded = true;
 		} else if (player1Points == 40 && player2Points == 40) {
 			result = "deuce";
+		} else if (result == "deuce") {
+			result = "advantage player1";
 		}
 	}
 
@@ -39,6 +41,8 @@ public class TennisGame
 			gameEnded = true;
 		} else if (player2Points == 40 && player1Points == 40) {
 			result = "deuce";
+		} else if (result == "deuce") {
+			result = "advantage player2";
 		}
 	}
 	
@@ -78,6 +82,10 @@ public class TennisGame
 		// "advantage player2"
 		// "game player1"
 		// "game player2"
+		
+		if (player1Points == 40 && player2Points == 40) {
+			return "deuce";
+		} 
 		
 		return getScore(player1Points) + " - " + getScore(player2Points);
 				

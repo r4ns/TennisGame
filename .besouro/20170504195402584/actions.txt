@@ -29,3 +29,23 @@ CompilationAction 1493922468279 TennisGame.java
 EditAction 1493922494331 TennisGame.java 2327 12 13 0
 EditAction 1493922566584 TennisGame.java 2354 12 13 0
 EditAction 1493922575013 TennisGame.java 2333 12 13 0
+CompilationAction 1493922613209 NumericScores.java
+CompilationAction 1493922613460 NumericScores.java
+CompilationAction 1493922636281 NumericScores.java
+CompilationAction 1493922636556 NumericScores.java
+CompilationAction 1493922653121 NumericScores.java
+CompilationAction 1493922653466 NumericScores.java
+CompilationAction 1493922668841 NumericScores.java
+CompilationAction 1493922669134 NumericScores.java
+CompilationAction 1493922684810 NumericScores.java
+CompilationAction 1493922685008 NumericScores.java
+CompilationAction 1493922715103 NumericScores.java
+CompilationAction 1493922715403 NumericScores.java
+CompilationAction 1493922760831 NumericScores.java
+UnitTestCaseAction 1493923334889 NumericScores.java OK
+UnitTestSessionAction 1493923334891 NumericScores.java OK
+RefactoringAction 1493923412157 NumericScores.java ADD void test_ FIELD
+RefactoringAction 1493923419207 NumericScores.java RENAME test_=>void test_deuce FIELD
+RefactoringAction 1493923433782 NumericScores.java RENAME test_deuce=>void test_Deuce FIELD
+RefactoringAction 1493923435349 NumericScores.java RENAME test_Deuce=>void test_Deuce() METHOD
+EditAction 1493923574993 NumericScores.java 6373 17 99 17
