@@ -3,7 +3,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 // Testing of midgame scores before both players score three times
-public class NumericScores {
+public class NumericScores{
 
 	@Test
 	public void test_StartScore() {
@@ -32,6 +32,7 @@ public class NumericScores {
 		TennisGame game = new TennisGame();		
 		game.player1Scored();
 		game.player1Scored();
+		game.player1Scored();
 		//Act
 		String score = game.getScore() ;
 		// Assert
@@ -42,6 +43,7 @@ public class NumericScores {
 	public void test_p1Wins3Points_Score40_0() throws TennisGameException {
 		//Arrange
 		TennisGame game = new TennisGame();
+		game.player1Scored();
 		game.player1Scored();
 		game.player1Scored();
 		game.player1Scored();
@@ -207,6 +209,8 @@ public class NumericScores {
 		//Act
 		String score = game.getScore() ;
 		// Assert
+		//545
+		
 		assertEquals("Incorrect score when player1 scored three times and player2 scored twice", "40 - 30", score);	
 	}
 	
@@ -227,4 +231,5 @@ public class NumericScores {
 		// Assert
 		assertEquals("Incorrect score when player1 scored three times and player2 scored twice. Players win points alternating.", "40 - 30", score);	
 	}
+	
 }

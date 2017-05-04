@@ -1,0 +1,37 @@
+FileOpenedAction 1493920133118 TennisGame.java 877 6 2 0
+RefactoringAction 1493920178972 TennisGame.java RENAME TennisGame()=>TennisGame(int) METHOD
+RefactoringAction 1493920190683 TennisGame.java RENAME TennisGame(int)=>TennisGame(int, int) METHOD
+FileOpenedAction 1493920320225 TennisGameException.java 57 0 0 0
+FileOpenedAction 1493920326862 AllTests.java 198 0 0 0
+FileOpenedAction 1493920329735 NumericScores.java 5980 16 95 16
+FileOpenedAction 1493920693289 AllTests.java 198 0 0 0
+FileOpenedAction 1493920700487 NumericScores.java 5980 16 95 16
+FileOpenedAction 1493921363645 AllTests.java 198 0 0 0
+FileOpenedAction 1493921365603 NumericScores.java 5980 16 95 16
+RefactoringAction 1493921398622 NumericScores.java ADD NumericScores(int, int) METHOD
+RefactoringAction 1493921418082 NumericScores.java REMOVE NumericScores(int, int) METHOD
+FileOpenedAction 1493923250950 ClassicDrone.java 328 7 0 0
+FileOpenedAction 1493923254873 Drone.java 3002 12 20 0
+FileOpenedAction 1493923261310 CubeDrone.java 2732 9 21 0
+FileOpenedAction 1493923288319 ClassicDrone.java 328 7 0 0
+FileOpenedAction 1493923302333 ClassicDrone.java 328 7 0 0
+FileOpenedAction 1493923305583 Cube.java 3968 21 30 0
+FileOpenedAction 1493923310649 NumericScores.java 5980 16 95 16
+FileOpenedAction 1493923679636 CubeDrone.java 2732 9 21 0
+FileOpenedAction 1493923689910 NumericScores.java 5980 16 95 16
+RefactoringAction 1493923717139 NumericScores.java ADD eimplwmwnts TennisGame FIELD
+RefactoringAction 1493923721579 NumericScores.java REMOVE TennisGame FIELD
+FileOpenedAction 1493923736479 ClassicDrone.java 328 7 0 0
+RefactoringAction 1493923858409 TennisGame.java ADD TennisGame() METHOD
+EditAction 1493923928103 NumericScores.java 5979 16 95 16
+EditAction 1493924231221 NumericScores.java 6027 16 97 16
+EditAction 1493924238225 TennisGameException.java 58 0 0 0
+UnitTestCaseAction 1493924241374 NumericScores.java FAIL
+UnitTestSessionAction 1493924241376 NumericScores.java FAIL
+EditAction 1493924432939 NumericScores.java 6029 16 97 16
+EditAction 1493924439414 TennisGameException.java 60 0 0 0
+EditAction 1493924443699 TennisGame.java 1724 7 12 0
+EditAction 1493924475939 NumericScores.java 6032 16 97 16
+EditAction 1493924476340 TennisGameException.java 62 0 0 0
+EditAction 1493924476644 TennisGame.java 1727 7 12 0
+EditAction 1493924503076 NumericScores.java 6040 16 97 16
