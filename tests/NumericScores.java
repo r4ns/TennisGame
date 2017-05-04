@@ -234,7 +234,7 @@ public class NumericScores {
 		TennisGame game = new TennisGame(30, 40, false);
 		game.player1Scored();
 		String score = game.getScore();
-		assertEquals("", "deuce", score);
+		assertEquals("Incorrect score", "deuce", score);
 		
 	}
 }

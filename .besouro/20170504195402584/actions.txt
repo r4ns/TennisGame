@@ -49,3 +49,6 @@ RefactoringAction 1493923419207 NumericScores.java RENAME test_=>void test_deuce
 RefactoringAction 1493923433782 NumericScores.java RENAME test_deuce=>void test_Deuce FIELD
 RefactoringAction 1493923435349 NumericScores.java RENAME test_Deuce=>void test_Deuce() METHOD
 EditAction 1493923574993 NumericScores.java 6373 17 99 17
+UnitTestCaseAction 1493923578308 NumericScores.java OK
+UnitTestSessionAction 1493923578310 NumericScores.java OK
+EditAction 1493923608414 NumericScores.java 6388 17 99 17
