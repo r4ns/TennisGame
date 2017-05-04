@@ -79,7 +79,7 @@ public class TennisGame
 		// "game player1"
 		// "game player2"
 		
-		if (player1Points == player2Points) {
+		if (player1Points == 40 && player2Points == 40) {
 			return "deuce";
 		} else if (result == "advantage player1") {
 			return "advantage player1";
