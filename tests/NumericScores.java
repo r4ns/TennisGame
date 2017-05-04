@@ -32,6 +32,7 @@ public class NumericScores{
 		TennisGame game = new TennisGame();		
 		game.player1Scored();
 		game.player1Scored();
+		game.player1Scored();
 		//Act
 		String score = game.getScore() ;
 		// Assert
@@ -42,6 +43,7 @@ public class NumericScores{
 	public void test_p1Wins3Points_Score40_0() throws TennisGameException {
 		//Arrange
 		TennisGame game = new TennisGame();
+		game.player1Scored();
 		game.player1Scored();
 		game.player1Scored();
 		game.player1Scored();
