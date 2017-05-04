@@ -227,7 +227,7 @@ public class NumericScores {
 		// Assert
 		assertEquals("Incorrect score when player1 scored three times and player2 scored twice. Players win points alternating.", "40 - 30", score);	
 	}
-	/*@Test 
+	@Test 
 	public void test_resultIsDeuce() throws TennisGameException {
 		TennisGame game = new TennisGame();
 		game.player1Scored();
@@ -237,6 +237,6 @@ public class NumericScores {
 		game.player2Scored();
 		game.player1Scored();
 		String score = game.getScore();
-		assert
-	}*/
+		assertEquals("Incorrect score when player1 scored three times and player2 scored twice. Players win points alternating.", "40 - 40", score);
+	}
 }

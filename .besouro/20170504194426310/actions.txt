@@ -38,3 +38,7 @@ EditAction 1493923206177 TennisGame.java 2217 13 19 0
 UnitTestCaseAction 1493923220875 NumericScores.java FAIL
 UnitTestSessionAction 1493923220876 NumericScores.java FAIL
 EditAction 1493923251449 TennisGame.java 2219 13 19 0
+UnitTestCaseAction 1493923256832 NumericScores.java OK
+UnitTestSessionAction 1493923256840 NumericScores.java OK
+RefactoringAction 1493923269009 NumericScores.java ADD void test_resultIsDeuce() METHOD
+EditAction 1493923295124 NumericScores.java 6413 17 104 17
