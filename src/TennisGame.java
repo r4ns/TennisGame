@@ -48,7 +48,7 @@ public class TennisGame
 	
 	public String getScore() 
 	{
-		String rezultat = "Rezultat: "+getScore(player1Points) + "-" + getScore(player2Points);
+		String rezultat = getScore(player1Points) + "-" + getScore(player2Points);
 		if(player1Points == 3 && player2Points == 3)
 			rezultat = "Rezultat: deuce";
 		if(rezultat == "Rezultat: deuce")

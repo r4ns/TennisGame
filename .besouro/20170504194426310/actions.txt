@@ -32,3 +32,6 @@ RefactoringAction 1493923021271 NumericScores.java RENAME test_resultIsDeuce=>vo
 RefactoringAction 1493923125888 NumericScores.java REMOVE test_resultIsDeuce() METHOD
 EditAction 1493923135908 NumericScores.java 6283 16 95 16
 EditAction 1493923138496 TennisGameException.java 58 0 0 0
+UnitTestCaseAction 1493923143052 NumericScores.java FAIL
+UnitTestSessionAction 1493923143056 NumericScores.java FAIL
+EditAction 1493923206177 TennisGame.java 2217 13 19 0
