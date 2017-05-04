@@ -48,7 +48,7 @@ public class TennisGame
 	
 	private void checkGameEnded()
 	{ 
-		// TO BE IMPLEMENTED
+		
 	}
 
 	private String getScore(int points) 
@@ -85,7 +85,9 @@ public class TennisGame
 		
 		if (player1Points == 40 && player2Points == 40) {
 			return "deuce";
-		} 
+		} else if (result == "advantage player1") {
+			return "advantage player1";
+		}
 		
 		return getScore(player1Points) + " - " + getScore(player2Points);
 				

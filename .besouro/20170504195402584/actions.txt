@@ -65,3 +65,6 @@ RefactoringAction 1493923653256 NumericScores.java RENAME test_Advantage=>void t
 RefactoringAction 1493923655821 NumericScores.java RENAME test_AdvantagePlayer1=>void test_AdvantagePlayer1() METHOD
 EditAction 1493923740999 NumericScores.java 6643 18 103 18
 EditAction 1493923749095 NumericScores.java 6642 18 103 18
+UnitTestCaseAction 1493923752462 NumericScores.java FAIL
+UnitTestSessionAction 1493923752464 NumericScores.java FAIL
+EditAction 1493923877828 TennisGame.java 2602 12 14 0
