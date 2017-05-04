@@ -78,8 +78,7 @@ public class TennisGame
 		// "advantage player2"
 		// "game player1"
 		// "game player2"
-
-		// TO BE IMPLEMENTED
+		
 		return getScore(player1Points) + " - " + getScore(player2Points);
 				
 	}
