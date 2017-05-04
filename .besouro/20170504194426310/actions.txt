@@ -122,3 +122,6 @@ UnitTestSessionAction 1493924135242 NumericScores.test_gamePlayer1 OK
 RefactoringAction 1493924161154 NumericScores.java ADD void test_gamePlayer1()/2 METHOD
 RefactoringAction 1493924163733 NumericScores.java RENAME test_gamePlayer1()/2=>void test_gamePlayer2() METHOD
 EditAction 1493924207644 NumericScores.java 8203 21 140 21
+UnitTestCaseAction 1493924211390 NumericScores.java OK
+UnitTestSessionAction 1493924211392 NumericScores.java OK
+EditAction 1493924329900 NumericScores.java 8113 21 140 21
