@@ -126,3 +126,8 @@ UnitTestCaseAction 1493924211390 NumericScores.java OK
 UnitTestSessionAction 1493924211392 NumericScores.java OK
 EditAction 1493924329900 NumericScores.java 8113 21 140 21
 EditAction 1493924332806 TennisGameException.java 93 0 0 0
+CompilationAction 1493924337419 TennisGameException.java
+CompilationAction 1493924337421 TennisGameException.java
+CompilationAction 1493924345134 TennisGameException.java
+UnitTestCaseAction 1493924349711 NumericScores.java OK
+UnitTestSessionAction 1493924349713 NumericScores.java OK
