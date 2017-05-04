@@ -240,7 +240,7 @@ public class NumericScores {
 	@Test
 	public void test_AdvantagePlayer1() throws TennisGameException {
 		
-		TennisGame game = new TennisGame(30, 40, false);
+		TennisGame game = new TennisGame(40, 40, false);
 		game.player1Scored();
 		String score = game.getScore();
 		assertEquals("Incorrect score", "advantage player1", score);		
