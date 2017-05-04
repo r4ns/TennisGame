@@ -244,8 +244,6 @@ public class NumericScores {
 		TennisGame game = new TennisGame();
 		game.player1Scored();
 		game.player1Scored();
-		game.player2Scored();
-		game.player2Scored();
 		game.player1Scored();
 		game.player1Scored();
 		String score = game.getScore();
