@@ -65,3 +65,5 @@ UnitTestCaseAction 1493923551274 NumericScores.java FAIL
 UnitTestSessionAction 1493923551276 NumericScores.java FAIL
 RefactoringAction 1493923582502 NumericScores.java REMOVE test_advantagePlayer2() METHOD
 EditAction 1493923583792 NumericScores.java 6423 17 104 17
+RefactoringAction 1493923590056 NumericScores.java ADD void test_advantagePlayer2() METHOD
+EditAction 1493923642688 NumericScores.java 6898 18 114 18

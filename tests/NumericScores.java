@@ -239,5 +239,17 @@ public class NumericScores {
 		String score = game.getScore();
 		assertEquals("Incorrect score when player1 scored three times and player2 scored twice. Players win points alternating.", "Rezultat: deuce", score);
 	}
-	
+	@Test
+	public void test_advantagePlayer2() throws TennisGameException{
+		TennisGame game = new TennisGame();
+		game.player1Scored();
+		game.player1Scored();
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		game.player1Scored();
+		game.player1Scored();
+		String score = game.getScore();
+		assertEquals("Incorrect score when player1 scored three times and player2 scored twice. Players win points alternating.","Rezultat: advantage igrac1" , score);
+	}
 }
