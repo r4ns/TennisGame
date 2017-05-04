@@ -229,4 +229,5 @@ public class NumericScores{
 		// Assert
 		assertEquals("Incorrect score when player1 scored three times and player2 scored twice. Players win points alternating.", "40 - 30", score);	
 	}
+	
 }

@@ -26,3 +26,6 @@ RefactoringAction 1493923858409 TennisGame.java ADD TennisGame() METHOD
 EditAction 1493923928103 NumericScores.java 5979 16 95 16
 EditAction 1493924231221 NumericScores.java 6027 16 97 16
 EditAction 1493924238225 TennisGameException.java 58 0 0 0
+UnitTestCaseAction 1493924241374 NumericScores.java FAIL
+UnitTestSessionAction 1493924241376 NumericScores.java FAIL
+EditAction 1493924432939 NumericScores.java 6029 16 97 16
