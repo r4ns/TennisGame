@@ -22,14 +22,15 @@ public class TennisGame
 	
 	private void checkGameEnded()
 	{ 
-		if(getScore(player1Points)=="40" && getScore(player2Points)=="40"){
+		if((player1Points>=4 && player2Points<=player1Points-2)&&(player1Points<=player2Points-2 && player2Points>=4)){
 			gameEnded=true;
-		}else if(getScore(player1Points)=="40" && getScore(player2Points)=="30" || getScore(player1Points)=="30" && getScore(player2Points)=="40"){
-			gameEnded=true;
-		}else
+		}
+		else
 		{
 			gameEnded=false;
 		}
+		
+			
 	}
 
 	private String getScore(int points) 
@@ -65,7 +66,7 @@ public class TennisGame
 		}
 		else{
 		
-		
+			return getScore(player1Points)+" - "+getScore(player2Points);
 		// Scores format: "player1Score - player2Score"
 		// "0 - 0"
 		// "15 - 15"
@@ -81,8 +82,6 @@ public class TennisGame
 		// "game player1"
 		// "game player2"
 
-		
-		return getScore(player1Points)+" - "+getScore(player2Points);
 	}
 	}
 		
