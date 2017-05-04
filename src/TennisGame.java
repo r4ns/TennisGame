@@ -80,9 +80,10 @@ public class TennisGame
 		// "game player2"
 
 		// TO BE IMPLEMENTED
-		return + player1Points + " - " + player2Points;
+		return getScore(player1Points) + " - " + getScore(player2Points);
+				
 	}
-
+				
 	public int getPlayer1Points() {
 		return player1Points;
 	}
