@@ -1,0 +1,90 @@
+FileOpenedAction 1493920443670 TennisGame.java 877 6 5 0
+RefactoringAction 1493920473555 TennisGame.java ADD int getPlayer1Points() METHOD
+RefactoringAction 1493920473558 TennisGame.java ADD int getPlayer2Points() METHOD
+RefactoringAction 1493920473572 TennisGame.java ADD boolean isGameEnded() METHOD
+RefactoringAction 1493920473581 TennisGame.java ADD void setPlayer1Points(int) METHOD
+RefactoringAction 1493920473589 TennisGame.java ADD void setPlayer2Points(int) METHOD
+RefactoringAction 1493920473590 TennisGame.java ADD void setGameEnded(boolean) METHOD
+FileOpenedAction 1493920996161 AllTests.java 198 0 0 0
+FileOpenedAction 1493920997127 NumericScores.java 5980 16 95 16
+RefactoringAction 1493921591481 TennisGame.java ADD string result FIELD
+CompilationAction 1493921744163 NumericScores.java
+FileOpenedAction 1493921958790 TennisGameException.java 57 0 0 0
+FileOpenedAction 1493922057833 TennisGameException.java 57 0 0 0
+CompilationAction 1493922163052 NumericScores.java
+CompilationAction 1493922163318 NumericScores.java
+CompilationAction 1493922232276 NumericScores.java
+CompilationAction 1493922232574 NumericScores.java
+CompilationAction 1493922252475 NumericScores.java
+CompilationAction 1493922252783 NumericScores.java
+CompilationAction 1493922261876 NumericScores.java
+CompilationAction 1493922262189 NumericScores.java
+CompilationAction 1493922267535 NumericScores.java
+CompilationAction 1493922267825 NumericScores.java
+CompilationAction 1493922281340 NumericScores.java
+CompilationAction 1493922281631 NumericScores.java
+CompilationAction 1493922316335 NumericScores.java
+CompilationAction 1493922316583 NumericScores.java
+CompilationAction 1493922468279 TennisGame.java
+EditAction 1493922494331 TennisGame.java 2327 12 13 0
+EditAction 1493922566584 TennisGame.java 2354 12 13 0
+EditAction 1493922575013 TennisGame.java 2333 12 13 0
+CompilationAction 1493922613209 NumericScores.java
+CompilationAction 1493922613460 NumericScores.java
+CompilationAction 1493922636281 NumericScores.java
+CompilationAction 1493922636556 NumericScores.java
+CompilationAction 1493922653121 NumericScores.java
+CompilationAction 1493922653466 NumericScores.java
+CompilationAction 1493922668841 NumericScores.java
+CompilationAction 1493922669134 NumericScores.java
+CompilationAction 1493922684810 NumericScores.java
+CompilationAction 1493922685008 NumericScores.java
+CompilationAction 1493922715103 NumericScores.java
+CompilationAction 1493922715403 NumericScores.java
+CompilationAction 1493922760831 NumericScores.java
+UnitTestCaseAction 1493923334889 NumericScores.java OK
+UnitTestSessionAction 1493923334891 NumericScores.java OK
+RefactoringAction 1493923412157 NumericScores.java ADD void test_ FIELD
+RefactoringAction 1493923419207 NumericScores.java RENAME test_=>void test_deuce FIELD
+RefactoringAction 1493923433782 NumericScores.java RENAME test_deuce=>void test_Deuce FIELD
+RefactoringAction 1493923435349 NumericScores.java RENAME test_Deuce=>void test_Deuce() METHOD
+EditAction 1493923574993 NumericScores.java 6373 17 99 17
+UnitTestCaseAction 1493923578308 NumericScores.java OK
+UnitTestSessionAction 1493923578310 NumericScores.java OK
+EditAction 1493923608414 NumericScores.java 6388 17 99 17
+UnitTestCaseAction 1493923613025 NumericScores.java OK
+UnitTestSessionAction 1493923613026 NumericScores.java OK
+EditAction 1493923621648 NumericScores.java 6387 17 99 17
+RefactoringAction 1493923640369 NumericScores.java ADD void test FIELD
+RefactoringAction 1493923641418 NumericScores.java RENAME test=>void test_ FIELD
+RefactoringAction 1493923644508 NumericScores.java RENAME test_=>void test_a FIELD
+RefactoringAction 1493923646578 NumericScores.java RENAME test_a=>void test_advantag FIELD
+RefactoringAction 1493923647645 NumericScores.java RENAME test_advantag=>void test_advantage FIELD
+RefactoringAction 1493923650202 NumericScores.java RENAME test_advantage=>void test_Advantage FIELD
+RefactoringAction 1493923653256 NumericScores.java RENAME test_Advantage=>void test_AdvantagePlayer1 FIELD
+RefactoringAction 1493923655821 NumericScores.java RENAME test_AdvantagePlayer1=>void test_AdvantagePlayer1() METHOD
+EditAction 1493923740999 NumericScores.java 6643 18 103 18
+EditAction 1493923749095 NumericScores.java 6642 18 103 18
+UnitTestCaseAction 1493923752462 NumericScores.java FAIL
+UnitTestSessionAction 1493923752464 NumericScores.java FAIL
+EditAction 1493923877828 TennisGame.java 2602 12 14 0
+UnitTestCaseAction 1493923882813 NumericScores.java FAIL
+UnitTestSessionAction 1493923882814 NumericScores.java FAIL
+UnitTestCaseAction 1493923944644 NumericScores.java FAIL
+UnitTestSessionAction 1493923944646 NumericScores.java FAIL
+UnitTestCaseAction 1493923964090 NumericScores.java FAIL
+UnitTestSessionAction 1493923964092 NumericScores.java FAIL
+EditAction 1493924001264 TennisGame.java 2571 12 14 0
+EditAction 1493924007109 TennisGame.java 2571 12 14 0
+UnitTestCaseAction 1493924015168 NumericScores.java FAIL
+UnitTestSessionAction 1493924015178 NumericScores.java FAIL
+EditAction 1493924039899 NumericScores.java 6642 18 103 18
+UnitTestCaseAction 1493924043769 NumericScores.java FAIL
+UnitTestSessionAction 1493924043771 NumericScores.java FAIL
+EditAction 1493924050180 NumericScores.java 6642 18 103 18
+EditAction 1493924174620 TennisGame.java 2559 12 14 0
+UnitTestCaseAction 1493924179014 NumericScores.java FAIL
+UnitTestSessionAction 1493924179015 NumericScores.java FAIL
+EditAction 1493924195236 TennisGame.java 2571 12 14 0
+UnitTestCaseAction 1493924199532 NumericScores.java FAIL
+UnitTestSessionAction 1493924199533 NumericScores.java FAIL
