@@ -49,7 +49,13 @@ public class TennisGame
 			output = player1Points + " - " + player2Points;
 		else
 		{
-			
+			if(player1Points >= 4)
+			{
+				if(player1Points >= player2Points + 2)
+					output = "game player1";
+				else
+				
+			}
 		}
 		
 		
