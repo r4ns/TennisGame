@@ -44,8 +44,18 @@ public class TennisGame
 
 	private String getScore(int points) 
 	{
-		// TO BE IMPLEMENTED
-		return "";
+		String res="";
+		if(points == 0)
+			res="0";
+		else if(points == 1)
+			res="15";
+		else if(points == 2)
+			res="30";
+		else if(points == 3)
+			res="40";
+		else if(points == 4)
+			res="win";
+		return res;
 	}
 	
 	public String getScore() 
