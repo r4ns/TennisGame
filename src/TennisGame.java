@@ -30,7 +30,10 @@ public class TennisGame
 
 	private String getScore(int points) 
 	{
-		
+		if(points == 1)
+		{
+			return "15";
+		}
 		// TO BE IMPLEMENTED
 		return "";
 	}
