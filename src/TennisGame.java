@@ -64,9 +64,12 @@ public class TennisGame
 		// "advantage player2"
 		// "game player1"
 		// "game player2"
-		if(this.player1Points>=3 && this.player2Points>=3 && this.player1Points==this.player2Points)
+		String igrac1=getScore(this.player1Points);
+		String igrac2=getScore(this.player2Points);
+		
+		if(this.player1Points>=3 && this.player2Points>=3 && igrac1.equals(igrac2))
 		{
-			rez=this.player1Points + " - " + this.player2Points;
+			rez="deuce";
 			checkGameEnded();
 		}
 		
@@ -74,11 +77,11 @@ public class TennisGame
 		{
 			if(this.player1Points-this.player2Points==1)
 			{
-				rez=this.player1Points + " - " + this.player2Points;
+				rez="advantage igrac1";
 			}
 			if(this.player2Points-this.player1Points==1)
 			{
-				rez=this.player1Points + " - " + this.player2Points;
+				rez="advantage igrac2";
 			}
 			checkGameEnded();
 		}
@@ -94,9 +97,9 @@ public class TennisGame
 		}
 		
 		
-		if(this.player1Points==0 && this.player2Points==0)
+		if(igrac1.equals("0") && igrac2.equals("0"))
 		{
-			rez=this.player1Points + " - " + this.player2Points;
+			rez=igrac1 + " - " + igrac2;
 		}
 
 		// TO BE IMPLEMENTED
