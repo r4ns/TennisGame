@@ -259,12 +259,12 @@ public class NumericScores {
 	@Test
 	public void testAdvantagePlayerTwo() throws TennisGameException {
 		TennisGame game = new TennisGame();
-		game.player1Scored();
 		game.player2Scored();
 		game.player1Scored();
 		game.player2Scored();
 		game.player1Scored();
 		game.player2Scored();
+		game.player1Scored();
 		game.player2Scored();
 		
 		String score = game.getScore() ;
