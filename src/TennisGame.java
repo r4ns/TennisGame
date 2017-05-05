@@ -67,7 +67,7 @@ public class TennisGame
 		String igrac1=getScore(this.player1Points);
 		String igrac2=getScore(this.player2Points);
 		
-		if(this.player1Points>=3 && this.player2Points>=3 && igrac1.equals(igrac2))
+		if(igrac1.equals(getScore(3)) && igrac2.equals(getScore(3)) && igrac1.equals(igrac2))
 		{
 			rez="deuce";
 			checkGameEnded();
