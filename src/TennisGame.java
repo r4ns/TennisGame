@@ -45,7 +45,7 @@ public class TennisGame
 		}else if((player1Points>=3 || player2Points>=3) && (player1Points==player2Points)){
 
 			return "deuce";
-		}
+		} 
 		
 
 		// Scores format: "player1Score - player2Score"
