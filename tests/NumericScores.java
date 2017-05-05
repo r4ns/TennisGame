@@ -239,6 +239,7 @@ public class NumericScores {
 		game.player2Scored();
 		game.player2Scored();
 		game.player2Scored();
+		game.player2Scored();
 		//Act
 		String score = game.getScore() ;
 		// Assert
