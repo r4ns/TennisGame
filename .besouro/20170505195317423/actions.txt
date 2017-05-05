@@ -110,3 +110,6 @@ EditAction 1494011452477 NumericScores.java 7586 20 135 20
 UnitTestCaseAction 1494011456119 NumericScores.java FAIL
 UnitTestSessionAction 1494011456121 NumericScores.java FAIL
 EditAction 1494011506334 NumericScores.java 7587 20 135 20
+UnitTestCaseAction 1494011509799 NumericScores.java FAIL
+UnitTestSessionAction 1494011509803 NumericScores.java FAIL
+EditAction 1494011529353 NumericScores.java 7518 20 132 20
