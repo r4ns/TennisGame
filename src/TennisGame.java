@@ -23,7 +23,10 @@ public class TennisGame
 	
 	private void checkGameEnded()
 	{ 
-		// TO BE IMPLEMENTED
+		if((this.player1Points>=4 && this.player1Points-this.player2Points>=2) || (this.player2Points>=4 && this.player2Points-this.player1Points>=2))
+		{
+			this.gameEnded=true;
+		}
 	}
 
 	private String getScore(int points) 
@@ -61,6 +64,35 @@ public class TennisGame
 		// "advantage player2"
 		// "game player1"
 		// "game player2"
+		if(this.player1Points>=3 && this.player2Points>=3 && this.player1Points==this.player2Points)
+		{
+			rez="deuce";
+			checkGameEnded();
+		}
+		
+		if(this.player1Points>=3 && this.player2Points>=3)
+		{
+			if(this.player1Points-this.player2Points==1)
+			{
+				rez="advantage igrac1";
+			}
+			if(this.player2Points-this.player1Points==1)
+			{
+				rez="advantage igrac2";
+			}
+			checkGameEnded();
+		}
+		
+		if(this.gameEnded && this.player1Points>this.player2Points)
+		{
+			rez="pobjedjuje igrac1";
+		}
+		
+		if(this.gameEnded && this.player2Points>this.player1Points)
+		{
+			rez="pobjedjuje igrac2";
+		}
+		
 		
 		if(this.player1Points==0 && this.player2Points==0)
 		{
@@ -68,6 +100,6 @@ public class TennisGame
 		}
 
 		// TO BE IMPLEMENTED
-		return "";
+		return rez;
 	}
 }
