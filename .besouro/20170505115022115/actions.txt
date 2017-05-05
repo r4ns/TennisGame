@@ -28,3 +28,9 @@ EditAction 1493981191829 TennisGame.java 1810 6 14 0
 EditAction 1493981201302 TennisGame.java 1815 6 13 0
 EditAction 1493981325560 TennisGame.java 2069 6 13 0
 EditAction 1493981377233 TennisGame.java 2277 6 13 0
+UnitTestCaseAction 1493981547857 NumericScores.java OK
+UnitTestSessionAction 1493981547859 NumericScores.java OK
+RefactoringAction 1493981580967 AllTests.java ADD import org.junit.Assert.assertEquals IMPORT
+RefactoringAction 1493981580971 AllTests.java ADD import org.junit.Test IMPORT
+RefactoringAction 1493981590012 AllTests.java RENAME test_p1Wins2Points_Score30_0()=>void test1 FIELD
+EditAction 1493981610271 AllTests.java 655 0 0 0
