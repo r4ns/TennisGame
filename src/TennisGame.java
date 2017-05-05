@@ -48,6 +48,7 @@ public class TennisGame
 		} else if(points == 1 ){
 			
 			return "15";
+			
 		} else if(points == 2 ) {
 			
 			return "30";
@@ -55,6 +56,8 @@ public class TennisGame
 			
 			return "40";
 		}
+		
+		return "";
 		
 	}
 
@@ -64,6 +67,7 @@ public class TennisGame
 		if(player1Points==0 && player2Points==0){
 
 			return "0 - 0";
+			
 		} else if(player1Points==15 && player2Points==15){
 
 			return "15 - 15";
