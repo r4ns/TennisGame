@@ -235,9 +235,9 @@ public class NumericScores {
 		{
 			game.player1Scored();
 			game.player2Scored();
-			
-			String score = game.getScore();
-			assertEquals("Smth", "40 - 40", score);
+		
 		}
+		String score = game.getScore();
+		assertEquals("Smth", "40 - 40", score);
 	}
 }
