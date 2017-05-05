@@ -34,3 +34,10 @@ RefactoringAction 1493981580967 AllTests.java ADD import org.junit.Assert.assert
 RefactoringAction 1493981580971 AllTests.java ADD import org.junit.Test IMPORT
 RefactoringAction 1493981590012 AllTests.java RENAME test_p1Wins2Points_Score30_0()=>void test1 FIELD
 EditAction 1493981610271 AllTests.java 655 0 0 0
+CompilationAction 1493981612668 AllTests.java
+CompilationAction 1493981612669 AllTests.java
+CompilationAction 1493981612670 AllTests.java
+RefactoringAction 1493981708811 AllTests.java REMOVE test1 FIELD
+CompilationAction 1493981709550 AllTests.java
+RefactoringAction 1493981719687 NumericScores.java ADD void test1 FIELD
+EditAction 1493981719860 NumericScores.java 6371 16 95 16
