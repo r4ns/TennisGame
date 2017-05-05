@@ -227,4 +227,98 @@ public class NumericScores {
 		// Assert
 		assertEquals("Incorrect score when player1 scored three times and player2 scored twice. Players win points alternating.", "40 - 30", score);	
 	}
+	
+	@Test
+	public void test_deuceAsFinalScore() throws TennisGameException{
+		TennisGame game = new TennisGame();
+		
+		game.player1Scored();
+		game.player2Scored();
+		
+		game.player1Scored();
+		game.player2Scored();
+		
+		game.player1Scored();
+		game.player2Scored();
+		
+		String score = game.getScore();
+		
+		assertEquals("Incorrect score expected the output of only deuce", "deuce", score);
+	}
+	
+	@Test
+	public void test_adventagePlayer1Case() throws TennisGameException {
+		TennisGame game = new TennisGame();
+		
+		game.player1Scored();
+		game.player2Scored();
+		
+		game.player1Scored();
+		game.player2Scored();
+		
+		game.player1Scored();
+		game.player2Scored();
+		
+		game.player1Scored();
+		
+		String score = game.getScore();
+		
+		assertEquals("Incorrect expected output of player1 having adventage", "advantage player1", score);
+	}
+	
+	@Test
+	public void test_adventagePlayer2Case() throws TennisGameException {
+		TennisGame game = new TennisGame();
+		
+		game.player1Scored();
+		game.player2Scored();
+		
+		game.player1Scored();
+		game.player2Scored();
+		
+		game.player1Scored();
+		game.player2Scored();
+		
+		game.player2Scored();
+		
+		String score = game.getScore();
+		
+		assertEquals("Incorrect expected output of player2 having adventage", "advantage player2", score);
+	}
+	
+	@Test
+	public void test_Player1WinningCase() throws TennisGameException {
+		TennisGame game = new TennisGame();
+		
+		game.player1Scored();
+		game.player2Scored();
+		
+		game.player1Scored();
+		game.player2Scored();
+		
+		game.player1Scored();
+		game.player1Scored();
+		
+		String score = game.getScore();
+		
+		assertEquals("Incorrect expected output of player1 winnig the game", "game player1", score);
+	}
+	
+	@Test
+	public void test_Player2WinningCase() throws TennisGameException {
+		TennisGame game = new TennisGame();
+		
+		game.player1Scored();
+		game.player2Scored();
+		
+		game.player1Scored();
+		game.player2Scored();
+		
+		game.player2Scored();
+		game.player2Scored();
+		
+		String score = game.getScore();
+		
+		assertEquals("Incorrect expected output of player2 winnig the game", "game player2", score);
+	}
 }
