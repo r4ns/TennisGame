@@ -11,12 +11,14 @@ public class TennisGame
 
 	public void player1Scored() throws TennisGameException 
 	{
-		// TO BE IMPLEMENTED
+		player1Points++;
+		System.out.print("igrac1 osvaja_poen > ");
 	}
 
 	public void player2Scored() throws TennisGameException 
 	{
-		// TO BE IMPLEMENTED
+		player2Points++;
+		System.out.print("igrac2 osvaja_poen > ");
 	}
 	
 	private void checkGameEnded()
@@ -26,8 +28,13 @@ public class TennisGame
 
 	private String getScore(int points) 
 	{
-		// TO BE IMPLEMENTED
-		return "";
+		switch(points){
+			case 0: return "0";
+			case 1: return "15";
+			case 2: return "30";
+			case 3: return "40";
+			default: return "advantage";
+		}
 	}
 	
 	public String getScore() 
