@@ -104,6 +104,9 @@ public class TennisGame
 		} else if(player1Points==2 && player2Points==1){
 
 			 return getScore(2) + " - " + getScore(1);
+		}else if(player1Points==3 && player2Points==1){
+
+			 return getScore(3) + " - " + getScore(1);
 		}
 
 
