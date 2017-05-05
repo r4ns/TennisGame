@@ -51,3 +51,9 @@ EditAction 1494010474077 NumericScores.java 6343 17 104 17
 UnitTestCaseAction 1494010477622 NumericScores.java FAIL
 UnitTestSessionAction 1494010477625 NumericScores.java FAIL
 EditAction 1494010592619 TennisGame.java 2371 10 10 0
+UnitTestCaseAction 1494010597778 NumericScores.java OK
+UnitTestSessionAction 1494010597780 NumericScores.java OK
+RefactoringAction 1494010618692 NumericScores.java ADD void testDeuce()/2 METHOD
+RefactoringAction 1494010625250 NumericScores.java RENAME testDeuce()/2=>void testAdvantage() METHOD
+RefactoringAction 1494010629834 NumericScores.java RENAME testAdvantage()=>void testAdvantageOne() METHOD
+EditAction 1494010637712 NumericScores.java 6728 18 114 18
