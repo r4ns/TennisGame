@@ -12,7 +12,7 @@ public class TennisGame
 	public void player1Scored() throws TennisGameException 
 	{
 		checkGameEnded();
-		if(gameEnded=true){
+		if(gameEnded==true){
 
 			throw new TennisGameException();
 		} else {
