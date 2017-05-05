@@ -6,9 +6,10 @@ public class TennisGame
 	
 	public TennisGame() 
 	{
-		this.player1Points = player1Points;
-		this.player2Points = player2Points;
+		this.player1Points = player1Points = 0;
+		this.player2Points = player2Points = 0;
 	}
+
 
 	public void player1Scored() throws TennisGameException 
 	{
@@ -22,11 +23,22 @@ public class TennisGame
 			player1Points = 40;
 			System.out.println("Player 1 has scored");
 		}
+		
+		
 	}
 
 	public void player2Scored() throws TennisGameException 
 	{
-		// TO BE IMPLEMENTED
+		if(player2Points == 0){
+			player2Points = 15;
+			System.out.println("Player 2 has scored");
+		} else if (player2Points == 15){
+			player2Points = 30;
+			System.out.println("Player 2 has scored");
+		} else if (player2Points == 30){
+			player2Points = 40;
+			System.out.println("Player 2 has scored");
+		}
 	}
 	
 	private void checkGameEnded()
@@ -36,12 +48,55 @@ public class TennisGame
 
 	private String getScore(int points) 
 	{
-		// TO BE IMPLEMENTED
-		return "";
+		return "" + points;
 	}
 	
 	public String getScore() 
 	{
+		
+		if(getScore(player1Points) == "15" && getScore(player2Points) == "0" ){
+			return "15 - 0";
+		} else if(getScore(player1Points) == "0" && getScore(player2Points) == "15" ){
+			return "0 - 15";
+		}
+		
+		if(getScore(player1Points) == "30" && getScore(player2Points) == "0" ){
+			return "30 - 0";
+		} else if(getScore(player1Points) == "0" && getScore(player2Points) == "30" ){
+			return "0 - 30";
+		}
+		
+		if(getScore(player1Points) == "40" && getScore(player2Points) == "0" ){
+			return "40 - 0";
+		} else if(getScore(player1Points) == "0" && getScore(player2Points) == "40" ){
+			return "0 - 40";
+		}
+		
+		
+		if(getScore(player1Points) == "15" && getScore(player2Points) == "15" ){
+			return "15 - 15";
+		} else if(getScore(player1Points) == "30" && getScore(player2Points) == "30" ){
+			return "30 - 30";
+		} else if(getScore(player1Points) == "40" && getScore(player2Points) == "40"){
+			return "deuce";
+		}
+		
+		if(getScore(player1Points) == "30" && getScore(player2Points) == "15" ){
+			return "30 - 15";
+		} else if(getScore(player1Points) == "15" && getScore(player2Points) == "30" ){
+			return "15 - 30";
+		}
+		
+		if(getScore(player1Points) == "40" && getScore(player2Points) == "15" ){
+			return "40 - 15";
+		} else if(getScore(player1Points) == "15" && getScore(player2Points) == "40" ){
+			return "15 - 40";
+		}
+		
+		
+		
+		return player1Points + " - " + player2Points;
+		
 		// Scores format: "player1Score - player2Score"
 		// "0 - 0"
 		// "15 - 15"
@@ -58,6 +113,6 @@ public class TennisGame
 		// "game player2"
 
 		// TO BE IMPLEMENTED
-		return "";
+		
 	}
 }
