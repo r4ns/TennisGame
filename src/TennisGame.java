@@ -76,6 +76,8 @@ public class TennisGame
 	
 	public String getScore() 
 	{
+		
+		
 		if(getScore(player1Points) == "0" && getScore(player2Points) == "0" ){
 			return "0 - 0";
 		} 
