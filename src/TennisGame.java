@@ -21,19 +21,33 @@ public class TennisGame
 		player2Points++;
 	}
 	
-	private void checkGameEnded()
+    private void checkGameEnded()
 	{ 
-		// TO BE IMPLEMENTED
+		if(player1Points.won(player2Points)))
+		{
+			
+		}
+	}
+	
+	private boolean won(int playerPoints)
+	{
+		
+		return true;
 	}
 
 	private String getScore(int points) 
 	{
-		string convPoints;
+		String convPoints = "";
 		switch(points)
 		{
-		case 1: 
+		case 1: convPoints = "15";
+		break;
+		case 2: convPoints = "30";
+		break;
+		case 3: convPoints = "40";
+		break;
 		}
-		return ;
+		return convPoints;
 	}
 	
 	public String getScore() 

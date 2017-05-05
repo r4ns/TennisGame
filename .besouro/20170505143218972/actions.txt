@@ -2,3 +2,40 @@ FileOpenedAction 1493987539703 TennisGame.java 877 6 2 0
 EditAction 1493987647108 TennisGame.java 914 6 8 0
 EditAction 1493987694059 TennisGame.java 922 6 8 0
 EditAction 1493987764129 TennisGame.java 941 6 9 0
+CompilationAction 1493987765718 TennisGame.java
+CompilationAction 1493987765721 TennisGame.java
+CompilationAction 1493987772417 TennisGame.java
+CompilationAction 1493987772419 TennisGame.java
+CompilationAction 1493987772624 TennisGame.java
+CompilationAction 1493987848710 TennisGame.java
+RefactoringAction 1493987964860 TennisGame.java ADD bool won() METHOD
+RefactoringAction 1493987973380 TennisGame.java RENAME won()=>bool won(int) METHOD
+RefactoringAction 1493988065073 TennisGame.java RENAME won(int)=>boolean won() METHOD
+RefactoringAction 1493988083616 TennisGame.java RENAME won()=>boolean won(int) METHOD
+RefactoringAction 1493988101671 TennisGame.java RENAME won(int)=>boolean won(int, int) METHOD
+CompilationAction 1493988139710 TennisGame.java
+CompilationAction 1493988139712 TennisGame.java
+CompilationAction 1493988139713 TennisGame.java
+RefactoringAction 1493988141814 TennisGame.java REMOVE getScore(int) METHOD
+RefactoringAction 1493988141822 TennisGame.java REMOVE checkGameEnded() METHOD
+RefactoringAction 1493988141824 TennisGame.java REMOVE won(int, int) METHOD
+RefactoringAction 1493988141825 TennisGame.java REMOVE getScore() METHOD
+RefactoringAction 1493988144339 TennisGame.java ADD boolean won(int, int) METHOD
+RefactoringAction 1493988144341 TennisGame.java ADD String getScore(int) METHOD
+RefactoringAction 1493988144342 TennisGame.java ADD String getScore() METHOD
+CompilationAction 1493988144739 TennisGame.java
+CompilationAction 1493988144741 TennisGame.java
+CompilationAction 1493988144742 TennisGame.java
+CompilationAction 1493988145025 TennisGame.java
+CompilationAction 1493988147541 TennisGame.java
+FileOpenedAction 1493988154039 AllTests.java 198 0 0 0
+UnitTestCaseAction 1493988162619 AllTests.java FAIL
+UnitTestSessionAction 1493988162622 AllTests.java FAIL
+UnitTestCaseAction 1493988176147 NumericScores.java FAIL
+UnitTestSessionAction 1493988176149 NumericScores.java FAIL
+RefactoringAction 1493988192918 TennisGame.java ADD void checkGameEnded() METHOD
+CompilationAction 1493988197806 TennisGame.java
+CompilationAction 1493988197808 TennisGame.java
+RefactoringAction 1493988244517 TennisGame.java RENAME won(int, int)=>boolean won() METHOD
+RefactoringAction 1493988248049 TennisGame.java RENAME won()=>boolean won(int) METHOD
+EditAction 1493988271149 TennisGame.java 1156 7 10 0
