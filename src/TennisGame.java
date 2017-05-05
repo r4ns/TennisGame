@@ -57,7 +57,13 @@ public class TennisGame
 		else if(player2Points >=4 && (player2Points >= player1Points + 2))
 			output = "game player2";
 		else {
-			if(player1Points > 3 && player2Points > 3 && ((player1Points == player2Points + 1 ) || (player2Points == player1Points + 1))
+			if((player1Points > 3) && (player2Points > 3))
+					{
+						if(player1Points == player2Points + 1)
+							output = "adventage player1";
+						else if (player2Points == player1Points + 1)
+							output = "adventage player2";
+					}
 		}
 		
 		return output;
