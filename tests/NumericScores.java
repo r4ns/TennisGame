@@ -12,7 +12,7 @@ public class NumericScores {
 		//Act
 		String score = game.getScore() ;
 		// Assert
-		assertEquals("Initial score incorrect", "0 - 0", score);	
+		assertEquals("Initial score incorrect", "0 - 0", score);
 	}
 	
 	@Test
