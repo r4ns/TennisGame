@@ -55,6 +55,8 @@ public class TennisGame
 			res="40";
 		else if(points == 4)
 			res="win";
+		else if(points == 5)
+			res="winwin";
 		return res;
 	}
 	
@@ -81,6 +83,10 @@ public class TennisGame
 			return "advantage igrac1";
 		}else if(getScore(player2Points)=="win" && getScore(player1Points) == "40"){
 			return "advantage igrac2";
+		}else if(getScore(player2Points)=="winwin" && getScore(player1Points) == "40"){
+			return "game igrac2";
+		}else if(getScore(player1Points)=="winwin" && getScore(player2Points) == "40"){
+			return "game igrac1";
 		}
 		else
 			return getScore(player1Points) + " - " + getScore(player2Points);
