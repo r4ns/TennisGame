@@ -89,3 +89,6 @@ RefactoringAction 1493980122906 NumericScores.java ADD void test_p1Wins2Points_p
 RefactoringAction 1493980122908 NumericScores.java ADD void test_p1Wins3Points_p2Wins2Points_Score40_30() METHOD
 RefactoringAction 1493980122910 NumericScores.java ADD void test_p1Wins3Points_p2Wins2Points_AlternativeSequenceOfWins_Score40_30() METHOD
 EditAction 1493980129889 NumericScores.java 5983 16 95 16
+UnitTestCaseAction 1493980139541 NumericScores.java FAIL
+UnitTestSessionAction 1493980139543 NumericScores.java FAIL
+EditAction 1493980351216 TennisGame.java 1334 6 10 0

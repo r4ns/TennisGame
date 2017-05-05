@@ -80,7 +80,7 @@ public class TennisGame
 		// "game player1"
 		// "game player2"
 		
-		
+		player1Points().getScore();
 
 		// TO BE IMPLEMENTED
 		return "";
