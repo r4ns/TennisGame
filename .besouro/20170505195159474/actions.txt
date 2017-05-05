@@ -12,3 +12,7 @@ RefactoringAction 1494007348463 TennisGame.java RENAME po=>int point FIELD
 UnitTestCaseAction 1494008456672 NumericScores.java FAIL
 UnitTestSessionAction 1494008456674 NumericScores.java FAIL
 EditAction 1494008600725 TennisGame.java 1837 6 6 0
+CompilationAction 1494008601125 TennisGame.java
+UnitTestCaseAction 1494008603125 NumericScores.java FAIL
+UnitTestSessionAction 1494008603126 NumericScores.java FAIL
+EditAction 1494009484724 TennisGame.java 2656 6 7 0
