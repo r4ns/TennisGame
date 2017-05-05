@@ -24,6 +24,17 @@ public class TennisGame
 			System.out.println("Player 1 has scored");
 		}
 		
+		if(player1Points == 40){
+			player1Points = 45; 
+		}
+		
+		if(player1Points == 40){
+			player1Points = 41; 
+		}
+		
+		if(player1Points == 45){
+			player1Points = 42; 
+		}
 		
 	}
 
@@ -39,6 +50,18 @@ public class TennisGame
 			player2Points = 40;
 			System.out.println("Player 2 has scored");
 		}
+		
+		if(player2Points == 40){
+			player2Points = 45; 
+		}
+		
+		if(player2Points == 40){
+			player2Points = 41; 
+		}
+		
+		if(player2Points == 45){
+			player2Points = 42; 
+		}
 	}
 	
 	private void checkGameEnded()
@@ -53,6 +76,10 @@ public class TennisGame
 	
 	public String getScore() 
 	{
+		if(getScore(player1Points) == "0" && getScore(player2Points) == "0" ){
+			return "0 - 0";
+		} 
+		
 		
 		if(getScore(player1Points) == "15" && getScore(player2Points) == "0" ){
 			return "15 - 0";
@@ -93,9 +120,33 @@ public class TennisGame
 			return "15 - 40";
 		}
 		
+		if(getScore(player1Points) == "45" && getScore(player2Points) == "40" ){
+			return "advantage player1";
+		} else if(getScore(player1Points) == "40" && getScore(player2Points) == "45" ){
+			return "advantage player2";
+		}
+		
+		if(getScore(player1Points) == "41" && getScore(player2Points) == "15" ){
+			return "game player1";
+		} else if(getScore(player1Points) == "15" && getScore(player2Points) == "41" ){
+			return "game player2";
+		}
+		
+		if(getScore(player1Points) == "41" && getScore(player2Points) == "30" ){
+			return "game player1";
+		} else if(getScore(player1Points) == "30" && getScore(player2Points) == "41" ){
+			return "game player2";
+		}
+		
+		if(getScore(player1Points) == "42" && getScore(player2Points) == "40" ){
+			return "game player1";
+		} else if(getScore(player1Points) == "40" && getScore(player2Points) == "42" ){
+			return "game player2";
+		} else
+			return "";
 		
 		
-		return player1Points + " - " + player2Points;
+		
 		
 		// Scores format: "player1Score - player2Score"
 		// "0 - 0"

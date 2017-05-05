@@ -12,3 +12,10 @@ FileOpenedAction 1493978582701 CubeDrone.java 2749 10 22 0
 RefactoringAction 1493979265961 TennisGame.java ADD TennisGame()/2 METHOD
 RefactoringAction 1493979309128 TennisGame.java REMOVE TennisGame()/2 METHOD
 EditAction 1493980090106 TennisGame.java 2876 6 12 0
+UnitTestCaseAction 1493980884883 NumericScores.java FAIL
+UnitTestSessionAction 1493980884886 NumericScores.java FAIL
+UnitTestCaseAction 1493980933884 NumericScores.java FAIL
+UnitTestSessionAction 1493980933886 NumericScores.java FAIL
+UnitTestCaseAction 1493981000277 NumericScores.java FAIL
+UnitTestSessionAction 1493981000281 NumericScores.java FAIL
+EditAction 1493981293858 TennisGame.java 4166 6 22 0
