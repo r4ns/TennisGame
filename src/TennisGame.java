@@ -16,19 +16,24 @@ public class TennisGame
 
 	public void player1Scored() throws TennisGameException 
 	{
-		if(player1Points < 3 && player1Points-player2Points<2 )
+		if(!gameEnded)
 			player1Points++;
 		
 	}
 
 	public void player2Scored() throws TennisGameException 
 	{
-		// TO BE IMPLEMENTED
+		if(!gameEnded)
+			player2Points++;
 	}
 	
 	private void checkGameEnded()
 	{ 
-		// TO BE IMPLEMENTED
+		if(player1Points > 4 && player2Points + 2 == player1Points || player1Points >4 && player1Points+2 == player2Points )
+			gameEnded=true;
+		else 
+			gameEnded=false;
+		
 	}
 
 	private String getScore(int points) 
@@ -64,6 +69,8 @@ public class TennisGame
 		else if((player1Points == 2  && player2Points == 1 ) || (player1Points == 1 && player2Points == 2 ))
 			return getScore(player1Points) + " - " + getScore(player2Points);
 		else if((player1Points == 3  && player2Points == 2 ) || (player1Points == 1 && player2Points == 2 ))
+			return getScore(player1Points) + " - " + getScore(player2Points);
+		else if((player1Points == 3  && player2Points == 1 ) || (player1Points == 1 && player2Points == 3 ))
 			return getScore(player1Points) + " - " + getScore(player2Points);
 		else if(player1Points >3 && player1Points-player2Points ==1)
 			return "advantage player1";
