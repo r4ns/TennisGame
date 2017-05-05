@@ -14,3 +14,21 @@ CompilationAction 1493979223981 TennisGame.java
 UnitTestCaseAction 1493979235164 NumericScores.java FAIL
 UnitTestSessionAction 1493979235167 NumericScores.java FAIL
 EditAction 1493979305558 TennisGame.java 958 6 5 0
+UnitTestCaseAction 1493979320723 NumericScores.java FAIL
+UnitTestSessionAction 1493979320726 NumericScores.java FAIL
+RefactoringAction 1493979340396 NumericScores.java REMOVE test_p1Wins1Point_p2Wins3Point_Score15_40() METHOD
+RefactoringAction 1493979340397 NumericScores.java REMOVE test_p1Wins3Points_p2Wins1Point_Score40_15() METHOD
+RefactoringAction 1493979340399 NumericScores.java REMOVE test_p1Wins1Point_Score15_0() METHOD
+RefactoringAction 1493979340400 NumericScores.java REMOVE test_p2Wins3Points_Score0_40() METHOD
+RefactoringAction 1493979340402 NumericScores.java REMOVE test_p1Wins2Points_p2Wins1Point_Score30_15() METHOD
+RefactoringAction 1493979340403 NumericScores.java REMOVE test_p1Wins2Points_Score30_0() METHOD
+RefactoringAction 1493979340405 NumericScores.java REMOVE test_p2Wins1Point_Score0_15() METHOD
+RefactoringAction 1493979340406 NumericScores.java REMOVE test_p2Wins2Points_Score0_30() METHOD
+RefactoringAction 1493979340408 NumericScores.java REMOVE test_p1Wins2Points_p2Wins2Points_Score30_30() METHOD
+RefactoringAction 1493979340410 NumericScores.java REMOVE test_p1Wins3Points_p2Wins2Points_Score40_30() METHOD
+RefactoringAction 1493979340412 NumericScores.java REMOVE test_p1Wins3Points_Score40_0() METHOD
+RefactoringAction 1493979340414 NumericScores.java REMOVE test_p1Wins1Point_p2Wins2Points_Score15_30() METHOD
+RefactoringAction 1493979340415 NumericScores.java REMOVE test_p1Wins3Points_p2Wins2Points_AlternativeSequenceOfWins_Score40_30() METHOD
+RefactoringAction 1493979340417 NumericScores.java REMOVE test_p1Wins2Points_p2Wins3Points_Score30_40() METHOD
+RefactoringAction 1493979340418 NumericScores.java REMOVE test_p1Wins1Point_p2Wins1Point_Score15_15() METHOD
+EditAction 1493979352326 NumericScores.java 5986 1 3 1
