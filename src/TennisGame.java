@@ -6,17 +6,19 @@ public class TennisGame
 	
 	public TennisGame() 
 	{
-		// TO BE IMPLEMENTED
+		this.player1Points=0;
+		this.player2Points=0;
+		this.gameEnded=false;
 	}
 
 	public void player1Scored() throws TennisGameException 
 	{
-		// TO BE IMPLEMENTED
+		this.player1Points++;
 	}
 
 	public void player2Scored() throws TennisGameException 
 	{
-		// TO BE IMPLEMENTED
+		this.player2Points++;
 	}
 	
 	private void checkGameEnded()
@@ -26,12 +28,25 @@ public class TennisGame
 
 	private String getScore(int points) 
 	{
-		// TO BE IMPLEMENTED
-		return "";
+		String convPoints="";
+		if(points==1)
+		{
+			convPoints="15";
+		}
+		else if(points==2)
+		{
+			convPoints="30";
+		}
+		else if(points==3)
+		{
+			convPoints="40";
+		}
+		return convPoints;
 	}
 	
 	public String getScore() 
 	{
+		String rez="";
 		// Scores format: "player1Score - player2Score"
 		// "0 - 0"
 		// "15 - 15"
@@ -46,6 +61,11 @@ public class TennisGame
 		// "advantage player2"
 		// "game player1"
 		// "game player2"
+		
+		if(this.player1Points==0 && this.player2Points==0)
+		{
+			rez="Pocetno_stanje 0-0";
+		}
 
 		// TO BE IMPLEMENTED
 		return "";
