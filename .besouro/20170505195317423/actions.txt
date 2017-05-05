@@ -57,3 +57,4 @@ RefactoringAction 1494010618692 NumericScores.java ADD void testDeuce()/2 METHOD
 RefactoringAction 1494010625250 NumericScores.java RENAME testDeuce()/2=>void testAdvantage() METHOD
 RefactoringAction 1494010629834 NumericScores.java RENAME testAdvantage()=>void testAdvantageOne() METHOD
 EditAction 1494010637712 NumericScores.java 6728 18 114 18
+EditAction 1494010640511 TennisGame.java 2373 10 10 0
