@@ -18,3 +18,7 @@ RefactoringAction 1494009457047 TennisGame.java ADD int getPlayer2Points() METHO
 RefactoringAction 1494009457048 TennisGame.java ADD void setPlayer2Points(int) METHOD
 EditAction 1494009462027 TennisGame.java 2474 10 12 0
 EditAction 1494009470852 TennisGameException.java 113 0 0 0
+UnitTestCaseAction 1494009475740 NumericScores.java FAIL
+UnitTestSessionAction 1494009475743 NumericScores.java FAIL
+RefactoringAction 1494009604207 TennisGame.java RENAME TennisGame(int, int)=>TennisGame() METHOD
+EditAction 1494009669100 NumericScores.java 5980 16 95 16

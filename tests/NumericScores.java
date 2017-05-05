@@ -8,7 +8,7 @@ public class NumericScores {
 	@Test
 	public void test_StartScore() {
 		//Arrange
-		TennisGame game = new TennisGame(0,0);
+		TennisGame game = new TennisGame();
 		//Act
 		String score = game.getScore() ;
 		// Assert
@@ -18,7 +18,7 @@ public class NumericScores {
 	@Test
 	public void test_p1Wins1Point_Score15_0() throws TennisGameException {
 		//Arrange
-		TennisGame game = new TennisGame(15,0);
+		TennisGame game = new TennisGame();
 		//Act
 		game.player1Scored();
 		String score = game.getScore() ;
@@ -29,7 +29,7 @@ public class NumericScores {
 	@Test
 	public void test_p1Wins2Points_Score30_0() throws TennisGameException {
 		//Arrange
-		TennisGame game = new TennisGame(30,0);		
+		TennisGame game = new TennisGame();		
 		game.player1Scored();
 		game.player1Scored();
 		//Act
@@ -41,7 +41,7 @@ public class NumericScores {
 	@Test
 	public void test_p1Wins3Points_Score40_0() throws TennisGameException {
 		//Arrange
-		TennisGame game = new TennisGame(40,0);
+		TennisGame game = new TennisGame();
 		game.player1Scored();
 		game.player1Scored();
 		game.player1Scored();
@@ -54,7 +54,7 @@ public class NumericScores {
 	@Test
 	public void test_p2Wins1Point_Score0_15() throws TennisGameException {
 		//Arrange
-		TennisGame game = new TennisGame(0,15);
+		TennisGame game = new TennisGame();
 		game.player2Scored();
 		//Act
 		String score = game.getScore() ;
@@ -65,7 +65,7 @@ public class NumericScores {
 	@Test
 	public void test_p2Wins2Points_Score0_30() throws TennisGameException {
 		//Arrange
-		TennisGame game = new TennisGame(0,30);
+		TennisGame game = new TennisGame();
 
 		game.player2Scored();
 		game.player2Scored();
@@ -78,7 +78,7 @@ public class NumericScores {
 	@Test
 	public void test_p2Wins3Points_Score0_40() throws TennisGameException {
 		//Arrange
-		TennisGame game = new TennisGame(0,40);
+		TennisGame game = new TennisGame();
 
 		game.player2Scored();
 		game.player2Scored();
@@ -92,7 +92,7 @@ public class NumericScores {
 	@Test
 	public void test_p1Wins1Point_p2Wins1Point_Score15_15() throws TennisGameException {
 		//Arrange
-		TennisGame game = new TennisGame(15,15);
+		TennisGame game = new TennisGame();
 
 		game.player1Scored();
 		game.player2Scored();
@@ -105,7 +105,7 @@ public class NumericScores {
 	@Test
 	public void test_p1Wins2Points_p2Wins2Points_Score30_30() throws TennisGameException {
 		//Arrange
-		TennisGame game = new TennisGame(30,30);
+		TennisGame game = new TennisGame();
 
 		game.player1Scored();		
 		game.player2Scored();
@@ -120,7 +120,7 @@ public class NumericScores {
 	@Test
 	public void test_p1Wins2Points_p2Wins1Point_Score30_15() throws TennisGameException {
 		//Arrange
-		TennisGame game = new TennisGame(30,15);
+		TennisGame game = new TennisGame();
 
 		game.player1Scored();
 		game.player2Scored();
@@ -134,7 +134,7 @@ public class NumericScores {
 	@Test
 	public void test_p1Wins3Points_p2Wins1Point_Score40_15() throws TennisGameException {
 		//Arrange
-		TennisGame game = new TennisGame(40,15);
+		TennisGame game = new TennisGame();
 
 		game.player1Scored();
 		game.player2Scored();
@@ -149,7 +149,7 @@ public class NumericScores {
 	@Test
 	public void test_p1Wins1Point_p2Wins2Points_Score15_30() throws TennisGameException {
 		//Arrange
-		TennisGame game = new TennisGame(15,30);
+		TennisGame game = new TennisGame();
 
 		game.player1Scored();
 		game.player2Scored();
@@ -163,7 +163,7 @@ public class NumericScores {
 	@Test
 	public void test_p1Wins1Point_p2Wins3Point_Score15_40() throws TennisGameException {
 		//Arrange
-		TennisGame game = new TennisGame(15,40);
+		TennisGame game = new TennisGame();
 
 		game.player1Scored();
 		game.player2Scored();
@@ -178,7 +178,7 @@ public class NumericScores {
 	@Test
 	public void test_p1Wins2Points_p2Wins3Points_Score30_40() throws TennisGameException {
 		//Arrange
-		TennisGame game = new TennisGame(30,40);
+		TennisGame game = new TennisGame();
 
 		game.player1Scored();
 		game.player1Scored();
@@ -195,7 +195,7 @@ public class NumericScores {
 	@Test
 	public void test_p1Wins3Points_p2Wins2Points_Score40_30() throws TennisGameException {
 		//Arrange
-		TennisGame game = new TennisGame(40,30);
+		TennisGame game = new TennisGame();
 
 		game.player1Scored();
 		game.player1Scored();
@@ -213,7 +213,7 @@ public class NumericScores {
 	@Test
 	public void test_p1Wins3Points_p2Wins2Points_AlternativeSequenceOfWins_Score40_30() throws TennisGameException {
 		//Arrange
-		TennisGame game = new TennisGame(40,30);
+		TennisGame game = new TennisGame();
 
 		game.player1Scored();
 		game.player2Scored();
