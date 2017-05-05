@@ -56,6 +56,9 @@ public class TennisGame
 			output = "game player1";
 		else if(player2Points >=4 && (player2Points >= player1Points + 2))
 			output = "game player2";
+		else {
+			
+		}
 		
 		return output;
 		// Scores format: "player1Score - player2Score"
