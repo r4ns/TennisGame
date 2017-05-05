@@ -70,3 +70,15 @@ EditAction 1494009854244 TennisGame.java 1853 6 9 0
 UnitTestCaseAction 1494009862393 NumericScores.java FAIL
 UnitTestSessionAction 1494009862394 NumericScores.java FAIL
 EditAction 1494009968942 TennisGame.java 1849 6 9 0
+UnitTestCaseAction 1494009976823 NumericScores.java FAIL
+UnitTestSessionAction 1494009976826 NumericScores.test_p1Wins1Point_p2Wins3Point_Score15_40 FAIL
+UnitTestCaseAction 1494009992773 NumericScores.java FAIL
+UnitTestSessionAction 1494009992774 NumericScores.test_p1Wins1Point_p2Wins3Point_Score15_40 FAIL
+UnitTestCaseAction 1494010028874 NumericScores.java FAIL
+UnitTestSessionAction 1494010028876 NumericScores.test_p1Wins1Point_p2Wins3Point_Score15_40 FAIL
+FileOpenedAction 1494010046744 NumericScores.java 5980 16 95 16
+UnitTestCaseAction 1494010051316 NumericScores.java FAIL
+UnitTestSessionAction 1494010051318 NumericScores.java FAIL
+UnitTestCaseAction 1494010243798 NumericScores.java FAIL
+UnitTestSessionAction 1494010243800 NumericScores.java FAIL
+EditAction 1494010425622 TennisGame.java 1848 6 9 0
