@@ -72,3 +72,5 @@ UnitTestSessionAction 1493981872947 NumericScores.java OK
 FileOpenedAction 1493981878160 AllTests.java 268 0 0 0
 RefactoringAction 1493981885442 NumericScores.java REMOVE test1() METHOD
 EditAction 1493981886743 NumericScores.java 5980 16 95 16
+RefactoringAction 1493981895219 AllTests.java ADD void test1() METHOD
+EditAction 1493981895896 AllTests.java 711 1 11 1
