@@ -8,19 +8,5 @@ import org.junit.runners.Suite.SuiteClasses;
 @RunWith(Suite.class)
 @SuiteClasses({ NumericScores.class})
 public class AllTests {
-	@Test
-	public void test1() throws TennisGameException {
-		//Arrange
-		TennisGame game = new TennisGame();		
-		game.player1Scored();
-		game.player1Scored();
-		game.player1Scored();
-		game.player2Scored();
-		game.player2Scored();
-		game.player2Scored();
-		//Act
-		String score = game.getScore() ;
-		// Assert
-		assertEquals("Incorrect score when player1 scored twice", "40 - 40", score);	
-	}
+	
 }
