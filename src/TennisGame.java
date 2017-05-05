@@ -11,27 +11,51 @@ public class TennisGame
 
 	public void player1Scored() throws TennisGameException 
 	{
-		
-		player1Points++;
+		if(gameEnded=true){
+
+			throw new TennisGameException();
+		} else {
+
+			player1Points++;
+		}
+
 	}
 
 	public void player2Scored() throws TennisGameException 
 	{
-		player2Points++;
+		if(gameEnded=true){
+
+			throw new TennisGameException();
+		} else {
+
+			player2Points++;
+		}
 	}
 
 	private void checkGameEnded()
 	{ 
 		if((player1Points>=4 && player2Points==player1Points+2) || (player2Points>=4 && player1Points==player2Points+2)){
-			
+
 			gameEnded=true;
 		}
 	}
 
 	private String getScore(int points) 
 	{
-		// TO BE IMPLEMENTED
-		return "";
+		if(points==0){
+			
+			return "0";
+		} else if(points == 1 ){
+			
+			return "15";
+		} else if(points == 2 ) {
+			
+			return "30";
+		} else if(points == 3) {
+			
+			return "40";
+		}
+		
 	}
 
 	public String getScore() 
@@ -50,10 +74,10 @@ public class TennisGame
 
 			return "deuce";
 		} else if(player1Points==15 && player2Points==0){
-			
+
 			return "15 - 0";
 		}
-		
+
 
 		// Scores format: "player1Score - player2Score"
 		// "0 - 0"
@@ -73,6 +97,6 @@ public class TennisGame
 		// TO BE IMPLEMENTED
 		return "";
 	}
-	
-	
+
+
 }

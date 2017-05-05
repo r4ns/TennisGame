@@ -22,3 +22,6 @@ RefactoringAction 1494008015312 TennisGame.java ADD void checkGameEnded()/2 METH
 RefactoringAction 1494008061474 TennisGame.java REMOVE checkGameEnded()/2 METHOD
 RefactoringAction 1494008417833 TennisGameException.java ADD TennisGameException() METHOD
 EditAction 1494008431144 TennisGameException.java 97 1 0 0
+UnitTestCaseAction 1494008571242 NumericScores.java FAIL
+UnitTestSessionAction 1494008571245 NumericScores.java FAIL
+EditAction 1494008816591 TennisGame.java 1664 6 6 0
