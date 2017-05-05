@@ -110,6 +110,18 @@ public class TennisGame
 		} else if(player1Points==1 && player2Points==2){
 
 			 return getScore(1) + " - " + getScore(2);
+		}else if(player1Points==3 && player2Points==2){
+
+			 return getScore(3) + " - " + getScore(2);
+		}else if(player1Points==1 && player2Points==3){
+
+			 return getScore(1) + " - " + getScore(3);
+		}else if(player1Points==2 && player2Points==3){
+
+			 return getScore(2) + " - " + getScore(3);
+		}else if(player1Points==3 && player2Points==2){
+
+			 return getScore(3) + " - " + getScore(2);
 		}
 
 
