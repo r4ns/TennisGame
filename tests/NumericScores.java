@@ -25,6 +25,7 @@ public class NumericScores {
 		// Assert
 		assertEquals("Incorrect score when player1 scored once", "15 - 0", score);	
 	}
+
 	
 	@Test
 	public void test_p1Wins2Points_Score30_0() throws TennisGameException {
@@ -227,4 +228,5 @@ public class NumericScores {
 		// Assert
 		assertEquals("Incorrect score when player1 scored three times and player2 scored twice. Players win points alternating.", "40 - 30", score);	
 	}
+	
 }
