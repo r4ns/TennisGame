@@ -42,6 +42,10 @@ public class TennisGame
 		{
 			return "40";
 		}
+		else if(points == 4)
+		{
+			return "advantage";
+		}
 		// TO BE IMPLEMENTED
 		return "";
 	}
