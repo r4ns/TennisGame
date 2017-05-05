@@ -1,0 +1,5 @@
+FileOpenedAction 1493977912029 TennisGame.java 877 6 2 0
+FileOpenedAction 1493978092939 AllTests.java 198 0 0 0
+FileOpenedAction 1493978095151 NumericScores.java 5980 16 95 16
+FileOpenedAction 1493978228649 DroneTest.java 1588 3 15 3
+EditAction 1493978228691 DroneTest.java 1588 3 15 3
