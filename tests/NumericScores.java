@@ -7,7 +7,7 @@ public class NumericScores {
 
 	@Test
 	public void test_StartScore() {
-		//Arrange
+		//Arrange prosao
 		TennisGame game = new TennisGame();
 		//Act
 		String score = game.getScore() ;
@@ -17,7 +17,7 @@ public class NumericScores {
 	
 	@Test
 	public void test_p1Wins1Point_Score15_0() throws TennisGameException {
-		//Arrange
+		//Arrange prosao
 		TennisGame game = new TennisGame();
 		//Act
 		game.player1Scored();
@@ -53,7 +53,7 @@ public class NumericScores {
 	
 	@Test
 	public void test_p2Wins1Point_Score0_15() throws TennisGameException {
-		//Arrange
+		//Arrange prosao
 		TennisGame game = new TennisGame();
 		game.player2Scored();
 		//Act
@@ -91,7 +91,7 @@ public class NumericScores {
 	
 	@Test
 	public void test_p1Wins1Point_p2Wins1Point_Score15_15() throws TennisGameException {
-		//Arrange
+		//Arrange prosao
 		TennisGame game = new TennisGame();
 
 		game.player1Scored();
@@ -226,5 +226,16 @@ public class NumericScores {
 		String score = game.getScore() ;
 		// Assert
 		assertEquals("Incorrect score when player1 scored three times and player2 scored twice. Players win points alternating.", "40 - 30", score);	
+	}
+	
+	@Test 
+	public void check_point_40_40() throws TennisGameException{
+		
+		TennisGame game = new TennisGame(40,40);
+		game.player1Scored();
+		String expectedScore = "advantage player1";
+		String realScore=game.getScore();
+		assertEquals(expectedScore,realScore);
+		
 	}
 }
