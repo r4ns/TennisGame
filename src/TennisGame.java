@@ -99,7 +99,7 @@ public class TennisGame
 		{
 			return "deuce";
 		}
-		else if (player1Points==(player2Points-1))
+		else if (player1Points==(player2Points-1)&&(player1Points>=3 && player2Points>=3))
 		{
 			return "advantage player2";
 		}
