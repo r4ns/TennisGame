@@ -1,0 +1,32 @@
+FileOpenedAction 1493977912029 TennisGame.java 877 6 2 0
+FileOpenedAction 1493978092939 AllTests.java 198 0 0 0
+FileOpenedAction 1493978095151 NumericScores.java 5980 16 95 16
+FileOpenedAction 1493978228649 DroneTest.java 1588 3 15 3
+EditAction 1493978228691 DroneTest.java 1588 3 15 3
+EditAction 1493978231828 ClassicDrone.java 328 7 0 0
+EditAction 1493978234141 Cube.java 3968 21 30 0
+EditAction 1493978236406 Drone.java 3002 12 20 0
+EditAction 1493978238628 FlySpace.java 1036 8 11 0
+EditAction 1493978582619 CubeDrone.java 2749 10 22 0
+FileOpenedAction 1493978582701 CubeDrone.java 2749 10 22 0
+RefactoringAction 1493979265961 TennisGame.java ADD TennisGame()/2 METHOD
+RefactoringAction 1493979309128 TennisGame.java REMOVE TennisGame()/2 METHOD
+EditAction 1493980090106 TennisGame.java 2876 6 12 0
+UnitTestCaseAction 1493980884883 NumericScores.java FAIL
+UnitTestSessionAction 1493980884886 NumericScores.java FAIL
+UnitTestCaseAction 1493980933884 NumericScores.java FAIL
+UnitTestSessionAction 1493980933886 NumericScores.java FAIL
+UnitTestCaseAction 1493981000277 NumericScores.java FAIL
+UnitTestSessionAction 1493981000281 NumericScores.java FAIL
+EditAction 1493981293858 TennisGame.java 4166 6 22 0
+EditAction 1493981307804 TennisGame.java 4172 6 22 0
+UnitTestCaseAction 1493981311664 NumericScores.java FAIL
+UnitTestSessionAction 1493981311679 NumericScores.java FAIL
+EditAction 1493981848028 TennisGame.java 4393 6 22 0
+UnitTestCaseAction 1493981854463 NumericScores.java FAIL
+UnitTestSessionAction 1493981854467 NumericScores.java FAIL
+UnitTestCaseAction 1493981985254 NumericScores.java FAIL
+UnitTestSessionAction 1493981985256 NumericScores.java FAIL
+EditAction 1493982146720 TennisGame.java 4470 6 24 0
+CompilationAction 1493982149384 TennisGame.java
+EditAction 1493982154413 TennisGame.java 4470 6 24 0
