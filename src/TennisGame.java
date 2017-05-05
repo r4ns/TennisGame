@@ -6,12 +6,22 @@ public class TennisGame
 	
 	public TennisGame() 
 	{
-		// TO BE IMPLEMENTED
+		this.player1Points = player1Points;
+		this.player2Points = player2Points;
 	}
 
 	public void player1Scored() throws TennisGameException 
 	{
-		// TO BE IMPLEMENTED
+		if(player1Points == 0){
+			player1Points = 15;
+			System.out.println("Player 1 has scored");
+		} else if (player1Points == 15){
+			player1Points = 30;
+			System.out.println("Player 1 has scored");
+		} else if (player1Points == 30){
+			player1Points = 40;
+			System.out.println("Player 1 has scored");
+		}
 	}
 
 	public void player2Scored() throws TennisGameException 
