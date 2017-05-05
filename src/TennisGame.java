@@ -15,16 +15,27 @@ public class TennisGame
 
 	public void player1Scored() throws TennisGameException 
 	{
+		if(gameEnded != true)
+		{
+			player1Points++;
+		}
+		checkGameEnded();
 		// TO BE IMPLEMENTED
 	}
 
 	public void player2Scored() throws TennisGameException 
 	{
+		if(gameEnded != true)
+		{
+			player2Points++;
+		}
+		checkGameEnded();
 		// TO BE IMPLEMENTED
 	}
 	
 	private void checkGameEnded()
 	{ 
+		
 		// TO BE IMPLEMENTED
 	}
 
