@@ -68,7 +68,7 @@ public class TennisGame
 
 			return getScore(0) + " - " + getScore(0);
 			
-		} else if(player1Points==15 && player2Points==15){
+		} else if(player1Points==15 && player2Points==0){
 
 			return getScore(15) + " - " + getScore(0);
 		}else if(player1Points==30 && player2Points==30){
