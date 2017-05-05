@@ -95,7 +95,7 @@ public class TennisGame
 		if(player1Points < 3 || player2Points < 3){
 			return getScore(player1Points) + " - " + getScore(player2Points);
 		}
-		else if((player1Points>3 && player2Points>3)&&(player1Points==player2Points))
+		else if((player1Points>=3 && player2Points>=3)&&(player1Points==player2Points))
 		{
 			return "deuce";
 		}
