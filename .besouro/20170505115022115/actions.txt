@@ -92,3 +92,8 @@ UnitTestCaseAction 1493982181040 NumericScores.java OK
 UnitTestSessionAction 1493982181044 NumericScores.java OK
 RefactoringAction 1493982191385 NumericScores.java ADD void test_game_igrac2()/2 METHOD
 EditAction 1493982200991 NumericScores.java 6886 18 117 18
+CompilationAction 1493982203348 NumericScores.java
+RefactoringAction 1493982210165 NumericScores.java RENAME test_game_igrac2()/2=>void test_deuce() METHOD
+CompilationAction 1493982210694 NumericScores.java
+UnitTestCaseAction 1493982213195 NumericScores.java FAIL
+UnitTestSessionAction 1493982213196 NumericScores.test_deuce FAIL

@@ -247,7 +247,7 @@ public class NumericScores {
 	}
 	
 	@Test
-	public void test_game_igrac2() throws TennisGameException {
+	public void test_deuce() throws TennisGameException {
 		//Arrange
 		TennisGame game = new TennisGame();		
 		game.player1Scored();
