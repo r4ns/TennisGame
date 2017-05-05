@@ -3,22 +3,22 @@ public class TennisGame
 	private int player1Points;
 	private int player2Points;
 	private boolean gameEnded;
-	
+
 	public TennisGame() 
 	{
-		// TO BE IMPLEMENTED
+
 	}
 
 	public void player1Scored() throws TennisGameException 
 	{
-		// TO BE IMPLEMENTED
+		player1Points++;
 	}
 
 	public void player2Scored() throws TennisGameException 
 	{
-		// TO BE IMPLEMENTED
+		player2Points++;
 	}
-	
+
 	private void checkGameEnded()
 	{ 
 		// TO BE IMPLEMENTED
@@ -29,9 +29,25 @@ public class TennisGame
 		// TO BE IMPLEMENTED
 		return "";
 	}
-	
+
 	public String getScore() 
 	{
+
+		if(player1Points==0 && player2Points==0){
+
+			return "0 - 0";
+		} else if(player1Points==15 && player2Points==15){
+
+			return "15 - 15";
+		}else if(player1Points==30 && player2Points==30){
+
+			return "30 - 30";
+		}else if((player1Points>=3 || player2Points>=3) && (player1Points==player2Points)){
+
+			return "deuce";
+		}
+		
+
 		// Scores format: "player1Score - player2Score"
 		// "0 - 0"
 		// "15 - 15"

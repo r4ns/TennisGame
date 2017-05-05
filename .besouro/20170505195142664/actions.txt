@@ -1,0 +1,10 @@
+FileOpenedAction 1494006703213 TennisGameException.java 57 0 0 0
+FileOpenedAction 1494006867931 AllTests.java 198 0 0 0
+FileOpenedAction 1494006870891 NumericScores.java 5980 16 95 16
+UnitTestCaseAction 1494006882864 NumericScores.java FAIL
+UnitTestSessionAction 1494006882866 NumericScores.java FAIL
+UnitTestCaseAction 1494007225481 NumericScores.java FAIL
+UnitTestSessionAction 1494007225483 NumericScores.java FAIL
+UnitTestCaseAction 1494007348392 NumericScores.java FAIL
+UnitTestSessionAction 1494007348394 NumericScores.java FAIL
+EditAction 1494007670927 TennisGame.java 1172 6 5 0
