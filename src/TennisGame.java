@@ -4,10 +4,9 @@ public class TennisGame
 	private int player2Points;
 	private boolean gameEnded;
 	
-	public TennisGame(int player1Points, int player2Points) 
+	public TennisGame() 
 	{
-		this.player1Points=player1Points;
-		this.player2Points=player2Points;
+		
 		
 	}
 	public void player1Scored() throws TennisGameException {

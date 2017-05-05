@@ -22,3 +22,5 @@ UnitTestCaseAction 1494009475740 NumericScores.java FAIL
 UnitTestSessionAction 1494009475743 NumericScores.java FAIL
 RefactoringAction 1494009604207 TennisGame.java RENAME TennisGame(int, int)=>TennisGame() METHOD
 EditAction 1494009669100 NumericScores.java 5980 16 95 16
+CompilationAction 1494009671655 NumericScores.java
+EditAction 1494009671864 TennisGame.java 2369 10 10 0
