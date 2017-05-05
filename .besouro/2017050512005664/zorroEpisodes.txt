@@ -1,5 +1,6 @@
-1493980679992 refactoring 2A 2223 false
-1493981001283 test-addition 2 321 false
-1493981334165 test-addition 2 332 false
-1493981369906 test-addition 1 35 false
-1493981480908 test-addition 1 111 false
+1493980679992 refactoring 2A 2223 true
+1493981001283 test-addition 2 321 true
+1493981334165 test-addition 2 332 true
+1493981369906 test-addition 1 35 true
+1493981480908 test-addition 1 111 true
+1493981643543 test-first 3 162 true
