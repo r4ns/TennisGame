@@ -15,3 +15,6 @@ CompilationAction 1493980127799 TennisGame.java
 EditAction 1493980220117 TennisGame.java 1472 6 12 0
 EditAction 1493980275544 TennisGame.java 1527 6 12 0
 EditAction 1493980280809 TennisGame.java 1504 6 12 0
+UnitTestCaseAction 1493980288795 NumericScores.java OK
+UnitTestSessionAction 1493980288799 NumericScores.java OK
+EditAction 1493980488756 TennisGame.java 1505 6 12 0
