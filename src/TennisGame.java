@@ -33,6 +33,7 @@ public class TennisGame
 		switch(points)
 		{
 		case 0: convPoints = "0";
+		break;
 		case 1: convPoints = "15";
 		break;
 		case 2: convPoints = "30";
