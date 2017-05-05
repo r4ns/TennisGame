@@ -49,7 +49,7 @@ public class TennisGame
 		String secondPP = getScore(player2Points);
 		String output = "";
 		
-		if(player1Points == 0 && player2Points == 0)
+		if(firstPP.equals(getScore(0)) && secondPP.equals(getScore(0)))
 			output = firstPP + " - " + secondPP;
 		
 		return output;
