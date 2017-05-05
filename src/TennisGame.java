@@ -18,6 +18,8 @@ public class TennisGame
 	{
 		if(!gameEnded)
 			player1Points++;
+		else
+			throw new TennisGameException();
 		
 	}
 
@@ -25,6 +27,8 @@ public class TennisGame
 	{
 		if(!gameEnded)
 			player2Points++;
+		else
+			throw new TennisGameException();
 	}
 	
 	private void checkGameEnded()
