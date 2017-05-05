@@ -57,9 +57,9 @@ public class TennisGame
 	{
 		if(player1Points == 3 && player2Points == 3){
 			return "Deuce";
-		} else if (player1Points == 3 && player2Points == 3 && player1Points > player2Points){
+		} else if (player1Points == 4 && player2Points == 3 && player1Points > player2Points){
 			return "Advantage player1";
-		} else if (player1Points == 3 && player2Points == 3 && player1Points < player2Points){
+		} else if (player1Points == 3 && player2Points == 4 && player1Points < player2Points){
 			return "Advantage player2";
 		} else if ( player1Points == 4 && player2Points < 3){
 			return "Game Player 1";
