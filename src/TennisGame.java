@@ -81,8 +81,14 @@ public class TennisGame
 		// "game player2"
 		
 		player1Points().getScore();
+		player2Points().getScore();
 
 		// TO BE IMPLEMENTED
 		return "";
+	}
+
+	private TennisGame player1Points() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

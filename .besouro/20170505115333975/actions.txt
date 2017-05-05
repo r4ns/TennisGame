@@ -92,3 +92,6 @@ EditAction 1493980129889 NumericScores.java 5983 16 95 16
 UnitTestCaseAction 1493980139541 NumericScores.java FAIL
 UnitTestSessionAction 1493980139543 NumericScores.java FAIL
 EditAction 1493980351216 TennisGame.java 1334 6 10 0
+CompilationAction 1493980359776 TennisGame.java
+RefactoringAction 1493980372711 TennisGame.java ADD TennisGame player1Points() METHOD
+EditAction 1493980423109 TennisGame.java 1458 7 12 0
