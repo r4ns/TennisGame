@@ -4,3 +4,8 @@ FileOpenedAction 1493978069400 NumericScores.java 5980 16 95 16
 CompilationAction 1493979257757 TennisGame.java
 CompilationAction 1493979257765 TennisGame.java
 EditAction 1493979362495 TennisGame.java 1272 6 10 0
+RefactoringAction 1493979521436 TennisGame.java ADD String player1 FIELD
+RefactoringAction 1493979528988 TennisGame.java ADD String player2 FIELD
+UnitTestCaseAction 1493979581222 NumericScores.java FAIL
+UnitTestSessionAction 1493979581225 NumericScores.java FAIL
+EditAction 1493979658374 TennisGame.java 1322 6 10 0

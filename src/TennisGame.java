@@ -3,6 +3,8 @@ public class TennisGame
 	private int player1Points;
 	private int player2Points;
 	private boolean gameEnded;
+	private String player1;
+	private String player2;
 	
 	public TennisGame() 
 	{
