@@ -2,3 +2,6 @@ FileOpenedAction 1493978456557 TennisGame.java 877 6 2 0
 RefactoringAction 1493978726038 TennisGame.java ADD TennisGame() METHOD
 EditAction 1493979983633 NumericScores.java 6148 16 95 16
 EditAction 1493980128533 TennisGame.java 1866 7 8 0
+UnitTestCaseAction 1493980154932 NumericScores.java FAIL
+UnitTestSessionAction 1493980154935 NumericScores.java FAIL
+EditAction 1493980319728 TennisGame.java 1908 7 8 0

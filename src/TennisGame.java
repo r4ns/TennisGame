@@ -45,8 +45,10 @@ public class TennisGame
 			return "30";
 		} else if (points == 3){
 			return "40";
+		} else if (points == 0){
+			return "0";
 		} else {
-			return "Greska";
+			return "greska";
 		}
 		
 	}
