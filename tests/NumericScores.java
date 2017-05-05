@@ -254,7 +254,7 @@ public class NumericScores {
 		game.player1Scored();
 		
 		String score = game.getScore() ;
-		assertEquals("Incorrect score when it's advantage player 1", "advantage player 1", score);
+		assertEquals("Incorrect score when it's advantage player1", "advantage player 1", score);
 	} 
 	
 	
