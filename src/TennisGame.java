@@ -35,12 +35,19 @@ public class TennisGame
 	
 	private void checkGameEnded()
 	{ 
-		int razlika1 = player1Points - player2Points;
-		int razlika2 = player2Points - player1Points;
-		
-		if(razlika1 = 2)
+		if(player1Points>=4)
 		{
-			gameEnded = true;
+			if(player1Points - player2Points == 2)
+			{
+				gameEnded = true;
+			}
+		}
+		else if(player2Points>=4)
+		{
+			if(player2Points - player1Points == 2)
+			{
+				gameEnded = true;
+			}
 		}
 			
 		// TO BE IMPLEMENTED

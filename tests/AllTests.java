@@ -7,5 +7,7 @@ import org.junit.runners.Suite.SuiteClasses;
 public class AllTests {
 	
 	TennisGame tenis = new TennisGame();
+	
+	
 
 }

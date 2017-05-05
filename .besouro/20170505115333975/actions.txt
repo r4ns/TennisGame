@@ -113,3 +113,5 @@ FileOpenedAction 1493981638452 AllTests.java 198 0 0 0
 RefactoringAction 1493981658489 AllTests.java ADD TennisGame tenis FIELD
 EditAction 1493981673068 AllTests.java 238 0 0 0
 EditAction 1493981959237 TennisGame.java 1611 6 13 0
+CompilationAction 1493981966632 TennisGame.java
+EditAction 1493982266873 AllTests.java 242 0 0 0
