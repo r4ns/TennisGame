@@ -1,0 +1,5 @@
+1494010365354 refactoring 2A 3645 false
+1494011022168 test-first 3 619 true
+1494011291129 refactoring 2B 221 true
+1494011394620 test-addition 1 95 false
+1494011511268 regression 1 0 true
