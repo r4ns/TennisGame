@@ -11,18 +11,21 @@ public class TennisGame
 
 	public void player1Scored() throws TennisGameException 
 	{
+		checkGameEnded();
 		if(gameEnded=true){
 
 			throw new TennisGameException();
 		} else {
 
 			player1Points++;
+			
 		}
 
 	}
 
 	public void player2Scored() throws TennisGameException 
 	{
+		checkGameEnded();
 		if(gameEnded=true){
 
 			throw new TennisGameException();
@@ -68,7 +71,7 @@ public class TennisGame
 
 			return getScore(0) + " - " + getScore(0);
 			
-		} else if(player1Points==15 && player2Points==0){
+		} else if(player1Points==1 && player2Points==0){
 
 			return getScore(15) + " - " + getScore(0);
 		}else if(player1Points==30 && player2Points==30){
