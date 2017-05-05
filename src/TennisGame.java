@@ -28,11 +28,12 @@ public class TennisGame
 
 	private String getScore(int points) 
 	{
+		string convPoints;
 		switch(points)
 		{
 		case 1: 
 		}
-		return "";
+		return ;
 	}
 	
 	public String getScore() 
