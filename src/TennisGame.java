@@ -98,10 +98,7 @@ public class TennisGame
 		// "game player1"
 		// "game player2"
 		
-		if(getScore(player1Points) == "15" && getScore(player2Points) == "0")
-		{
-			gameEnded = false;
-		}
+		
 
 		// TO BE IMPLEMENTED
 		return "";
