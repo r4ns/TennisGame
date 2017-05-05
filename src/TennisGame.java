@@ -27,7 +27,14 @@ public class TennisGame
 	
 	private void checkGameEnded()
 	{ 
-		// TO BE IMPLEMENTED
+		if(player1Points == 4 && player2Points < 3){
+			gameEnded = true;
+		} else if (player2Points == 4 && player1Points < 3){
+			gameEnded = true;
+		} else {
+			gameEnded = false;
+		}
+	
 	}
 
 	private String getScore(int points) 
