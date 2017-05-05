@@ -71,7 +71,27 @@ public class TennisGame
 
 	private String getScore(int points) 
 	{
-		return "" + points;
+		switch (points) {
+		case 0:
+			return "0";
+		case 15:
+			return "15";
+		case 30:
+			return "30";
+		case 40:
+			return "40";
+		case 41:
+			return "41";
+		case 42:
+			return "42";
+		case 45:
+			return "45";
+		
+
+		default:
+			return "";
+		}
+		
 	}
 	
 	public String getScore() 
