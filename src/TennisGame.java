@@ -46,6 +46,7 @@ public class TennisGame
 		{
 			return "advantage";
 		}
+		else return false;
 		// TO BE IMPLEMENTED
 		return "";
 	}
