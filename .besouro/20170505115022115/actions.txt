@@ -79,3 +79,10 @@ UnitTestSessionAction 1493981900191 AllTests.java OK
 RefactoringAction 1493981927893 AllTests.java RENAME test1()=>void game_igrac2 FIELD
 RefactoringAction 1493981934455 AllTests.java RENAME game_igrac2()=>void test_game_igrac2() METHOD
 EditAction 1493981934526 AllTests.java 722 1 11 1
+UnitTestCaseAction 1493981960029 NumericScores.java OK
+UnitTestSessionAction 1493981960030 NumericScores.java OK
+UnitTestCaseAction 1493982029463 NumericScores.java OK
+UnitTestSessionAction 1493982029464 NumericScores.java OK
+UnitTestCaseAction 1493982130314 NumericScores.java OK
+UnitTestSessionAction 1493982130315 NumericScores.java OK
+EditAction 1493982167129 AllTests.java 268 0 0 0

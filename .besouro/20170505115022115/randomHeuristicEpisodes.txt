@@ -7,3 +7,6 @@
 1493981844846 refactoring 1A 23 true
 1493981872947 refactoring 1A 11 false
 1493981900191 test-addition 1 22 true
+1493981960030 refactoring 2B 32 true
+1493982029464 regression 1 0 true
+1493982130315 regression 1 0 false
