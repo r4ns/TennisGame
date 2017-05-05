@@ -241,6 +241,6 @@ public class NumericScores {
 		//Act
 		String score = game.getScore() ;
 		// Assert
-		assertEquals("Incorrect score when player1 scored twice", "40 - 40", score);	
+		assertEquals("Incorrect score when player1 scored twice", "deuce", score);	
 	}
 }
