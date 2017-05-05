@@ -51,10 +51,8 @@ public class TennisGame
 			res="30";
 		else if(points == 3)
 			res="40";
-		else if(points == 4 && gameEnded==true)
+		else if(points == 4)
 			res="win";
-		else if(points == 4 && gameEnded==false)
-			res="deuce";
 		return res;
 	}
 	
@@ -75,6 +73,11 @@ public class TennisGame
 		// "game player1"
 		// "game player2"
 		String res="";
+		if(getScore(player1Points) == "40" && getScore(player2Points) == "40")
+			return "deuce";
+		else if(getScore(player1Points)=="win" && getScore(player2Points) != "40"){
+			
+		}
 		
 		return getScore(player1Points) + " - " + getScore(player2Points);
 	}
