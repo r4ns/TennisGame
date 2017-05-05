@@ -5,22 +5,7 @@ import org.junit.Test;
 // Testing of midgame scores before both players score three times
 public class NumericScores {
 	
-	@Test
-	public void testDeuce() throws TennisGameException {
-		
-		TennisGame game = new TennisGame();
-		//Act
-		
-		
-		game.player1Scored();
-		game.player2Scored();
-		
-		String score = game.getScore();
-		
-		
-		// Assert
-		assertEquals("Initial score incorrect", "deuce", score);
-	}
+	
 	
 
 	@Test
@@ -33,6 +18,22 @@ public class NumericScores {
 		assertEquals("Initial score incorrect", "0 - 0", score);	
 	}
 	
+	
+	@Test
+	public void testDeuce() throws TennisGameException {
+		
+		TennisGame game = new TennisGame();
+		//Act
+	
+		game.player1Scored();
+		game.player2Scored();
+		
+		String score = game.getScore();
+		
+		
+		// Assert
+		assertEquals("Initial score incorrect", "deuce", score);
+	}
 	@Test
 	public void test_p1Wins1Point_Score15_0() throws TennisGameException {
 		//Arrange

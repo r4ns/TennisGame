@@ -68,10 +68,7 @@ public class TennisGame
 	}
 
 	public String getScore() 
-	{	if(player1Points==player2Points){
-
-		return "deuce";
-	}
+	{	
 
 	if(player1Points==0 && player2Points==0){
 
