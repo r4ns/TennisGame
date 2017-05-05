@@ -74,3 +74,8 @@ RefactoringAction 1493981885442 NumericScores.java REMOVE test1() METHOD
 EditAction 1493981886743 NumericScores.java 5980 16 95 16
 RefactoringAction 1493981895219 AllTests.java ADD void test1() METHOD
 EditAction 1493981895896 AllTests.java 711 1 11 1
+UnitTestCaseAction 1493981900189 AllTests.java OK
+UnitTestSessionAction 1493981900191 AllTests.java OK
+RefactoringAction 1493981927893 AllTests.java RENAME test1()=>void game_igrac2 FIELD
+RefactoringAction 1493981934455 AllTests.java RENAME game_igrac2()=>void test_game_igrac2() METHOD
+EditAction 1493981934526 AllTests.java 722 1 11 1
