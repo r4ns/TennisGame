@@ -86,3 +86,5 @@ UnitTestSessionAction 1493982029464 NumericScores.java OK
 UnitTestCaseAction 1493982130314 NumericScores.java OK
 UnitTestSessionAction 1493982130315 NumericScores.java OK
 EditAction 1493982167129 AllTests.java 268 0 0 0
+RefactoringAction 1493982176183 NumericScores.java ADD void test_game_igrac2() METHOD
+EditAction 1493982176448 NumericScores.java 6436 17 106 17
