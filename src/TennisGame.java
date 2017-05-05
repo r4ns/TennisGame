@@ -53,7 +53,8 @@ public class TennisGame
 			{
 				if(player1Points >= player2Points + 2)
 					output = "game player1";
-				else
+				else if(player1Points == player2Points + 1)
+					output ="adventage player1";
 				
 			}
 		}
