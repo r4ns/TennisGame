@@ -39,3 +39,13 @@ CompilationAction 1493988197808 TennisGame.java
 RefactoringAction 1493988244517 TennisGame.java RENAME won(int, int)=>boolean won() METHOD
 RefactoringAction 1493988248049 TennisGame.java RENAME won()=>boolean won(int) METHOD
 EditAction 1493988271149 TennisGame.java 1156 7 10 0
+CompilationAction 1493988272912 TennisGame.java
+CompilationAction 1493988272915 TennisGame.java
+RefactoringAction 1493988347775 TennisGame.java RENAME won(int)=>boolean won(int, int) METHOD
+CompilationAction 1493988356058 TennisGame.java
+CompilationAction 1493988356059 TennisGame.java
+CompilationAction 1493988356196 TennisGame.java
+CompilationAction 1493988360823 TennisGame.java
+RefactoringAction 1493988549725 TennisGame.java REMOVE won(int, int) METHOD
+FileOpenedAction 1493988572845 Drone.java 3002 12 20 0
+EditAction 1493989386640 TennisGame.java 1417 6 8 0

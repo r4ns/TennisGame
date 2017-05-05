@@ -23,16 +23,7 @@ public class TennisGame
 	
     private void checkGameEnded()
 	{ 
-		if(player1Points.won(player2Points)))
-		{
-			
-		}
-	}
-	
-	private boolean won(int playerPoints)
-	{
-		
-		return true;
+    	
 	}
 
 	private String getScore(int points) 
@@ -52,6 +43,26 @@ public class TennisGame
 	
 	public String getScore() 
 	{
+		String output = "";
+		if(player1Points >= 4)
+		{
+			if(player1Points >= player2Points + 2)
+				return "game player1";
+			
+			else if(player1Points == player2Points + 1)
+				return "advetage player1";
+			
+			else return "deuce";
+		}
+		else
+		{
+			if(player1Points == player2Points)
+				return "deuce";
+			else
+				return getScore(player1Points) +
+		}
+		
+		return output;
 		// Scores format: "player1Score - player2Score"
 		// "0 - 0"
 		// "15 - 15"
