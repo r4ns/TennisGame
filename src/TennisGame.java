@@ -46,12 +46,8 @@ public class TennisGame
 	{
 		String output = "";
 		if(player1Points == 0 && player2Points == 0)
-			output = "Pocetno_stanje " + player1Points + " - " + player2Points;
-		else
-		{
-			
-		}
-		
+			//output = "Pocetno_stanje " + player1Points + " - " + player2Points;
+			output = player1Points + " - " + player2Points;
 		return output;
 	}
 }
