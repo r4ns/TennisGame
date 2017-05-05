@@ -45,24 +45,12 @@ public class TennisGame
 	
 	public String getScore() 
 	{
-		String output = "";
+		String firstPP = getScore(player1Points);
+		String secondPP = getScore(player2Points);
+		
 		if(player1Points == 0 && player2Points == 0)
-			output = player1Points + " - " + player2Points;
-		else
-		{
-			if(player1Points >= 4)
-			{
-				if(player1Points >= player2Points + 2)
-					output = "game player1";
-				else if(player1Points == player2Points + 1)
-					output ="adventage player1";
-				else if(play
-				
-			}
-		}
+			output = getScore(player1Points) + " - " + getScore(player2Points);
 		
-		
-		return output;
 		
 		// Scores format: "player1Score - player2Score"
 				// "0 - 0"
