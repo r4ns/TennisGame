@@ -116,3 +116,6 @@ EditAction 1494011529353 NumericScores.java 7518 20 132 20
 UnitTestCaseAction 1494011532994 NumericScores.java FAIL
 UnitTestSessionAction 1494011532995 NumericScores.java FAIL
 EditAction 1494011606437 TennisGame.java 2451 10 10 0
+UnitTestCaseAction 1494011612133 NumericScores.java FAIL
+UnitTestSessionAction 1494011612135 NumericScores.java FAIL
+EditAction 1494011627517 TennisGame.java 2449 10 10 0

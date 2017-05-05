@@ -107,14 +107,14 @@ public class TennisGame
 		{
 			return "advantage player1";
 		}
-		else if ((player2Points>=4)&& (player2Points-player1Points)==2)
+		else if ((player2Points>3)&& (player2Points-player1Points)==2)
 				
 		{
 			
 			   return"game player1";
 			
 		}
-		else if ((player1Points>=4) && (player1Points-player2Points)==2)
+		else if ((player1Points>3) && (player1Points-player2Points)==2)
 		{
 			
 			   return"game player2";
