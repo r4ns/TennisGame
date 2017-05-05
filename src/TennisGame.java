@@ -31,7 +31,7 @@ public class TennisGame
 
 	private String getScore(int points) 
 	{
-		String convPoints="";
+		String convPoints="0";
 		if(points==1)
 		{
 			convPoints="15";
