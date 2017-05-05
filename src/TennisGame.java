@@ -82,7 +82,7 @@ public class TennisGame
 		}else if(getScore(player2Points)=="win" && getScore(player1Points) == "40"){
 			return "advantage igrac2";
 		}
-		
-		return getScore(player1Points) + " - " + getScore(player2Points);
+		else
+			return getScore(player1Points) + " - " + getScore(player2Points);
 	}
 }
