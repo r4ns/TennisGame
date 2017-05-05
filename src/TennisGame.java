@@ -16,7 +16,8 @@ public class TennisGame
 	public void player1Scored() throws TennisGameException 
 	{
 		if(gameEnded==false){
-			player1Points++;
+			if(player2Points <=3)
+				player1Points++;
 		}
 		checkGameEnded();
 	}
@@ -24,7 +25,8 @@ public class TennisGame
 	public void player2Scored() throws TennisGameException 
 	{
 		if(gameEnded==false){
-			player2Points++;
+			if(player1Points <=3)
+				player2Points++;
 		}
 		checkGameEnded();
 	}
@@ -75,8 +77,10 @@ public class TennisGame
 		String res="";
 		if(getScore(player1Points) == "40" && getScore(player2Points) == "40")
 			return "deuce";
-		else if(getScore(player1Points)=="win" && getScore(player2Points) != "40"){
-			
+		else if(getScore(player1Points)=="win" && getScore(player2Points) == "40"){
+			return "advantage igrac1";
+		}else if(getScore(player2Points)=="win" && getScore(player1Points) == "40"){
+			return "advantage igrac2";
 		}
 		
 		return getScore(player1Points) + " - " + getScore(player2Points);

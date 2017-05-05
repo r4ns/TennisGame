@@ -20,3 +20,8 @@ UnitTestSessionAction 1493980288799 NumericScores.java OK
 EditAction 1493980488756 TennisGame.java 1505 6 12 0
 EditAction 1493980525001 TennisGame.java 1523 6 13 0
 EditAction 1493980784754 TennisGame.java 1623 6 14 0
+RefactoringAction 1493980921363 TennisGame.java ADD void checkGameEnded()/2 METHOD
+RefactoringAction 1493980922946 TennisGame.java REMOVE checkGameEnded()/2 METHOD
+UnitTestCaseAction 1493981068347 NumericScores.java OK
+UnitTestSessionAction 1493981068348 NumericScores.java OK
+EditAction 1493981191829 TennisGame.java 1810 6 14 0
