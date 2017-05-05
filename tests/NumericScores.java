@@ -267,7 +267,7 @@ public class NumericScores {
 		game.player2Scored();
 		game.player1Scored();
 		game.player2Scored();
-		game.player1Scored();
+		game.player2Scored();
 		
 		
 		String score = game.getScore() ;
