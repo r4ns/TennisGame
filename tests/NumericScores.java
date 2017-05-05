@@ -15,7 +15,7 @@ public class NumericScores {
 		assertEquals("Initial score incorrect", "0 - 0", score);	
 	}
 	
-	/*@Test
+	@Test
 	public void test_p1Wins1Point_Score15_0() throws TennisGameException {
 		//Arrange
 		TennisGame game = new TennisGame();
@@ -25,7 +25,8 @@ public class NumericScores {
 		// Assert
 		assertEquals("Incorrect score when player1 scored once", "15 - 0", score);	
 	}
-	
+
+	/*
 	@Test
 	public void test_p1Wins2Points_Score30_0() throws TennisGameException {
 		//Arrange

@@ -32,3 +32,35 @@ RefactoringAction 1493979340415 NumericScores.java REMOVE test_p1Wins3Points_p2W
 RefactoringAction 1493979340417 NumericScores.java REMOVE test_p1Wins2Points_p2Wins3Points_Score30_40() METHOD
 RefactoringAction 1493979340418 NumericScores.java REMOVE test_p1Wins1Point_p2Wins1Point_Score15_15() METHOD
 EditAction 1493979352326 NumericScores.java 5986 1 3 1
+UnitTestCaseAction 1493979363468 NumericScores.java OK
+UnitTestSessionAction 1493979363471 NumericScores.java OK
+RefactoringAction 1493979389580 NumericScores.java ADD void test_p1Wins1Point_Score15_0() METHOD
+RefactoringAction 1493979389582 NumericScores.java ADD void test_p1Wins2Points_Score30_0() METHOD
+RefactoringAction 1493979389584 NumericScores.java ADD void test_p1Wins3Points_Score40_0() METHOD
+RefactoringAction 1493979389587 NumericScores.java ADD void test_p2Wins1Point_Score0_15() METHOD
+RefactoringAction 1493979389588 NumericScores.java ADD void test_p2Wins2Points_Score0_30() METHOD
+RefactoringAction 1493979389590 NumericScores.java ADD void test_p2Wins3Points_Score0_40() METHOD
+RefactoringAction 1493979389591 NumericScores.java ADD void test_p1Wins1Point_p2Wins1Point_Score15_15() METHOD
+RefactoringAction 1493979389593 NumericScores.java ADD void test_p1Wins2Points_p2Wins2Points_Score30_30() METHOD
+RefactoringAction 1493979389594 NumericScores.java ADD void test_p1Wins2Points_p2Wins1Point_Score30_15() METHOD
+RefactoringAction 1493979389596 NumericScores.java ADD void test_p1Wins3Points_p2Wins1Point_Score40_15() METHOD
+RefactoringAction 1493979389598 NumericScores.java ADD void test_p1Wins1Point_p2Wins2Points_Score15_30() METHOD
+RefactoringAction 1493979389599 NumericScores.java ADD void test_p1Wins1Point_p2Wins3Point_Score15_40() METHOD
+RefactoringAction 1493979389601 NumericScores.java ADD void test_p1Wins2Points_p2Wins3Points_Score30_40() METHOD
+RefactoringAction 1493979389602 NumericScores.java ADD void test_p1Wins3Points_p2Wins2Points_Score40_30() METHOD
+RefactoringAction 1493979389604 NumericScores.java ADD void test_p1Wins3Points_p2Wins2Points_AlternativeSequenceOfWins_Score40_30() METHOD
+RefactoringAction 1493979395204 NumericScores.java REMOVE test_p1Wins1Point_p2Wins3Point_Score15_40() METHOD
+RefactoringAction 1493979395206 NumericScores.java REMOVE test_p1Wins3Points_p2Wins1Point_Score40_15() METHOD
+RefactoringAction 1493979395208 NumericScores.java REMOVE test_p2Wins3Points_Score0_40() METHOD
+RefactoringAction 1493979395210 NumericScores.java REMOVE test_p1Wins2Points_p2Wins1Point_Score30_15() METHOD
+RefactoringAction 1493979395212 NumericScores.java REMOVE test_p1Wins2Points_Score30_0() METHOD
+RefactoringAction 1493979395213 NumericScores.java REMOVE test_p2Wins1Point_Score0_15() METHOD
+RefactoringAction 1493979395215 NumericScores.java REMOVE test_p2Wins2Points_Score0_30() METHOD
+RefactoringAction 1493979395217 NumericScores.java REMOVE test_p1Wins2Points_p2Wins2Points_Score30_30() METHOD
+RefactoringAction 1493979395219 NumericScores.java REMOVE test_p1Wins3Points_p2Wins2Points_Score40_30() METHOD
+RefactoringAction 1493979395221 NumericScores.java REMOVE test_p1Wins3Points_Score40_0() METHOD
+RefactoringAction 1493979395223 NumericScores.java REMOVE test_p1Wins1Point_p2Wins2Points_Score15_30() METHOD
+RefactoringAction 1493979395225 NumericScores.java REMOVE test_p1Wins3Points_p2Wins2Points_AlternativeSequenceOfWins_Score40_30() METHOD
+RefactoringAction 1493979395227 NumericScores.java REMOVE test_p1Wins2Points_p2Wins3Points_Score30_40() METHOD
+RefactoringAction 1493979395230 NumericScores.java REMOVE test_p1Wins1Point_p2Wins1Point_Score15_15() METHOD
+EditAction 1493979397263 NumericScores.java 5987 2 7 2
