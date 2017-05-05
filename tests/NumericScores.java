@@ -252,8 +252,7 @@ public class NumericScores {
 		game.player1Scored();
 		game.player2Scored();
 		game.player1Scored();
-		game.player2Scored();
-		game.player1Scored();
+		
 		
 		String score = game.getScore() ;
 		assertEquals("Incorrect score when it's advantage player1", "advantage player1", score);
