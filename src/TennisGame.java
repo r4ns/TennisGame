@@ -26,7 +26,7 @@ public class TennisGame
 	public void player2Scored() throws TennisGameException 
 	{
 		checkGameEnded();
-		if(gameEnded=true){
+		if(gameEnded==true){
 
 			throw new TennisGameException();
 		} else {
