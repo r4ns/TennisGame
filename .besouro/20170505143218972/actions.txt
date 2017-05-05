@@ -49,3 +49,17 @@ CompilationAction 1493988360823 TennisGame.java
 RefactoringAction 1493988549725 TennisGame.java REMOVE won(int, int) METHOD
 FileOpenedAction 1493988572845 Drone.java 3002 12 20 0
 EditAction 1493989386640 TennisGame.java 1417 6 8 0
+CompilationAction 1493989388242 TennisGame.java
+CompilationAction 1493989625370 TennisGame.java
+CompilationAction 1493989625594 TennisGame.java
+CompilationAction 1493989752070 TennisGame.java
+CompilationAction 1493989752071 TennisGame.java
+CompilationAction 1493989755450 TennisGame.java
+CompilationAction 1493989755662 TennisGame.java
+CompilationAction 1493989766953 TennisGame.java
+CompilationAction 1493989767170 TennisGame.java
+CompilationAction 1493989773341 TennisGame.java
+FileOpenedAction 1493989784873 NumericScores.java 5980 16 95 16
+UnitTestCaseAction 1493989790271 NumericScores.java FAIL
+UnitTestSessionAction 1493989790273 NumericScores.java FAIL
+EditAction 1493989833847 TennisGame.java 1015 6 12 0

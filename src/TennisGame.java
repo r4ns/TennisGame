@@ -23,7 +23,8 @@ public class TennisGame
 	
     private void checkGameEnded()
 	{ 
-    	
+    	if((player1Points >= 4 && player1Points >= player2Points + 2) || (player2Points >= 4 && player2Points >= player1Points + 2))
+    		gameEnded = true;
 	}
 
 	private String getScore(int points) 
@@ -44,41 +45,13 @@ public class TennisGame
 	public String getScore() 
 	{
 		String output = "";
-		if(player1Points >= 4)
-		{
-			if(player1Points >= player2Points + 2)
-				return "game player1";
-			
-			else if(player1Points == player2Points + 1)
-				return "advetage player1";
-			
-			else return "deuce";
-		}
+		if(player1Points == 0 && player2Points == 0)
+			output = "Pocetno_stanje " + player1Points + " - " + player2Points;
 		else
 		{
-			if(player1Points == player2Points)
-				return "deuce";
-			else
-				return getScore(player1Points) +
+			
 		}
 		
 		return output;
-		// Scores format: "player1Score - player2Score"
-		// "0 - 0"
-		// "15 - 15"
-		// "30 - 30"
-		// "deuce"
-		// "15 - 0", "0 - 15"
-		// "30 - 0", "0 - 30"
-		// "40 - 0", "0 - 40"
-		// "30 - 15", "15 - 30"
-		// "40 - 15", "15 - 40"
-		// "advantage player1"
-		// "advantage player2"
-		// "game player1"
-		// "game player2"
-
-		// TO BE IMPLEMENTED
-		return "";
 	}
 }
