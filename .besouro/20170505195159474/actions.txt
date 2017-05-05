@@ -1,0 +1,14 @@
+FileOpenedAction 1494006719825 TennisGame.java 877 6 2 0
+FileOpenedAction 1494007045452 TennisGameException.java 57 0 0 0
+FileOpenedAction 1494007050968 AllTests.java 198 0 0 0
+FileOpenedAction 1494007052042 NumericScores.java 5980 16 95 16
+UnitTestCaseAction 1494007069025 NumericScores.java FAIL
+UnitTestSessionAction 1494007069028 NumericScores.java FAIL
+RefactoringAction 1494007336870 TennisGame.java ADD boolean win FIELD
+RefactoringAction 1494007342884 TennisGame.java REMOVE win FIELD
+RefactoringAction 1494007344420 TennisGame.java ADD int p FIELD
+RefactoringAction 1494007346433 TennisGame.java RENAME p=>int po FIELD
+RefactoringAction 1494007348463 TennisGame.java RENAME po=>int point FIELD
+UnitTestCaseAction 1494008456672 NumericScores.java FAIL
+UnitTestSessionAction 1494008456674 NumericScores.java FAIL
+EditAction 1494008600725 TennisGame.java 1837 6 6 0
