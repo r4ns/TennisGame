@@ -72,3 +72,10 @@ EditAction 1494010954256 TennisGame.java 2417 10 10 0
 UnitTestCaseAction 1494010957930 NumericScores.java FAIL
 UnitTestSessionAction 1494010957933 NumericScores.java FAIL
 EditAction 1494010975448 TennisGame.java 2415 10 10 0
+UnitTestCaseAction 1494010978762 NumericScores.java FAIL
+UnitTestSessionAction 1494010978763 NumericScores.java FAIL
+UnitTestCaseAction 1494010984587 NumericScores.java FAIL
+UnitTestSessionAction 1494010984588 NumericScores.java FAIL
+UnitTestCaseAction 1494010987157 NumericScores.java FAIL
+UnitTestSessionAction 1494010987162 NumericScores.java FAIL
+EditAction 1494011029820 TennisGame.java 2417 10 10 0
