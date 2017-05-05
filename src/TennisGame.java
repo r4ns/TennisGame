@@ -34,6 +34,10 @@ public class TennisGame
 		{
 			return "15";
 		}
+		else if(points == 2)
+		{
+			return "30";
+		}
 		// TO BE IMPLEMENTED
 		return "";
 	}
