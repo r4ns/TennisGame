@@ -47,7 +47,7 @@ public class TennisGame
 			return "deuce";
 		} else if(player1Points==15 && player2Points==0){
 			
-			return "15-0";
+			return "15 - 0";
 		}
 		
 
