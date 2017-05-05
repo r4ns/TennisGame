@@ -92,3 +92,8 @@ UnitTestCaseAction 1494011193218 NumericScores.java OK
 UnitTestSessionAction 1494011193221 NumericScores.java OK
 EditAction 1494011252132 NumericScores.java 6755 18 114 18
 EditAction 1494011254969 TennisGame.java 2417 10 10 0
+UnitTestCaseAction 1494011259889 NumericScores.java OK
+UnitTestSessionAction 1494011259890 NumericScores.java OK
+RefactoringAction 1494011286014 NumericScores.java ADD void testAdvantageOne()/2 METHOD
+RefactoringAction 1494011297182 NumericScores.java RENAME testAdvantageOne()/2=>void testAdvantagetwo() METHOD
+EditAction 1494011299639 NumericScores.java 7167 19 124 19
