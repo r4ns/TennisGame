@@ -49,5 +49,22 @@ public class TennisGame
 			//output = "Pocetno_stanje " + player1Points + " - " + player2Points;
 			output = player1Points + " - " + player2Points;
 		return output;
+		
+		// Scores format: "player1Score - player2Score"
+				// "0 - 0"
+				// "15 - 15"
+				// "30 - 30"
+				// "deuce"
+				// "15 - 0", "0 - 15"
+				// "30 - 0", "0 - 30"
+				// "40 - 0", "0 - 40"
+				// "30 - 15", "15 - 30"
+				// "40 - 15", "15 - 40"
+				// "advantage player1"
+				// "advantage player2"
+				// "game player1"
+				// "game player2"
+
+				// TO BE IMPLEMENTED
 	}
 }
