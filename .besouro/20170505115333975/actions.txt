@@ -95,3 +95,20 @@ EditAction 1493980351216 TennisGame.java 1334 6 10 0
 CompilationAction 1493980359776 TennisGame.java
 RefactoringAction 1493980372711 TennisGame.java ADD TennisGame player1Points() METHOD
 EditAction 1493980423109 TennisGame.java 1458 7 12 0
+CompilationAction 1493980434646 TennisGame.java
+RefactoringAction 1493980440778 TennisGame.java ADD TennisGame player2Points() METHOD
+UnitTestCaseAction 1493980559304 NumericScores.java FAIL
+UnitTestSessionAction 1493980559306 NumericScores.java FAIL
+UnitTestCaseAction 1493980595933 NumericScores.java FAIL
+UnitTestSessionAction 1493980595934 NumericScores.java FAIL
+UnitTestCaseAction 1493980604518 NumericScores.java FAIL
+UnitTestSessionAction 1493980604520 NumericScores.java FAIL
+UnitTestCaseAction 1493980608187 NumericScores.java FAIL
+UnitTestSessionAction 1493980608190 NumericScores.java FAIL
+CompilationAction 1493980930039 TennisGame.java
+RefactoringAction 1493981629424 TennisGame.java REMOVE player1Points() METHOD
+RefactoringAction 1493981629427 TennisGame.java REMOVE player2Points() METHOD
+CompilationAction 1493981634191 TennisGame.java
+FileOpenedAction 1493981638452 AllTests.java 198 0 0 0
+RefactoringAction 1493981658489 AllTests.java ADD TennisGame tenis FIELD
+EditAction 1493981673068 AllTests.java 238 0 0 0

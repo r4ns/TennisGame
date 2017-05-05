@@ -35,7 +35,14 @@ public class TennisGame
 	
 	private void checkGameEnded()
 	{ 
+		int razlika1 = player1Points - player2Points;
+		int razlika2 = player2Points - player1Points;
 		
+		if(razlika1 = 2)
+		{
+			gameEnded = true;
+		}
+			
 		// TO BE IMPLEMENTED
 	}
 
@@ -57,9 +64,13 @@ public class TennisGame
 		{
 			return "advantage";
 		}
+		else if(points == 5)
+		{
+			return "end game";
+		}
 		else 
 			return "end game";
-		// TO BE IMPLEMENTED
+			// TO BE IMPLEMENTED
 		
 	}
 	
@@ -80,15 +91,11 @@ public class TennisGame
 		// "game player1"
 		// "game player2"
 		
-		player1Points().getScore();
-		player2Points().getScore();
+		
 
 		// TO BE IMPLEMENTED
 		return "";
 	}
 
-	private TennisGame player1Points() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	
 }
