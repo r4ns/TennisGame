@@ -26,3 +26,12 @@ EditAction 1494010313743 TennisGame.java 2947 6 9 0
 UnitTestCaseAction 1494010314237 NumericScores.java FAIL
 UnitTestSessionAction 1494010314237 NumericScores.java FAIL
 EditAction 1494010364750 TennisGame.java 3119 6 9 0
+UnitTestCaseAction 1494010365353 NumericScores.java OK
+UnitTestSessionAction 1494010365354 NumericScores.java OK
+RefactoringAction 1494010402416 NumericScores.java ADD void test FIELD
+RefactoringAction 1494010406427 NumericScores.java RENAME test=>void test_ FIELD
+RefactoringAction 1494010407940 NumericScores.java RENAME test_=>void test_De FIELD
+RefactoringAction 1494010408952 NumericScores.java RENAME test_De=>void test_D FIELD
+RefactoringAction 1494010410475 NumericScores.java RENAME test_D=>void test_Deuce FIELD
+RefactoringAction 1494010411987 NumericScores.java RENAME test_Deuce=>void test_Deuce() METHOD
+EditAction 1494010631705 NumericScores.java 6249 17 97 16
