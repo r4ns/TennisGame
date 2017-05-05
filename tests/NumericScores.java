@@ -273,6 +273,23 @@ public class NumericScores {
 		String score = game.getScore() ;
 		assertEquals("Incorrect score when it's advantage player2", "advantage player2", score);
 	} 
+	@Test
+	public void testWonOne() throws TennisGameException{
+		TennisGame game = new TennisGame();
+		
+		game.player1Scored();
+		game.player2Scored();
+		game.player1Scored();
+		game.player2Scored();
+		game.player1Scored();
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		
+		
+		String score = game.getScore() ;
+		assertEquals("Incorrect score when it's player2 won", " gamePlayer2", score);
+	} 
 	
 	
 
