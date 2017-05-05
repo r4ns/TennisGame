@@ -87,6 +87,10 @@ public class TennisGame
 			return "game igrac2";
 		}else if(getScore(player1Points)=="winwin" && getScore(player2Points) == "40"){
 			return "game igrac1";
+		}else if(getScore(player1Points)=="win" && getScore(player2Points) != "40"){
+			return "game igrac1";
+		}else if(getScore(player2Points)=="win" && getScore(player1Points) != "40"){
+			return "game igrac2";
 		}
 		else
 			return getScore(player1Points) + " - " + getScore(player2Points);
