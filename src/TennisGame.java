@@ -52,7 +52,9 @@ public class TennisGame
 		else if(points == 3)
 			res="40";
 		else if(points == 4 && gameEnded==true)
-			res="win"
+			res="win";
+		else if(points == 4 && gameEnded==false)
+			res="deuce";
 		return res;
 	}
 	
