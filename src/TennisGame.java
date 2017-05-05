@@ -46,9 +46,10 @@ public class TennisGame
 		{
 			return "advantage";
 		}
-		else return false;
+		else 
+			return "end game";
 		// TO BE IMPLEMENTED
-		return "";
+		
 	}
 	
 	public String getScore() 
