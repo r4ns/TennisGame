@@ -114,3 +114,6 @@ EditAction 1494011465674 TennisGame.java 2890 6 10 0
 UnitTestCaseAction 1494011478558 NumericScores.java FAIL
 UnitTestSessionAction 1494011478560 NumericScores.java FAIL
 EditAction 1494011493619 TennisGame.java 2835 6 9 0
+RefactoringAction 1494011506607 NumericScores.java REMOVE testDeuce() METHOD
+UnitTestCaseAction 1494011511210 NumericScores.java OK
+UnitTestSessionAction 1494011511213 NumericScores.java OK
