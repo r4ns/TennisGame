@@ -32,6 +32,7 @@ public class TennisGame
 		String convPoints = "";
 		switch(points)
 		{
+		case 0: convPoints = "0";
 		case 1: convPoints = "15";
 		break;
 		case 2: convPoints = "30";
@@ -55,6 +56,7 @@ public class TennisGame
 					output = "game player1";
 				else if(player1Points == player2Points + 1)
 					output ="adventage player1";
+				else if(play
 				
 			}
 		}
