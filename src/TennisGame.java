@@ -86,12 +86,12 @@ public class TennisGame
 			checkGameEnded();
 		}
 		
-		if(this.gameEnded && this.player1Points>this.player2Points)
+		if(this.gameEnded && Integer.parseInt(igrac1)>Integer.parseInt(igrac2))
 		{
 			rez="pobjedjuje igrac1";
 		}
 		
-		if(this.gameEnded && this.player2Points>this.player1Points)
+		if(this.gameEnded && Integer.parseInt(igrac2)>Integer.parseInt(igrac1))
 		{
 			rez="pobjedjuje igrac2";
 		}
