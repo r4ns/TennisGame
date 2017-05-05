@@ -96,7 +96,7 @@ public class TennisGame
 		
 		if(this.player1Points==0 && this.player2Points==0)
 		{
-			rez="Pocetno_stanje 0-0";
+			rez=this.player1Points + "-" + this.player2Points;
 		}
 
 		// TO BE IMPLEMENTED
