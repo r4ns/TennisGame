@@ -6,22 +6,38 @@ public class TennisGame
 	
 	public TennisGame() 
 	{
-		// TO BE IMPLEMENTED
+		player1Points = 0;
+		player2Points = 0;
+		gameEnded = false;
 	}
 
 	public void player1Scored() throws TennisGameException 
 	{
-		// TO BE IMPLEMENTED
+		if(gameEnded==false){
+			player1Points++;
+		}
+		checkGameEnded();
 	}
 
 	public void player2Scored() throws TennisGameException 
 	{
-		// TO BE IMPLEMENTED
+		if(gameEnded==false){
+			player2Points++;
+		}
+		checkGameEnded();
 	}
 	
 	private void checkGameEnded()
 	{ 
-		// TO BE IMPLEMENTED
+		if(player1Points == 4 && player2Points <=2){
+			gameEnded=true;
+		}else if(player2Points == 4 && player1Points <=2){
+			gameEnded=true;
+		}else if(player1Points == 5 && player2Points == 3){
+			gameEnded=true;
+		}else if(player2Points == 5 && player1Points == 3){
+			gameEnded=true;
+		}
 	}
 
 	private String getScore(int points) 
