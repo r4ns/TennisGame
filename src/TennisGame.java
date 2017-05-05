@@ -6,6 +6,10 @@ public class TennisGame
 	
 	public TennisGame() 
 	{
+		player1Points = 0;
+		player2Points = 0;
+		gameEnded = false;
+			
 		// TO BE IMPLEMENTED
 	}
 
@@ -26,6 +30,7 @@ public class TennisGame
 
 	private String getScore(int points) 
 	{
+		
 		// TO BE IMPLEMENTED
 		return "";
 	}
@@ -46,8 +51,10 @@ public class TennisGame
 		// "advantage player2"
 		// "game player1"
 		// "game player2"
+		
+		
 
 		// TO BE IMPLEMENTED
-		return "";
+		return "0 - 0";
 	}
 }

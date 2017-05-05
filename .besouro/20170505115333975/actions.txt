@@ -1,0 +1,16 @@
+FileOpenedAction 1493978014203 TennisGame.java 877 6 2 0
+CompilationAction 1493978330000 TennisGame.java
+CompilationAction 1493978359587 TennisGame.java
+FileOpenedAction 1493978502148 AllTests.java 198 0 0 0
+FileOpenedAction 1493978503610 NumericScores.java 5980 16 95 16
+CompilationAction 1493978516065 TennisGame.java
+CompilationAction 1493979076857 TennisGame.java
+CompilationAction 1493979083058 TennisGame.java
+CompilationAction 1493979160520 TennisGame.java
+CompilationAction 1493979161012 TennisGame.java
+CompilationAction 1493979167921 TennisGame.java
+CompilationAction 1493979168439 TennisGame.java
+CompilationAction 1493979223981 TennisGame.java
+UnitTestCaseAction 1493979235164 NumericScores.java FAIL
+UnitTestSessionAction 1493979235167 NumericScores.java FAIL
+EditAction 1493979305558 TennisGame.java 958 6 5 0
