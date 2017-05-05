@@ -1,0 +1,13 @@
+1493980288799 refactoring 2A 2466 false
+1493981068348 production 1 579 false
+1493981547859 refactoring 2A 356 false
+1493981747406 test-addition 1 166 false
+1493981752328 regression 1 0 false
+1493981808289 test-addition 2 30 false
+1493981844846 refactoring 1A 23 true
+1493981872947 refactoring 1A 11 false
+1493981900191 test-addition 1 22 true
+1493981960030 refactoring 2B 32 true
+1493982029464 regression 1 0 true
+1493982130315 regression 1 0 false
+1493982181044 test-addition 1 13 true
