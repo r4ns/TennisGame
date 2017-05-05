@@ -122,6 +122,21 @@ public class NumericScores {
 	}
 	
 	@Test
+	public void test_player2Wins () throws TennisGameException {
+		TennisGame game = new TennisGame();
+		
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		
+		String score = game.getScore();
+		
+		assertEquals("Incorrect score when player1 wins", "Game Player 2", score);
+				
+	}
+	
+	@Test
 	public void test_p2Wins1Point_Score0_15() throws TennisGameException {
 		//Arrange
 		TennisGame game = new TennisGame();

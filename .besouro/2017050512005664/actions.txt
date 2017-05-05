@@ -45,3 +45,8 @@ UnitTestSessionAction 1493981369906 NumericScores.java OK
 RefactoringAction 1493981399132 NumericScores.java ADD void test_player1Won() METHOD
 RefactoringAction 1493981409690 NumericScores.java RENAME test_player1Won()=>void test_player1Wins() METHOD
 EditAction 1493981469651 NumericScores.java 7547 20 131 20
+UnitTestCaseAction 1493981480906 NumericScores.java OK
+UnitTestSessionAction 1493981480908 NumericScores.java OK
+RefactoringAction 1493981488883 NumericScores.java ADD void test_player1Wins()/2 METHOD
+RefactoringAction 1493981525426 NumericScores.java RENAME test_player1Wins()/2=>void test_player2Wins() METHOD
+EditAction 1493981528418 NumericScores.java 7880 21 138 21
