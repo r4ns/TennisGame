@@ -66,7 +66,7 @@ public class TennisGame
 		// "game player2"
 		if(this.player1Points>=3 && this.player2Points>=3 && this.player1Points==this.player2Points)
 		{
-			rez="deuce";
+			rez=this.player1Points + " - " + this.player2Points;
 			checkGameEnded();
 		}
 		
@@ -74,11 +74,11 @@ public class TennisGame
 		{
 			if(this.player1Points-this.player2Points==1)
 			{
-				rez="advantage igrac1";
+				rez=this.player1Points + " - " + this.player2Points;
 			}
 			if(this.player2Points-this.player1Points==1)
 			{
-				rez="advantage igrac2";
+				rez=this.player1Points + " - " + this.player2Points;
 			}
 			checkGameEnded();
 		}
