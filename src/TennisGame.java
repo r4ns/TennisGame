@@ -11,6 +11,7 @@ public class TennisGame
 
 	public void player1Scored() throws TennisGameException 
 	{
+		
 		player1Points++;
 	}
 
@@ -21,7 +22,10 @@ public class TennisGame
 
 	private void checkGameEnded()
 	{ 
-		// TO BE IMPLEMENTED
+		if((player1Points>=4 && player2Points==player1Points+2) || (player2Points>=4 && player1Points==player2Points+2)){
+			
+			gameEnded=true;
+		}
 	}
 
 	private String getScore(int points) 
@@ -69,4 +73,6 @@ public class TennisGame
 		// TO BE IMPLEMENTED
 		return "";
 	}
+	
+	
 }

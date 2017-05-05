@@ -16,3 +16,9 @@ EditAction 1494007859854 TennisGame.java 1246 6 5 0
 UnitTestCaseAction 1494007867099 NumericScores.java FAIL
 UnitTestSessionAction 1494007867119 NumericScores.java FAIL
 EditAction 1494007914592 TennisGame.java 1248 6 5 0
+UnitTestCaseAction 1494007924026 NumericScores.java FAIL
+UnitTestSessionAction 1494007924029 NumericScores.java FAIL
+RefactoringAction 1494008015312 TennisGame.java ADD void checkGameEnded()/2 METHOD
+RefactoringAction 1494008061474 TennisGame.java REMOVE checkGameEnded()/2 METHOD
+RefactoringAction 1494008417833 TennisGameException.java ADD TennisGameException() METHOD
+EditAction 1494008431144 TennisGameException.java 97 1 0 0
