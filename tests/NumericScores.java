@@ -227,4 +227,122 @@ public class NumericScores {
 		// Assert
 		assertEquals("Incorrect score when player1 scored three times and player2 scored twice. Players win points alternating.", "40 - 30", score);	
 	}
+	
+	@Test 
+	public void test_deuce() throws TennisGameException {
+		
+		TennisGame game=new TennisGame();
+		
+		game.player1Scored();
+		game.player2Scored();
+		game.player1Scored();
+		game.player2Scored();
+		game.player1Scored();
+		game.player2Scored();
+		game.player1Scored();
+		game.player2Scored();
+		
+		String score=game.getScore();
+		
+		assertEquals("Incorrect score when deuce.", "deuce", score);
+	}
+	
+	@Test
+	public void test_player1_adventage() throws TennisGameException {
+		
+		TennisGame game=new TennisGame();
+		
+		game.player1Scored();
+		game.player2Scored();
+		game.player1Scored();
+		game.player2Scored();
+		game.player1Scored();
+		game.player2Scored();
+		game.player1Scored();
+		game.player2Scored();
+		game.player1Scored();
+		
+		String score=game.getScore();
+		
+		assertEquals("Incorrect score when player1 adventage.", "advantage player1", score);
+	}
+	
+public void test_player2_adventage() throws TennisGameException {
+		
+		TennisGame game=new TennisGame();
+		
+		game.player1Scored();
+		game.player2Scored();
+		game.player1Scored();
+		game.player2Scored();
+		game.player1Scored();
+		game.player2Scored();
+		game.player2Scored();
+		
+		
+		String score=game.getScore();
+		
+		assertEquals("Incorrect score when player2 adventage.", "advantage player2", score);
+	}
+
+@Test
+public void test_player1_won() throws TennisGameException {
+	
+	TennisGame game=new TennisGame();
+	
+	game.player1Scored();
+	game.player2Scored();
+	game.player1Scored();
+	game.player2Scored();
+	game.player1Scored();
+	game.player2Scored();
+	game.player1Scored();
+	game.player2Scored();
+	game.player1Scored();
+	game.player1Scored();
+	
+	String score=game.getScore();
+	
+	assertEquals("Incorrect score when player1 won.", "game player1", score);
+}
+
+public void test_player2_won() throws TennisGameException {
+	
+	TennisGame game=new TennisGame();
+	
+	game.player1Scored();
+	game.player2Scored();
+	game.player1Scored();
+	game.player2Scored();
+	game.player1Scored();
+	game.player2Scored();
+	game.player2Scored();
+	game.player2Scored();
+	
+	
+	String score=game.getScore();
+	
+	assertEquals("Incorrect score when player2 won.", "game player2", score);
+}
+
+@Test
+public void test_throw_exception() throws TennisGameException {
+	
+	TennisGame game=new TennisGame();
+	
+	game.player1Scored();
+	game.player2Scored();
+	game.player1Scored();
+	game.player2Scored();
+	game.player1Scored();
+	game.player2Scored();
+	game.player1Scored();
+	game.player1Scored();
+	game.player1Scored();
+	
+	String score=game.getScore();
+	
+	assertEquals("Incorrect score when throws exception.", "", score);
+}
+
 }
