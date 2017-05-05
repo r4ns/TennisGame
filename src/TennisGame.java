@@ -53,7 +53,7 @@ public class TennisGame
 		if(player1Points == 0 && player2Points == 0)
 			output = firstPP + " - " + secondPP;
 		else if(player1Points >= 4 && (player1Points >= player2Points + 2))
-			output = "game player1";
+			output = firstPP + " - " + secondPP;
 		else if(player2Points >=4 && (player2Points >= player1Points + 2))
 			output = firstPP + " - " + secondPP;
 		
