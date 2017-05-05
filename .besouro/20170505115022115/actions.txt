@@ -67,3 +67,8 @@ UnitTestCaseAction 1493981844842 NumericScores.java OK
 UnitTestSessionAction 1493981844846 NumericScores.java OK
 EditAction 1493981861579 NumericScores.java 6430 17 106 17
 EditAction 1493981867269 NumericScores.java 6425 17 106 17
+UnitTestCaseAction 1493981872944 NumericScores.java OK
+UnitTestSessionAction 1493981872947 NumericScores.java OK
+FileOpenedAction 1493981878160 AllTests.java 268 0 0 0
+RefactoringAction 1493981885442 NumericScores.java REMOVE test1() METHOD
+EditAction 1493981886743 NumericScores.java 5980 16 95 16
