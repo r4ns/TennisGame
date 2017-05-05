@@ -64,3 +64,4 @@ RefactoringAction 1493979395225 NumericScores.java REMOVE test_p1Wins3Points_p2W
 RefactoringAction 1493979395227 NumericScores.java REMOVE test_p1Wins2Points_p2Wins3Points_Score30_40() METHOD
 RefactoringAction 1493979395230 NumericScores.java REMOVE test_p1Wins1Point_p2Wins1Point_Score15_15() METHOD
 EditAction 1493979397263 NumericScores.java 5987 2 7 2
+EditAction 1493979467462 TennisGame.java 953 6 5 0

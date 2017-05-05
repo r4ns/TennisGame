@@ -55,6 +55,6 @@ public class TennisGame
 		
 
 		// TO BE IMPLEMENTED
-		return "0 - 0";
+		return "";
 	}
 }
