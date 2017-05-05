@@ -50,7 +50,7 @@ public class TennisGame
 		String output = "";
 		
 		if(player1Points == 0 && player2Points == 0)
-			output = getScore(player1Points) + " - " + getScore(player2Points);
+			output = firstPP + " - " + secondPP;
 		
 		return output;
 		// Scores format: "player1Score - player2Score"
