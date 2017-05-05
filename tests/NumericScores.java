@@ -288,7 +288,7 @@ public class NumericScores {
 		
 		
 		String score = game.getScore() ;
-		assertEquals("Incorrect score when it's player2 won", " gamePlayer2", score);
+		assertEquals("Incorrect score when it's player2 won", " game player2", score);
 	} 
 	
 	
