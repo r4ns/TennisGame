@@ -65,7 +65,7 @@ public class NumericScores {
 		
 		String score = game.getScore();
 		
-		assertEquals("Incorrect score when player1 and player2 score 3 times", "40 - 40", score);	
+		assertEquals("Incorrect score when player1 and player2 score 3 times", "Deuce", score);	
 		
 	}
 	

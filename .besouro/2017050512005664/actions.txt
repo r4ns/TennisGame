@@ -25,3 +25,6 @@ UnitTestCaseAction 1493980679990 NumericScores.java OK
 UnitTestSessionAction 1493980679992 NumericScores.java OK
 RefactoringAction 1493980825537 NumericScores.java ADD vodi test_deuce() METHOD
 EditAction 1493980933660 NumericScores.java 6371 17 104 17
+UnitTestCaseAction 1493980941215 NumericScores.java FAIL
+UnitTestSessionAction 1493980941217 NumericScores.java FAIL
+EditAction 1493980990722 NumericScores.java 6369 17 104 17
