@@ -31,14 +31,12 @@ public class TennisGame
 	
 	private void checkGameEnded()
 	{ 
-		if(player1Points == 4 && player2Points <=2){
-			gameEnded=true;
-		}else if(player2Points == 4 && player1Points <=2){
-			gameEnded=true;
-		}else if(player1Points == 5 && player2Points == 3){
-			gameEnded=true;
-		}else if(player2Points == 5 && player1Points == 3){
-			gameEnded=true;
+		if(player1Points >= 4){
+			if(player1Points - player2Points == 2)
+				gameEnded = true;
+		}else if(player2Points >= 4 ){
+			if(player2Points - player1Points == 2)
+			gameEnded = true;
 		}
 	}
 
@@ -53,8 +51,8 @@ public class TennisGame
 			res="30";
 		else if(points == 3)
 			res="40";
-		else if(points == 4)
-			res="win";
+		else if(points == 4 && gameEnded==true)
+			res="win"
 		return res;
 	}
 	
