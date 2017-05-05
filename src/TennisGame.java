@@ -64,7 +64,7 @@ public class TennisGame
 		} else if ( player1Points == 4 && player2Points < 3){
 			return "Game Player 1";
 		} else if (player2Points == 4 && player1Points < 3){
-			return "Game Player 2 ";
+			return "Game Player 2";
 		} else {
 			return  getScore(player1Points) + " - " + getScore(player2Points);
 		}
