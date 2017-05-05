@@ -1,0 +1,119 @@
+FileOpenedAction 1494006703213 TennisGameException.java 57 0 0 0
+FileOpenedAction 1494006867931 AllTests.java 198 0 0 0
+FileOpenedAction 1494006870891 NumericScores.java 5980 16 95 16
+UnitTestCaseAction 1494006882864 NumericScores.java FAIL
+UnitTestSessionAction 1494006882866 NumericScores.java FAIL
+UnitTestCaseAction 1494007225481 NumericScores.java FAIL
+UnitTestSessionAction 1494007225483 NumericScores.java FAIL
+UnitTestCaseAction 1494007348392 NumericScores.java FAIL
+UnitTestSessionAction 1494007348394 NumericScores.java FAIL
+EditAction 1494007670927 TennisGame.java 1172 6 5 0
+EditAction 1494007739351 TennisGame.java 1173 6 5 0
+UnitTestCaseAction 1494007743054 NumericScores.java FAIL
+UnitTestSessionAction 1494007743060 NumericScores.java FAIL
+FileOpenedAction 1494007802748 NumericScores.java 5980 16 95 16
+EditAction 1494007859854 TennisGame.java 1246 6 5 0
+UnitTestCaseAction 1494007867099 NumericScores.java FAIL
+UnitTestSessionAction 1494007867119 NumericScores.java FAIL
+EditAction 1494007914592 TennisGame.java 1248 6 5 0
+UnitTestCaseAction 1494007924026 NumericScores.java FAIL
+UnitTestSessionAction 1494007924029 NumericScores.java FAIL
+RefactoringAction 1494008015312 TennisGame.java ADD void checkGameEnded()/2 METHOD
+RefactoringAction 1494008061474 TennisGame.java REMOVE checkGameEnded()/2 METHOD
+RefactoringAction 1494008417833 TennisGameException.java ADD TennisGameException() METHOD
+EditAction 1494008431144 TennisGameException.java 97 1 0 0
+UnitTestCaseAction 1494008571242 NumericScores.java FAIL
+UnitTestSessionAction 1494008571245 NumericScores.java FAIL
+EditAction 1494008816591 TennisGame.java 1664 6 6 0
+CompilationAction 1494008818914 TennisGame.java
+EditAction 1494008934890 TennisGame.java 1688 6 7 0
+EditAction 1494008991152 TennisGame.java 1714 6 7 0
+UnitTestCaseAction 1494009007910 NumericScores.java FAIL
+UnitTestSessionAction 1494009007914 NumericScores.java FAIL
+EditAction 1494009033123 TennisGame.java 1740 6 7 0
+EditAction 1494009047151 TennisGame.java 1739 6 7 0
+EditAction 1494009058135 TennisGame.java 1738 6 7 0
+UnitTestCaseAction 1494009064687 NumericScores.java FAIL
+UnitTestSessionAction 1494009064688 NumericScores.java FAIL
+EditAction 1494009302852 TennisGame.java 1781 6 9 0
+UnitTestCaseAction 1494009311058 NumericScores.java FAIL
+UnitTestSessionAction 1494009311060 NumericScores.java FAIL
+EditAction 1494009395456 TennisGame.java 1785 6 9 0
+EditAction 1494009446909 TennisGame.java 1816 6 9 0
+UnitTestCaseAction 1494009454153 NumericScores.java FAIL
+UnitTestSessionAction 1494009454154 NumericScores.java FAIL
+UnitTestCaseAction 1494009466302 NumericScores.java FAIL
+UnitTestSessionAction 1494009466304 NumericScores.java FAIL
+UnitTestCaseAction 1494009473547 NumericScores.java FAIL
+UnitTestSessionAction 1494009473548 NumericScores.java FAIL
+UnitTestCaseAction 1494009481549 NumericScores.java FAIL
+UnitTestSessionAction 1494009481555 NumericScores.java FAIL
+UnitTestCaseAction 1494009486857 NumericScores.java FAIL
+UnitTestSessionAction 1494009486859 NumericScores.java FAIL
+UnitTestCaseAction 1494009519249 NumericScores.java FAIL
+UnitTestSessionAction 1494009519251 NumericScores.java FAIL
+UnitTestCaseAction 1494009533248 NumericScores.java FAIL
+UnitTestSessionAction 1494009533256 NumericScores.java FAIL
+UnitTestCaseAction 1494009544346 NumericScores.java FAIL
+UnitTestSessionAction 1494009544349 NumericScores.java FAIL
+UnitTestCaseAction 1494009553871 NumericScores.java FAIL
+UnitTestSessionAction 1494009553873 NumericScores.java FAIL
+UnitTestCaseAction 1494009575200 NumericScores.java FAIL
+UnitTestSessionAction 1494009575202 NumericScores.java FAIL
+EditAction 1494009742525 TennisGame.java 1851 6 9 0
+UnitTestCaseAction 1494009777301 NumericScores.java FAIL
+UnitTestSessionAction 1494009777303 NumericScores.java FAIL
+EditAction 1494009824154 TennisGame.java 1852 6 9 0
+UnitTestCaseAction 1494009834057 NumericScores.java FAIL
+UnitTestSessionAction 1494009834062 NumericScores.java FAIL
+EditAction 1494009854244 TennisGame.java 1853 6 9 0
+UnitTestCaseAction 1494009862393 NumericScores.java FAIL
+UnitTestSessionAction 1494009862394 NumericScores.java FAIL
+EditAction 1494009968942 TennisGame.java 1849 6 9 0
+UnitTestCaseAction 1494009976823 NumericScores.java FAIL
+UnitTestSessionAction 1494009976826 NumericScores.test_p1Wins1Point_p2Wins3Point_Score15_40 FAIL
+UnitTestCaseAction 1494009992773 NumericScores.java FAIL
+UnitTestSessionAction 1494009992774 NumericScores.test_p1Wins1Point_p2Wins3Point_Score15_40 FAIL
+UnitTestCaseAction 1494010028874 NumericScores.java FAIL
+UnitTestSessionAction 1494010028876 NumericScores.test_p1Wins1Point_p2Wins3Point_Score15_40 FAIL
+FileOpenedAction 1494010046744 NumericScores.java 5980 16 95 16
+UnitTestCaseAction 1494010051316 NumericScores.java FAIL
+UnitTestSessionAction 1494010051318 NumericScores.java FAIL
+UnitTestCaseAction 1494010243798 NumericScores.java FAIL
+UnitTestSessionAction 1494010243800 NumericScores.java FAIL
+EditAction 1494010425622 TennisGame.java 1848 6 9 0
+UnitTestCaseAction 1494010520483 NumericScores.java FAIL
+UnitTestSessionAction 1494010520486 NumericScores.java FAIL
+EditAction 1494010600924 TennisGame.java 1847 6 9 0
+EditAction 1494010622098 TennisGame.java 1846 6 9 0
+EditAction 1494010657097 TennisGame.java 1843 6 7 0
+CompilationAction 1494010659383 TennisGame.java
+CompilationAction 1494010659406 TennisGame.java
+CompilationAction 1494010669863 TennisGame.java
+CompilationAction 1494010669864 TennisGame.java
+EditAction 1494010700923 TennisGame.java 1861 6 9 0
+UnitTestCaseAction 1494010707108 NumericScores.java FAIL
+UnitTestSessionAction 1494010707109 NumericScores.java FAIL
+EditAction 1494010805917 TennisGame.java 2155 6 9 0
+EditAction 1494010874233 TennisGame.java 2350 6 9 0
+EditAction 1494010894176 TennisGame.java 2447 6 9 0
+EditAction 1494010954887 TennisGame.java 2642 6 9 0
+EditAction 1494010996587 TennisGame.java 2545 6 9 0
+UnitTestCaseAction 1494011007396 NumericScores.java FAIL
+UnitTestSessionAction 1494011007400 NumericScores.java FAIL
+EditAction 1494011111646 TennisGame.java 2933 6 9 0
+UnitTestCaseAction 1494011123638 NumericScores.java OK
+UnitTestSessionAction 1494011123639 NumericScores.java OK
+RefactoringAction 1494011205624 NumericScores.java ADD void testDeuce() METHOD
+EditAction 1494011403268 TennisGame.java 2890 6 10 0
+UnitTestCaseAction 1494011411152 NumericScores.java FAIL
+UnitTestSessionAction 1494011411154 NumericScores.java FAIL
+RefactoringAction 1494011425835 NumericScores.java REMOVE testDeuce() METHOD
+RefactoringAction 1494011429372 NumericScores.java ADD void testDeuce() METHOD
+EditAction 1494011465674 TennisGame.java 2890 6 10 0
+UnitTestCaseAction 1494011478558 NumericScores.java FAIL
+UnitTestSessionAction 1494011478560 NumericScores.java FAIL
+EditAction 1494011493619 TennisGame.java 2835 6 9 0
+RefactoringAction 1494011506607 NumericScores.java REMOVE testDeuce() METHOD
+UnitTestCaseAction 1494011511210 NumericScores.java OK
+UnitTestSessionAction 1494011511213 NumericScores.java OK
