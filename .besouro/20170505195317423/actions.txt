@@ -1,0 +1,19 @@
+FileOpenedAction 1494006798088 TennisGame.java 877 6 2 0
+FileOpenedAction 1494007003823 TennisGameException.java 57 0 0 0
+RefactoringAction 1494007174694 TennisGame.java ADD void player1Scored()/2 METHOD
+RefactoringAction 1494007177724 TennisGame.java REMOVE player1Scored()/2 METHOD
+RefactoringAction 1494007404711 TennisGame.java RENAME TennisGame()=>TennisGame(int) METHOD
+RefactoringAction 1494007412871 TennisGame.java RENAME TennisGame(int)=>TennisGame(int, int) METHOD
+RefactoringAction 1494007495003 TennisGame.java RENAME TennisGame(int, int)=>TennisGame(int, int, boolean) METHOD
+FileOpenedAction 1494008229866 AllTests.java 198 0 0 0
+FileOpenedAction 1494008231471 NumericScores.java 5980 16 95 16
+CompilationAction 1494008343008 NumericScores.java
+RefactoringAction 1494009200369 TennisGameException.java ADD TennisGameException ex FIELD
+RefactoringAction 1494009287322 TennisGame.java RENAME TennisGame(int, int, boolean)=>TennisGame(int, int) METHOD
+CompilationAction 1494009431391 NumericScores.java
+CompilationAction 1494009431741 NumericScores.java
+RefactoringAction 1494009457043 TennisGame.java ADD int getPlayer1Points() METHOD
+RefactoringAction 1494009457045 TennisGame.java ADD void setPlayer1Points(int) METHOD
+RefactoringAction 1494009457047 TennisGame.java ADD int getPlayer2Points() METHOD
+RefactoringAction 1494009457048 TennisGame.java ADD void setPlayer2Points(int) METHOD
+EditAction 1494009462027 TennisGame.java 2474 10 12 0
