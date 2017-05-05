@@ -52,6 +52,91 @@ public class NumericScores {
 	}
 	
 	@Test
+	public void test_deuce() throws TennisGameException {
+		TennisGame game = new TennisGame();
+		
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		
+		String score = game.getScore();
+		
+		assertEquals("Incorrect score when player1 and player2 score 3 times", "Deuce", score);	
+	}
+	
+	@Test
+	public void test_advantagePlayer1 () throws TennisGameException {
+		TennisGame game = new TennisGame();
+		
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		
+		game.player1Scored();
+		
+		String score = game.getScore();
+		
+		assertEquals("Incorrect score when player1 has advantage", "Advantage player1", score);
+	}
+	
+	@Test
+	public void test_advantagePlayer2 () throws TennisGameException {
+		TennisGame game = new TennisGame();
+		
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		
+		game.player2Scored();
+		
+		String score = game.getScore();
+		
+		assertEquals("Incorrect score when player1 has advantage", "Advantage player2", score);
+	}
+	
+	@Test
+	public void test_player1Wins () throws TennisGameException {
+		TennisGame game = new TennisGame();
+		
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		
+		String score = game.getScore();
+		
+		assertEquals("Incorrect score when player1 wins", "Game Player 1", score);
+				
+	}
+	
+	@Test
+	public void test_player2Wins () throws TennisGameException {
+		TennisGame game = new TennisGame();
+		
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		
+		String score = game.getScore();
+		
+		assertEquals("Incorrect score when player2 wins", "Game Player 2", score);
+				
+	}
+	
+	@Test
 	public void test_p2Wins1Point_Score0_15() throws TennisGameException {
 		//Arrange
 		TennisGame game = new TennisGame();

@@ -1,0 +1,67 @@
+FileOpenedAction 1493978456557 TennisGame.java 877 6 2 0
+RefactoringAction 1493978726038 TennisGame.java ADD TennisGame() METHOD
+EditAction 1493979983633 NumericScores.java 6148 16 95 16
+EditAction 1493980128533 TennisGame.java 1866 7 8 0
+UnitTestCaseAction 1493980154932 NumericScores.java FAIL
+UnitTestSessionAction 1493980154935 NumericScores.java FAIL
+EditAction 1493980319728 TennisGame.java 1908 7 8 0
+UnitTestCaseAction 1493980328443 NumericScores.java FAIL
+UnitTestSessionAction 1493980328445 NumericScores.java FAIL
+EditAction 1493980374538 NumericScores.java 6137 16 95 16
+UnitTestCaseAction 1493980382666 NumericScores.java FAIL
+UnitTestSessionAction 1493980382668 NumericScores.java FAIL
+EditAction 1493980413580 NumericScores.java 6148 16 95 16
+EditAction 1493980479625 TennisGame.java 1891 7 8 0
+UnitTestCaseAction 1493980488405 NumericScores.java FAIL
+UnitTestSessionAction 1493980488407 NumericScores.java FAIL
+EditAction 1493980498274 NumericScores.java 6137 16 95 16
+UnitTestCaseAction 1493980514775 NumericScores.java FAIL
+UnitTestSessionAction 1493980514777 NumericScores.java FAIL
+EditAction 1493980566294 TennisGame.java 1893 7 8 0
+UnitTestCaseAction 1493980576214 NumericScores.java FAIL
+UnitTestSessionAction 1493980576216 NumericScores.java FAIL
+EditAction 1493980649791 NumericScores.java 5980 16 95 16
+UnitTestCaseAction 1493980679990 NumericScores.java OK
+UnitTestSessionAction 1493980679992 NumericScores.java OK
+RefactoringAction 1493980825537 NumericScores.java ADD vodi test_deuce() METHOD
+EditAction 1493980933660 NumericScores.java 6371 17 104 17
+UnitTestCaseAction 1493980941215 NumericScores.java FAIL
+UnitTestSessionAction 1493980941217 NumericScores.java FAIL
+EditAction 1493980990722 NumericScores.java 6369 17 104 17
+UnitTestCaseAction 1493981001281 NumericScores.java OK
+UnitTestSessionAction 1493981001283 NumericScores.java OK
+RefactoringAction 1493981184680 NumericScores.java ADD void test_advantagePlayer1() METHOD
+EditAction 1493981255389 NumericScores.java 6790 18 114 18
+UnitTestCaseAction 1493981263027 NumericScores.java FAIL
+UnitTestSessionAction 1493981263028 NumericScores.java FAIL
+EditAction 1493981324083 TennisGame.java 1893 7 8 0
+UnitTestCaseAction 1493981334163 NumericScores.java OK
+UnitTestSessionAction 1493981334165 NumericScores.java OK
+RefactoringAction 1493981348509 NumericScores.java ADD void test_advantagePlayer1()/2 METHOD
+RefactoringAction 1493981353029 NumericScores.java RENAME test_advantagePlayer1()/2=>void test_advantagePlayer2() METHOD
+EditAction 1493981363005 NumericScores.java 7214 19 124 19
+UnitTestCaseAction 1493981369905 NumericScores.java OK
+UnitTestSessionAction 1493981369906 NumericScores.java OK
+RefactoringAction 1493981399132 NumericScores.java ADD void test_player1Won() METHOD
+RefactoringAction 1493981409690 NumericScores.java RENAME test_player1Won()=>void test_player1Wins() METHOD
+EditAction 1493981469651 NumericScores.java 7547 20 131 20
+UnitTestCaseAction 1493981480906 NumericScores.java OK
+UnitTestSessionAction 1493981480908 NumericScores.java OK
+RefactoringAction 1493981488883 NumericScores.java ADD void test_player1Wins()/2 METHOD
+RefactoringAction 1493981525426 NumericScores.java RENAME test_player1Wins()/2=>void test_player2Wins() METHOD
+EditAction 1493981528418 NumericScores.java 7880 21 138 21
+UnitTestCaseAction 1493981535134 NumericScores.java FAIL
+UnitTestSessionAction 1493981535135 NumericScores.java FAIL
+EditAction 1493981546363 NumericScores.java 7880 21 138 21
+UnitTestCaseAction 1493981553426 NumericScores.java FAIL
+UnitTestSessionAction 1493981553428 NumericScores.java FAIL
+EditAction 1493981614018 TennisGame.java 1893 7 8 0
+UnitTestCaseAction 1493981621434 NumericScores.java FAIL
+UnitTestSessionAction 1493981621436 NumericScores.java FAIL
+EditAction 1493981635179 TennisGame.java 1892 7 8 0
+UnitTestCaseAction 1493981643540 NumericScores.java OK
+UnitTestSessionAction 1493981643543 NumericScores.java OK
+RefactoringAction 1493981837602 TennisGameException.java ADD TennisGameExepction greska FIELD
+RefactoringAction 1493981841111 TennisGameException.java REMOVE greska FIELD
+RefactoringAction 1493981865651 TennisGameException.java ADD TennisGame igra FIELD
+EditAction 1493982037101 TennisGameException.java 97 0 0 0
