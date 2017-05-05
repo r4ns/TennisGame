@@ -195,7 +195,7 @@ public class NumericScores {
 	@Test
 	public void test_p1Wins3Points_p2Wins2Points_Score40_30() throws TennisGameException {
 		//Arrange
-		TennisGame game = new TennisGame(40,30,false);
+		TennisGame game = new TennisGame();
 
 		game.player1Scored();
 		game.player1Scored();
