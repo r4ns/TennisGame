@@ -1,0 +1,5 @@
+1494009675765 refactoring 2A 2877 true
+1494010597780 test-first 3 922 true
+1494011193221 test-first 3 595 true
+1494011259890 refactoring 1A 66 true
+1494011336528 test-first 4 76 true
