@@ -227,4 +227,94 @@ public class NumericScores {
 		// Assert
 		assertEquals("Incorrect score when player1 scored three times and player2 scored twice. Players win points alternating.", "40 - 30", score);	
 	}
+	
+	@Test
+	public void testWhenItsDeuce() throws TennisGameException{
+		TennisGame game = new TennisGame();
+
+		game.player1Scored();
+		game.player2Scored();
+		game.player1Scored();
+		game.player2Scored();
+		game.player1Scored();
+		game.player2Scored();
+		
+		String score = game.getScore();
+		assertEquals("deuce", score);
+	}
+	
+	
+	@Test
+	public void testWhenItsDeuceThenAdvantageP1() throws TennisGameException{
+		TennisGame game = new TennisGame();
+
+		game.player1Scored();
+		game.player2Scored();
+		game.player1Scored();
+		game.player2Scored();
+		game.player1Scored();
+		game.player2Scored();
+		
+		game.player1Scored();
+		
+		String score = game.getScore();
+		assertEquals("advantage igrac1", score);
+	}
+	
+	@Test
+	public void testWhenItsDeuceThenAdvantageP2() throws TennisGameException{
+		TennisGame game = new TennisGame();
+
+		game.player1Scored();
+		game.player2Scored();
+		game.player1Scored();
+		game.player2Scored();
+		game.player1Scored();
+		game.player2Scored();
+
+		
+		game.player2Scored();
+		
+		String score = game.getScore();
+		assertEquals("advantage igrac2", score);
+	}
+	
+	@Test
+	public void testWhenWinsP1() throws TennisGameException{
+		TennisGame game = new TennisGame();
+
+		game.player1Scored();
+		//game.player2Scored();
+		game.player1Scored();
+		//game.player2Scored();
+		
+		
+		game.player1Scored();
+		game.player1Scored();
+		
+		String score = game.getScore();
+		assertEquals("pobedjuje igrac1", score);
+	}
+	
+	@Test
+	public void testWhenWinsP2() throws TennisGameException{
+		TennisGame game = new TennisGame();
+
+		//game.player1Scored();
+		game.player2Scored();
+		//game.player1Scored();
+		game.player2Scored();
+		
+		
+		game.player2Scored();
+		game.player2Scored();
+		
+		String score = game.getScore();
+		assertEquals("pobedjuje igrac2", score);
+	}
+	/*
+	@Test(expected=TennisGameException()){
+		
+	}*/
+	
 }
