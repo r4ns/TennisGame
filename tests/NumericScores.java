@@ -2,12 +2,14 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import com.sun.corba.se.impl.ior.NewObjectKeyTemplateBase;
+
 // Testing of midgame scores before both players score three times
 public class NumericScores {
 
 	@Test
 	public void test_StartScore() {
-		//Arrange
+		//Arrange prosao
 		TennisGame game = new TennisGame();
 		//Act
 		String score = game.getScore() ;
@@ -17,7 +19,7 @@ public class NumericScores {
 	
 	@Test
 	public void test_p1Wins1Point_Score15_0() throws TennisGameException {
-		//Arrange
+		//Arrange prosao
 		TennisGame game = new TennisGame();
 		//Act
 		game.player1Scored();
@@ -53,7 +55,7 @@ public class NumericScores {
 	
 	@Test
 	public void test_p2Wins1Point_Score0_15() throws TennisGameException {
-		//Arrange
+		//Arrange prosao
 		TennisGame game = new TennisGame();
 		game.player2Scored();
 		//Act
@@ -91,7 +93,7 @@ public class NumericScores {
 	
 	@Test
 	public void test_p1Wins1Point_p2Wins1Point_Score15_15() throws TennisGameException {
-		//Arrange
+		//Arrange prosao
 		TennisGame game = new TennisGame();
 
 		game.player1Scored();
@@ -227,4 +229,233 @@ public class NumericScores {
 		// Assert
 		assertEquals("Incorrect score when player1 scored three times and player2 scored twice. Players win points alternating.", "40 - 30", score);	
 	}
+	
+	@Test 
+	public void test_p1WinsAD() throws TennisGameException{
+		
+		TennisGame game = new TennisGame();
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		
+		
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		String expectedScore = "advantage player1";
+		String realScore=game.getScore();
+		assertEquals(expectedScore,realScore);
+		
+	}
+	
+	@Test 
+	public void test_p2WinAD() throws TennisGameException{
+		TennisGame game = new TennisGame();
+		
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		
+		String expected = "advantage player2";
+		String result = game.getScore();
+		
+		assertEquals(expected, result);
+	}
+	
+	@Test 
+	public void test_p2haveAD_p1WinPoints() throws TennisGameException{
+		TennisGame game = new TennisGame();
+		
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		
+		game.player2Scored();
+		game.player1Scored();
+		
+		String expected= "40 - 40";
+		String result = game.getScore();
+		
+		assertEquals(expected, result);	
+	}
+	
+	@Test 
+	public void test_p1haveAD_p2WinPoints() throws TennisGameException{
+		TennisGame game = new TennisGame();
+		
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		
+		game.player1Scored();
+		game.player2Scored();
+		
+		String expected= "40 - 40";
+		String result = game.getScore();
+		
+		assertEquals(expected, result);	
+	}
+	
+	@Test
+	public void test_gameWinp1_p2Win_0() throws TennisGameException{
+		TennisGame game = new TennisGame();
+		
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();	
+		game.player1Scored();
+		
+		String expected= "game player1";
+		String result = game.getScore();
+		assertEquals(expected, result);	
+	}
+
+	@Test
+	public void test_gameWinp1_p2Win_15() throws TennisGameException{
+		TennisGame game = new TennisGame();
+		
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();	
+		game.player1Scored();
+		
+		game.player2Scored();
+		
+		String expected= "game player1";
+		String result = game.getScore();
+		assertEquals(expected, result);	
+	}
+	
+	@Test
+	public void test_gameWinp1_p2Win_30() throws TennisGameException{
+		TennisGame game = new TennisGame();
+		
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();	
+		game.player1Scored();
+		
+		game.player2Scored();
+		game.player2Scored();
+		
+		String expected= "game player1";
+		String result = game.getScore();
+		assertEquals(expected, result);	
+	}
+	
+	@Test
+	public void test_gameWinp1_p2Win_40() throws TennisGameException{
+		TennisGame game = new TennisGame();
+		
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();	
+
+		
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		
+		game.player1Scored();
+		game.player1Scored();
+		String expected= "game player1";
+		String result = game.getScore();
+		assertEquals(expected, result);	
+	}
+	
+	@Test
+	public void test_gameWinp2_p1Win_0() throws TennisGameException{
+		TennisGame game = new TennisGame();
+		
+		
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+
+		String expected= "game player2";
+		String result = game.getScore();
+		assertEquals(expected, result);	
+	}
+	
+	@Test
+	public void test_gameWinp2_p1Win_15() throws TennisGameException{
+		TennisGame game = new TennisGame();
+		
+		game.player1Scored();
+		
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		
+		String expected= "game player2";
+		String result = game.getScore();
+		assertEquals(expected, result);	
+	}
+	
+	@Test
+	public void test_gameWinp2_p1Win_30() throws TennisGameException{
+		TennisGame game = new TennisGame();
+		game.player1Scored();
+		game.player1Scored();
+		
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		
+		String expected= "game player2";
+		String result = game.getScore();
+		assertEquals(expected, result);	
+	}
+	
+	@Test
+	public void test_gameWinp2_p1Win_40() throws TennisGameException{
+		TennisGame game = new TennisGame();
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		
+		String expected= "game player2";
+		String result = game.getScore();
+		assertEquals(expected, result);	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
