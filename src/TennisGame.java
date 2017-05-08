@@ -3,49 +3,60 @@ public class TennisGame
 	private int player1Points;
 	private int player2Points;
 	private boolean gameEnded;
+
+	
+	private String pomocna1;
+	private String pomocna2; 
 	
 	public TennisGame() 
 	{
 		// TO BE IMPLEMENTED
 		this.player1Points=0;
-		this.player2Points=0;
-		
-	}
-	
-	public TennisGame(int player1Points,int player2Points) 
-	{
-		// TO BE IMPLEMENTED
-		this.player1Points=player1Points;
-		this.player2Points=player2Points;
-		
-	}
+		this.player2Points=4;
 
+	}
 	public void player1Scored() throws TennisGameException 
 	{
 		// TO BE IMPLEMENTED
-		if(player1Points==0)
-			player1Points=15;
-		else if(player1Points==15)
-			player1Points=30;
-		else if(player1Points==30)
-			player1Points=40;
+		player1Points ++;
 	}
 
 	public void player2Scored() throws TennisGameException 
 	{
 		// TO BE IMPLEMENTED
-		if(player2Points==0)
-			player2Points=15;
-		else if(player2Points==15)
-			player2Points=30;
-		else if(player2Points==30)
-			player2Points=40;
+		player2Points ++;
 	}
-	
+
 	private void checkGameEnded()
 	{ 
 		// TO BE IMPLEMENTED
 		//if(player1Points==0 && player2Points  ==)
+		if(player1Points==0 && player2Points  == 8){
+			gameEnded=true;
+		}
+		else if(player1Points==1 && player2Points  == 8){
+			gameEnded = true;
+		}
+		else if(player1Points==2 && player2Points  == 8){
+			gameEnded = true;
+		}
+		else if(player1Points==3 && player2Points  == 9){
+			gameEnded = true;
+		}
+		
+		if(player1Points==4 && player2Points  == 4){
+			gameEnded = true;	
+		}
+		else if(player1Points==4 && player2Points  == 5){	
+			gameEnded = true;
+		}
+		else if(player1Points==4 && player2Points  == 6){
+			gameEnded = true;
+		}
+		else if(player1Points==5 && player2Points  == 7){
+			gameEnded = true;
+		}
+		
 		
 	}
 
@@ -53,49 +64,102 @@ public class TennisGame
 	{
 		
 		// TO BE IMPLEMENTED
-		if(points==0){
-			player1Points=0;
-			return getScore();
+		if(points == 0){
+			pomocna1="0";
 		}
 		else if(points==1){
-			player1Points=15;
-			return getScore();
+			pomocna1="15";
 		}
 		else if(points==2){
-			player1Points=30;
-			return getScore();
+			pomocna1="30";
+
 		}
 		else if(points==3){
-			player1Points=40;
-			return getScore();
+			pomocna1="40";
+		}
+		
+		if(points==4){
+			pomocna2="0";
 		}
 		else if(points==5){
-			return "advantage player1";
+			pomocna2="15";
 		}
 		else if(points==6){
-			player2Points=0;
-			return getScore();
+			pomocna2="30";
+
 		}
 		else if(points==7){
-			player2Points=15;
-			return getScore();
+			pomocna2="40";
 		}
-		else if(points==8){
-			player2Points=30;
-			return getScore();
+		
+		if(points==8){
+			return "advantage player1";
 		}
 		else if(points==9){
-			player2Points=40;
-			return getScore();
-		}
-		else if(points==10){
 			return "advantage player2";
-		}else
-			return getScore();
+		}
+		
+		if(points==10){
+			pomocna1="40";
+			pomocna2="40";
+		}
+		
+		return pomocna1+ " - " + pomocna2;
 	}
-	
+
 	public String getScore() 
 	{
+		String rezultat="";
+		if(player1Points==0){
+			rezultat = getScore(0);
+		}
+		else if(player1Points==1){
+			rezultat = getScore(1);
+		}
+		else if(player1Points==2){
+			rezultat = getScore(2);
+		}
+		else if(player1Points==3){
+			rezultat = getScore(3);
+		}
+
+
+		if(player2Points==4){
+			rezultat = getScore(4);
+		}
+		else if(player2Points==5){
+			rezultat = getScore(5);
+		}
+		else if(player2Points==6){
+			rezultat = getScore(6);
+		}
+		else if(player2Points==7){
+			rezultat = getScore(7);
+		}
+
+		if(player1Points==4 && player2Points ==7){
+			rezultat = getScore(8);
+		}else if(player1Points==3 && player2Points ==8){
+			rezultat = getScore(9);
+		}
+		
+		if(player1Points == 4  && player2Points == 8){
+			player1Points=3;
+			player2Points=7;
+			rezultat = getScore(10);
+		}
+		checkGameEnded();
+		
+		if(gameEnded == true){
+			if(player1Points>=4){
+				rezultat = "game player1";
+			}
+			if(player2Points>=8){
+				rezultat = "game player2";
+			}	
+		}
+		//else if(pl)
+
 		// Scores format: "player1Score - player2Score"
 		// "0 - 0"
 		// "15 - 15"
@@ -111,8 +175,8 @@ public class TennisGame
 		// "game player1"
 		// "game player2"
 		// TO BE IMPLEMENTED
-		
-		
-		return player1Points+" - "+ player2Points;
+
+
+		return rezultat;
 	}
 }

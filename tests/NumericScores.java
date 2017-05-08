@@ -2,6 +2,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import com.sun.corba.se.impl.ior.NewObjectKeyTemplateBase;
+
 // Testing of midgame scores before both players score three times
 public class NumericScores {
 
@@ -229,13 +231,231 @@ public class NumericScores {
 	}
 	
 	@Test 
-	public void check_point_40_40() throws TennisGameException{
+	public void test_p1WinsAD() throws TennisGameException{
 		
-		TennisGame game = new TennisGame(40,40);
+		TennisGame game = new TennisGame();
 		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		
+		
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
 		String expectedScore = "advantage player1";
 		String realScore=game.getScore();
 		assertEquals(expectedScore,realScore);
 		
 	}
+	
+	@Test 
+	public void test_p2WinAD() throws TennisGameException{
+		TennisGame game = new TennisGame();
+		
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		
+		String expected = "advantage player2";
+		String result = game.getScore();
+		
+		assertEquals(expected, result);
+	}
+	
+	@Test 
+	public void test_p2haveAD_p1WinPoints() throws TennisGameException{
+		TennisGame game = new TennisGame();
+		
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		
+		game.player2Scored();
+		game.player1Scored();
+		
+		String expected= "40 - 40";
+		String result = game.getScore();
+		
+		assertEquals(expected, result);	
+	}
+	
+	@Test 
+	public void test_p1haveAD_p2WinPoints() throws TennisGameException{
+		TennisGame game = new TennisGame();
+		
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		
+		game.player1Scored();
+		game.player2Scored();
+		
+		String expected= "40 - 40";
+		String result = game.getScore();
+		
+		assertEquals(expected, result);	
+	}
+	
+	@Test
+	public void test_gameWinp1_p2Win_0() throws TennisGameException{
+		TennisGame game = new TennisGame();
+		
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();	
+		game.player1Scored();
+		
+		String expected= "game player1";
+		String result = game.getScore();
+		assertEquals(expected, result);	
+	}
+
+	@Test
+	public void test_gameWinp1_p2Win_15() throws TennisGameException{
+		TennisGame game = new TennisGame();
+		
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();	
+		game.player1Scored();
+		
+		game.player2Scored();
+		
+		String expected= "game player1";
+		String result = game.getScore();
+		assertEquals(expected, result);	
+	}
+	
+	@Test
+	public void test_gameWinp1_p2Win_30() throws TennisGameException{
+		TennisGame game = new TennisGame();
+		
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();	
+		game.player1Scored();
+		
+		game.player2Scored();
+		game.player2Scored();
+		
+		String expected= "game player1";
+		String result = game.getScore();
+		assertEquals(expected, result);	
+	}
+	
+	@Test
+	public void test_gameWinp1_p2Win_40() throws TennisGameException{
+		TennisGame game = new TennisGame();
+		
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();	
+
+		
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		
+		game.player1Scored();
+		game.player1Scored();
+		String expected= "game player1";
+		String result = game.getScore();
+		assertEquals(expected, result);	
+	}
+	
+	@Test
+	public void test_gameWinp2_p1Win_0() throws TennisGameException{
+		TennisGame game = new TennisGame();
+		
+		
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+
+		String expected= "game player2";
+		String result = game.getScore();
+		assertEquals(expected, result);	
+	}
+	
+	@Test
+	public void test_gameWinp2_p1Win_15() throws TennisGameException{
+		TennisGame game = new TennisGame();
+		
+		game.player1Scored();
+		
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		
+		String expected= "game player2";
+		String result = game.getScore();
+		assertEquals(expected, result);	
+	}
+	
+	@Test
+	public void test_gameWinp2_p1Win_30() throws TennisGameException{
+		TennisGame game = new TennisGame();
+		game.player1Scored();
+		game.player1Scored();
+		
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		
+		String expected= "game player2";
+		String result = game.getScore();
+		assertEquals(expected, result);	
+	}
+	
+	@Test
+	public void test_gameWinp2_p1Win_40() throws TennisGameException{
+		TennisGame game = new TennisGame();
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		
+		String expected= "game player2";
+		String result = game.getScore();
+		assertEquals(expected, result);	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
