@@ -13,12 +13,31 @@ public class TennisGame
 
 	public void player1Scored() throws TennisGameException 
 	{
-		this.player1Points++;
+		this.checkGameEnded();
+		if(!gameEnded)
+		{
+			this.player1Points++;
+		}
+		else
+		{
+			throw new TennisGameException("Game ended!");
+		}
+		
+		
 	}
 
 	public void player2Scored() throws TennisGameException 
 	{
-		this.player2Points++;
+		this.checkGameEnded();
+		if(!gameEnded)
+		{
+			this.player2Points++;
+		}
+		else
+		{
+			throw new TennisGameException("Game ended!");
+		}
+		
 	}
 	
 	private void checkGameEnded()
@@ -66,43 +85,56 @@ public class TennisGame
 		// "game player2"
 		String igrac1=getScore(this.player1Points);
 		String igrac2=getScore(this.player2Points);
-		
-		if(igrac1.equals(getScore(3)) && igrac2.equals(getScore(3)) && igrac1.equals(igrac2))
+		if(!this.gameEnded)
 		{
-			rez="deuce";
-			checkGameEnded();
-		}
-		
-		if(igrac1.equals(getScore(3)) && igrac2.equals(getScore(3)))
+		if(this.player1Points<=3 && this.player2Points<=3)
 		{
-			if(Integer.parseInt(igrac1)-Integer.parseInt(igrac2)==15)
+			if(igrac1.equals(getScore(3)) && igrac2.equals(getScore(3))/* && igrac1.equals(igrac2)*/)
 			{
-				rez="advantage igrac1";
+				rez="deuce";
 			}
-			if(Integer.parseInt(igrac2)-Integer.parseInt(igrac1)==15)
+			else if(igrac1.equals(igrac2) /*&& !igrac1.equals(getScore(3)) && !igrac2.equals(getScore(3))*/)
+			{
+				rez=igrac1 + " - " + igrac2;
+			}
+			else if(!igrac1.equals(igrac2))
+			{
+				 rez=igrac1 + " - " + igrac2;
+			}
+		}
+	
+		
+		else if(igrac1.equals(getScore(3)) || igrac2.equals(getScore(3)))
+		{
+			if(this.player2Points==4)
 			{
 				rez="advantage igrac2";
 			}
-			checkGameEnded();
+			else if(this.player1Points==4)
+			{
+				rez="advantage igrac1";
+			}
+		} 
+		
+		else if(this.player1Points==4 && this.player2Points==4)
+		{ 
+			this.player1Points--;
+			this.player2Points--;
+			rez=this.getScore();
+		}
+		}
+		this.checkGameEnded();
+		if(this.gameEnded){
+			
+			if(this.player2Points>this.player1Points)
+			{
+				rez="pobjedjuje igrac2";
+			}
+			else rez="pobjedjuje igrac1";
 		}
 		
-		if(this.gameEnded && Integer.parseInt(igrac1)>Integer.parseInt(igrac2))
-		{
-			rez="pobjedjuje igrac1";
-		}
 		
-		if(this.gameEnded && Integer.parseInt(igrac2)>Integer.parseInt(igrac1))
-		{
-			rez="pobjedjuje igrac2";
-		}
-		
-		
-		if(igrac1.equals("0") && igrac2.equals("0"))
-		{
-			rez=igrac1 + " - " + igrac2;
-		}
-
-		// TO BE IMPLEMENTED
+		//this.checkGameEnded();
 		return rez;
 	}
 }
