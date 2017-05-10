@@ -1,0 +1,32 @@
+FileOpenedAction 1493988045869 TennisGame.java 877 6 5 0
+FileOpenedAction 1493988059415 AllTests.java 198 0 0 0
+FileOpenedAction 1493988060468 NumericScores.java 5980 16 95 16
+UnitTestCaseAction 1493988124127 NumericScores.java FAIL
+UnitTestSessionAction 1493988124131 NumericScores.java FAIL
+FileOpenedAction 1493988124254 AllTests.java 198 0 0 0
+UnitTestCaseAction 1493988128392 AllTests.java FAIL
+UnitTestSessionAction 1493988128395 AllTests.java FAIL
+EditAction 1493988685215 TennisGame.java 1189 6 11 0
+EditAction 1493989969566 TennisGame.java 1946 6 16 0
+UnitTestCaseAction 1493989971824 AllTests.java FAIL
+UnitTestSessionAction 1493989971826 AllTests.java FAIL
+EditAction 1493990126459 TennisGame.java 1971 6 16 0
+UnitTestCaseAction 1493990130409 AllTests.java FAIL
+UnitTestSessionAction 1493990130411 AllTests.java FAIL
+EditAction 1493990150488 TennisGame.java 1973 6 16 0
+UnitTestCaseAction 1493990156574 AllTests.java FAIL
+UnitTestSessionAction 1493990156577 AllTests.java FAIL
+EditAction 1493990235260 TennisGame.java 2071 6 16 0
+UnitTestCaseAction 1493990239318 AllTests.java FAIL
+UnitTestSessionAction 1493990239321 AllTests.java FAIL
+EditAction 1493991047669 TennisGame.java 2021 6 18 0
+UnitTestCaseAction 1493991051311 AllTests.java FAIL
+UnitTestSessionAction 1493991051314 AllTests.java FAIL
+EditAction 1493991166337 TennisGame.java 2022 6 18 0
+UnitTestCaseAction 1493991169177 AllTests.java FAIL
+UnitTestSessionAction 1493991169179 AllTests.java FAIL
+EditAction 1493991363844 TennisGame.java 2032 6 18 0
+UnitTestCaseAction 1493991367310 AllTests.java FAIL
+UnitTestSessionAction 1493991367312 AllTests.java FAIL
+EditAction 1493991511601 TennisGame.java 2068 6 18 0
+EditAction 1493991617450 TennisGame.java 2092 6 18 0
