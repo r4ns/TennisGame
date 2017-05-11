@@ -13,12 +13,18 @@ public class TennisGame
 
 	public void player1Scored() throws TennisGameException 
 	{
-		player1Points++;
+		if(!gameEnded)
+			player1Points++;
+		else
+			throw new TennisGameException("Game already ended, player 1 can't score");
 	}
 
 	public void player2Scored() throws TennisGameException 
 	{
-		player2Points++;
+		if(!gameEnded)
+			player2Points++;
+		else
+			throw new TennisGameException("Game already ended, player 2 can't score");
 	}
 	
     private void checkGameEnded()
@@ -50,38 +56,31 @@ public class TennisGame
 		String secondPP = getScore(player2Points);
 		String output = "";
 		
-		if(player1Points == 0 && player2Points == 0)
-			output = firstPP + " - " + secondPP;
-		else if(player1Points >= 4 && (player1Points >= player2Points + 2))
-			output = "game player1";
-		else if(player2Points >=4 && (player2Points >= player1Points + 2))
-			output = "game player2";
+		checkGameEnded();
+		if(gameEnded)
+		{
+			if(player1Points >= 4 && (player1Points >= player2Points + 2))
+				output = "game player1";
+			else
+				output = "game player2";
+		}		
 		else {
-			if((player1Points > 3) && (player2Points > 3))
+			if(player1Points == 0 && player2Points == 0)
+				output = firstPP + " - " + secondPP;
+			else if((player1Points >= 3) && (player2Points >= 3))
 					{
 						if(player1Points == player2Points + 1)
 							output = "adventage player1";
 						else if (player2Points == player1Points + 1)
 							output = "adventage player2";
+						else if (player1Points == player2Points)
+							output = "deuce";
 					}
+			else
+				output = firstPP + " - " + secondPP;
 		}
 		
 		return output;
-		// Scores format: "player1Score - player2Score"
-				// "0 - 0"
-				// "15 - 15"
-				// "30 - 30"
-				// "deuce"
-				// "15 - 0", "0 - 15"
-				// "30 - 0", "0 - 30"
-				// "40 - 0", "0 - 40"
-				// "30 - 15", "15 - 30"
-				// "40 - 15", "15 - 40"
-				// "advantage player1"
-				// "advantage player2"
-				// "game player1"
-				// "game player2"
-
-				// TO BE IMPLEMENTED
+		
 	}
 }
