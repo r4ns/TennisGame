@@ -6,48 +6,83 @@ public class TennisGame
 	
 	public TennisGame() 
 	{
-		// TO BE IMPLEMENTED
+		player1Points = 0;
+		player2Points = 0;
+		gameEnded = false;
 	}
 
 	public void player1Scored() throws TennisGameException 
 	{
-		// TO BE IMPLEMENTED
+		checkGameEnded();
+		if(!gameEnded)
+			player1Points++;
+		else
+			throw new TennisGameException("Game already ended, player 1 can't score");
 	}
 
 	public void player2Scored() throws TennisGameException 
 	{
-		// TO BE IMPLEMENTED
+		checkGameEnded();
+		if(!gameEnded)
+			player2Points++;
+		else
+			throw new TennisGameException("Game already ended, player 2 can't score");
 	}
 	
-	private void checkGameEnded()
+    private void checkGameEnded()
 	{ 
-		// TO BE IMPLEMENTED
+    	if((player1Points >= 4 && player1Points >= player2Points + 2) || (player2Points >= 4 && player2Points >= player1Points + 2))
+    		gameEnded = true;
 	}
 
 	private String getScore(int points) 
 	{
-		// TO BE IMPLEMENTED
-		return "";
+		String convPoints = "";
+		switch(points)
+		{
+		case 0: convPoints = "0";
+		break;
+		case 1: convPoints = "15";
+		break;
+		case 2: convPoints = "30";
+		break;
+		case 3: convPoints = "40";
+		break;
+		}
+		return convPoints;
 	}
 	
 	public String getScore() 
 	{
-		// Scores format: "player1Score - player2Score"
-		// "0 - 0"
-		// "15 - 15"
-		// "30 - 30"
-		// "deuce"
-		// "15 - 0", "0 - 15"
-		// "30 - 0", "0 - 30"
-		// "40 - 0", "0 - 40"
-		// "30 - 15", "15 - 30"
-		// "40 - 15", "15 - 40"
-		// "advantage player1"
-		// "advantage player2"
-		// "game player1"
-		// "game player2"
-
-		// TO BE IMPLEMENTED
-		return "";
+		String firstPP = getScore(player1Points);
+		String secondPP = getScore(player2Points);
+		String output = "";
+		
+		checkGameEnded();
+		if(gameEnded)
+		{
+			if(player1Points >= 4 && (player1Points >= player2Points + 2))
+				output = "game player1";
+			else
+				output = "game player2";
+		}		
+		else {
+			if(player1Points == 0 && player2Points == 0)
+				output = firstPP + " - " + secondPP;
+			else if((player1Points >= 3) && (player2Points >= 3))
+					{
+						if(player1Points == player2Points + 1)
+							output = "adventage player1";
+						else if (player2Points == player1Points + 1)
+							output = "adventage player2";
+						else if (player1Points == player2Points)
+							output = "deuce";
+					}
+			else
+				output = firstPP + " - " + secondPP;
+		}
+		
+		return output;
+		
 	}
 }

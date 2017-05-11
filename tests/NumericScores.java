@@ -12,7 +12,7 @@ public class NumericScores {
 		//Act
 		String score = game.getScore() ;
 		// Assert
-		assertEquals("Initial score incorrect", "0 - 0", score);	
+		assertEquals("Initial score incorrect", "0 - 0", score);
 	}
 	
 	@Test
@@ -227,4 +227,155 @@ public class NumericScores {
 		// Assert
 		assertEquals("Incorrect score when player1 scored three times and player2 scored twice. Players win points alternating.", "40 - 30", score);	
 	}
+	
+	@Test
+	public void test_p1Wins3Points_p2Wins3Points_AlternativeSequenceOfWins_deuce() throws TennisGameException {
+		//Arrange
+		TennisGame game = new TennisGame();
+
+		game.player1Scored();
+		game.player2Scored();
+		
+		game.player1Scored();
+		game.player2Scored();
+		
+		game.player1Scored();
+		game.player2Scored();
+		//Act
+		String score = game.getScore() ;
+		// Assert
+		assertEquals("Incorrect score when player1 scored three times and player2 scored three times. Players win points alternating.", "deuce", score);	
+	}
+	
+	@Test
+	public void test_p1Wins4Points_p2Wins4Points_AlternativeSequenceOfWins_deuce() throws TennisGameException {
+		//Arrange
+		TennisGame game = new TennisGame();
+
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		
+		game.player1Scored();
+		game.player2Scored();
+		
+		//Act
+		String score = game.getScore() ;
+		// Assert
+		assertEquals("Incorrect score when player1 scored four times and player2 scored four times. Players win points alternating.", "deuce", score);	
+	}
+	
+	@Test
+	public void test_p1Wins4Points_p2Wins3Points_AlternativeSequenceOfWins_adventage1() throws TennisGameException {
+		//Arrange
+		TennisGame game = new TennisGame();
+
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		
+		game.player1Scored();
+		
+		//Act
+		String score = game.getScore() ;
+		// Assert
+		assertEquals("Incorrect score when player1 scored four times and player2 scored three times. Players win points alternating.", "adventage player1", score);	
+	}
+	
+	@Test
+	public void test_p1Wins3Points_p2Wins4Points_AlternativeSequenceOfWins_adventage2() throws TennisGameException {
+		//Arrange
+		TennisGame game = new TennisGame();
+
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		
+		game.player2Scored();
+		
+		//Act
+		String score = game.getScore() ;
+		// Assert
+		assertEquals("Incorrect score when player1 scored three times and player2 four times. Players win points alternating.", "adventage player2", score);	
+	}
+	
+	@Test
+	public void test_p1Wins4Points_p2Wins2Points_AlternativeSequenceOfWins_game1() throws TennisGameException {
+		//Arrange
+		TennisGame game = new TennisGame();
+
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		
+		game.player2Scored();
+		game.player2Scored();
+		
+		game.player1Scored();
+		
+		//Act
+		String score = game.getScore() ;
+		// Assert
+		assertEquals("Incorrect score when player1 scored four times and player2 scored two times. Players win points alternating.", "game player1", score);	
+	}
+	
+	@Test
+	public void test_p1Wins1Point_p2Wins4Points_AlternativeSequenceOfWins_game2() throws TennisGameException {
+		//Arrange
+		TennisGame game = new TennisGame();
+
+		game.player1Scored();
+		
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		
+		//Act
+		String score = game.getScore() ;
+		// Assert
+		assertEquals("Incorrect score when player1 scored one time and player2 scored four times. Players win points alternating.", "game player2", score);	
+	}
+	
+	@Test(expected=TennisGameException.class)
+	public void test_p1Wins5Points_p2Wins2Points_AlternativeSequenceOfWins_exception() throws TennisGameException {
+		//Arrange
+		TennisGame game = new TennisGame();
+
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		
+		game.player2Scored();
+		game.player2Scored();
+		
+		game.player1Scored();
+		game.player1Scored();
+		}
+	
+	@Test(expected=TennisGameException.class)
+	public void test_p1Wins0Points_p2Wins6Points_AlternativeSequenceOfWins_exception() throws TennisGameException {
+		//Arrange
+		TennisGame game = new TennisGame();
+		
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		game.player2Scored();
+		}
+	
 }

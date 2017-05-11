@@ -1,0 +1,171 @@
+FileOpenedAction 1493987539703 TennisGame.java 877 6 2 0
+EditAction 1493987647108 TennisGame.java 914 6 8 0
+EditAction 1493987694059 TennisGame.java 922 6 8 0
+EditAction 1493987764129 TennisGame.java 941 6 9 0
+CompilationAction 1493987765718 TennisGame.java
+CompilationAction 1493987765721 TennisGame.java
+CompilationAction 1493987772417 TennisGame.java
+CompilationAction 1493987772419 TennisGame.java
+CompilationAction 1493987772624 TennisGame.java
+CompilationAction 1493987848710 TennisGame.java
+RefactoringAction 1493987964860 TennisGame.java ADD bool won() METHOD
+RefactoringAction 1493987973380 TennisGame.java RENAME won()=>bool won(int) METHOD
+RefactoringAction 1493988065073 TennisGame.java RENAME won(int)=>boolean won() METHOD
+RefactoringAction 1493988083616 TennisGame.java RENAME won()=>boolean won(int) METHOD
+RefactoringAction 1493988101671 TennisGame.java RENAME won(int)=>boolean won(int, int) METHOD
+CompilationAction 1493988139710 TennisGame.java
+CompilationAction 1493988139712 TennisGame.java
+CompilationAction 1493988139713 TennisGame.java
+RefactoringAction 1493988141814 TennisGame.java REMOVE getScore(int) METHOD
+RefactoringAction 1493988141822 TennisGame.java REMOVE checkGameEnded() METHOD
+RefactoringAction 1493988141824 TennisGame.java REMOVE won(int, int) METHOD
+RefactoringAction 1493988141825 TennisGame.java REMOVE getScore() METHOD
+RefactoringAction 1493988144339 TennisGame.java ADD boolean won(int, int) METHOD
+RefactoringAction 1493988144341 TennisGame.java ADD String getScore(int) METHOD
+RefactoringAction 1493988144342 TennisGame.java ADD String getScore() METHOD
+CompilationAction 1493988144739 TennisGame.java
+CompilationAction 1493988144741 TennisGame.java
+CompilationAction 1493988144742 TennisGame.java
+CompilationAction 1493988145025 TennisGame.java
+CompilationAction 1493988147541 TennisGame.java
+FileOpenedAction 1493988154039 AllTests.java 198 0 0 0
+UnitTestCaseAction 1493988162619 AllTests.java FAIL
+UnitTestSessionAction 1493988162622 AllTests.java FAIL
+UnitTestCaseAction 1493988176147 NumericScores.java FAIL
+UnitTestSessionAction 1493988176149 NumericScores.java FAIL
+RefactoringAction 1493988192918 TennisGame.java ADD void checkGameEnded() METHOD
+CompilationAction 1493988197806 TennisGame.java
+CompilationAction 1493988197808 TennisGame.java
+RefactoringAction 1493988244517 TennisGame.java RENAME won(int, int)=>boolean won() METHOD
+RefactoringAction 1493988248049 TennisGame.java RENAME won()=>boolean won(int) METHOD
+EditAction 1493988271149 TennisGame.java 1156 7 10 0
+CompilationAction 1493988272912 TennisGame.java
+CompilationAction 1493988272915 TennisGame.java
+RefactoringAction 1493988347775 TennisGame.java RENAME won(int)=>boolean won(int, int) METHOD
+CompilationAction 1493988356058 TennisGame.java
+CompilationAction 1493988356059 TennisGame.java
+CompilationAction 1493988356196 TennisGame.java
+CompilationAction 1493988360823 TennisGame.java
+RefactoringAction 1493988549725 TennisGame.java REMOVE won(int, int) METHOD
+FileOpenedAction 1493988572845 Drone.java 3002 12 20 0
+EditAction 1493989386640 TennisGame.java 1417 6 8 0
+CompilationAction 1493989388242 TennisGame.java
+CompilationAction 1493989625370 TennisGame.java
+CompilationAction 1493989625594 TennisGame.java
+CompilationAction 1493989752070 TennisGame.java
+CompilationAction 1493989752071 TennisGame.java
+CompilationAction 1493989755450 TennisGame.java
+CompilationAction 1493989755662 TennisGame.java
+CompilationAction 1493989766953 TennisGame.java
+CompilationAction 1493989767170 TennisGame.java
+CompilationAction 1493989773341 TennisGame.java
+FileOpenedAction 1493989784873 NumericScores.java 5980 16 95 16
+UnitTestCaseAction 1493989790271 NumericScores.java FAIL
+UnitTestSessionAction 1493989790273 NumericScores.java FAIL
+EditAction 1493989833847 TennisGame.java 1015 6 12 0
+EditAction 1493989957884 NumericScores.java 5979 16 95 16
+EditAction 1493989993485 TennisGame.java 1046 6 12 0
+UnitTestCaseAction 1493989999286 NumericScores.java FAIL
+UnitTestSessionAction 1493989999289 NumericScores.java FAIL
+EditAction 1493990040190 TennisGame.java 1421 6 12 0
+EditAction 1493990118009 TennisGame.java 1373 6 12 0
+EditAction 1493990269298 TennisGame.java 1492 6 9 0
+CompilationAction 1493990271093 TennisGame.java
+EditAction 1493990422428 TennisGame.java 1565 6 12 0
+EditAction 1493990580816 TennisGame.java 1610 6 9 0
+CompilationAction 1493990582583 TennisGame.java
+CompilationAction 1493990582584 TennisGame.java
+CompilationAction 1493990654093 TennisGame.java
+CompilationAction 1493990654095 TennisGame.java
+CompilationAction 1493990654314 TennisGame.java
+CompilationAction 1493990654315 TennisGame.java
+CompilationAction 1493990688254 TennisGame.java
+CompilationAction 1493990688256 TennisGame.java
+CompilationAction 1493990688355 TennisGame.java
+CompilationAction 1493990688357 TennisGame.java
+CompilationAction 1493990690461 TennisGame.java
+CompilationAction 1493990690463 TennisGame.java
+CompilationAction 1493990690669 TennisGame.java
+CompilationAction 1493990690671 TennisGame.java
+CompilationAction 1493990690671 TennisGame.java
+CompilationAction 1493990733739 TennisGame.java
+CompilationAction 1493990733741 TennisGame.java
+CompilationAction 1493990733743 TennisGame.java
+CompilationAction 1493990733958 TennisGame.java
+CompilationAction 1493990733959 TennisGame.java
+CompilationAction 1493990733960 TennisGame.java
+CompilationAction 1493990794225 TennisGame.java
+CompilationAction 1493990794227 TennisGame.java
+CompilationAction 1493990794228 TennisGame.java
+CompilationAction 1493990794323 TennisGame.java
+CompilationAction 1493990794324 TennisGame.java
+CompilationAction 1493990794325 TennisGame.java
+CompilationAction 1493990794326 TennisGame.java
+CompilationAction 1493990820623 TennisGame.java
+CompilationAction 1493990820624 TennisGame.java
+CompilationAction 1493990820626 TennisGame.java
+CompilationAction 1493990820840 TennisGame.java
+CompilationAction 1493990820841 TennisGame.java
+CompilationAction 1493990820842 TennisGame.java
+CompilationAction 1493990820843 TennisGame.java
+CompilationAction 1493990824275 TennisGame.java
+CompilationAction 1493990824277 TennisGame.java
+CompilationAction 1493990824278 TennisGame.java
+CompilationAction 1493990824280 TennisGame.java
+CompilationAction 1493990824441 TennisGame.java
+CompilationAction 1493990824442 TennisGame.java
+CompilationAction 1493990824444 TennisGame.java
+CompilationAction 1493990829083 TennisGame.java
+EditAction 1493990846713 TennisGame.java 1452 6 12 0
+CompilationAction 1493990848492 TennisGame.java
+CompilationAction 1493990854598 TennisGame.java
+CompilationAction 1493990854813 TennisGame.java
+EditAction 1493990858942 TennisGame.java 1488 6 14 0
+UnitTestCaseAction 1493990865278 NumericScores.java FAIL
+UnitTestSessionAction 1493990865280 NumericScores.java FAIL
+EditAction 1493990892006 TennisGame.java 1457 6 14 0
+UnitTestCaseAction 1493990898312 NumericScores.java FAIL
+UnitTestSessionAction 1493990898314 NumericScores.java FAIL
+EditAction 1493990942692 TennisGame.java 1476 6 14 0
+UnitTestCaseAction 1493990947844 NumericScores.java FAIL
+UnitTestSessionAction 1493990947846 NumericScores.java FAIL
+EditAction 1493990978949 TennisGame.java 1477 6 14 0
+UnitTestCaseAction 1493990983828 NumericScores.java FAIL
+UnitTestSessionAction 1493990983829 NumericScores.java FAIL
+EditAction 1493990988161 TennisGame.java 1476 6 14 0
+UnitTestCaseAction 1493991025909 NumericScores.java FAIL
+UnitTestSessionAction 1493991025910 NumericScores.java FAIL
+UnitTestCaseAction 1493991108739 NumericScores.java FAIL
+UnitTestSessionAction 1493991108740 NumericScores.java FAIL
+UnitTestCaseAction 1493991116493 NumericScores.java FAIL
+UnitTestSessionAction 1493991116495 NumericScores.java FAIL
+EditAction 1493991144898 TennisGame.java 1485 6 14 0
+UnitTestCaseAction 1493991162690 NumericScores.java FAIL
+UnitTestSessionAction 1493991162691 NumericScores.java FAIL
+EditAction 1493991223122 TennisGame.java 1485 6 9 0
+CompilationAction 1493991224808 TennisGame.java
+CompilationAction 1493991224809 TennisGame.java
+CompilationAction 1493991224811 TennisGame.java
+CompilationAction 1493991227776 TennisGame.java
+CompilationAction 1493991227778 TennisGame.java
+UnitTestCaseAction 1493991230742 NumericScores.java FAIL
+UnitTestSessionAction 1493991230744 NumericScores.java FAIL
+EditAction 1493991262303 TennisGame.java 1562 6 15 0
+EditAction 1493991274337 TennisGame.java 1564 6 14 0
+EditAction 1493991298409 TennisGame.java 1662 6 14 0
+UnitTestCaseAction 1493991304227 NumericScores.java FAIL
+UnitTestSessionAction 1493991304229 NumericScores.java FAIL
+EditAction 1493991359078 TennisGame.java 1673 6 14 0
+UnitTestCaseAction 1493991364810 NumericScores.java FAIL
+UnitTestSessionAction 1493991364811 NumericScores.java FAIL
+EditAction 1493991386898 TennisGame.java 1685 6 14 0
+UnitTestCaseAction 1493991391974 NumericScores.java FAIL
+UnitTestSessionAction 1493991391976 NumericScores.java FAIL
+EditAction 1493991423924 TennisGame.java 1571 6 15 0
+UnitTestCaseAction 1493991428636 NumericScores.java FAIL
+UnitTestSessionAction 1493991428637 NumericScores.java FAIL
+EditAction 1493991487054 TennisGame.java 1661 6 14 0
+EditAction 1493991496467 TennisGame.java 1678 6 14 0
+EditAction 1493991665396 TennisGame.java 1802 6 9 0
+CompilationAction 1493991667101 TennisGame.java
+CompilationAction 1493991796974 TennisGame.java
